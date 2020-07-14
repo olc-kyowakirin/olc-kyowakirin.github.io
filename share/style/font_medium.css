@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+body {  
+	font-size:16px; 
+}
+/* IE */
+html>/**/body {  
+	font-size: 16px;  
+}
+/* safari */
+html:not(:only-child:only-child) body {
+	font-size: 15px;
+}
+
+#utilityArea dl dd a {
+	margin: 4px 3px 0 0;
+}
+
+#utilityArea dl dd.font_small a {
+	width: 7px;
+	background-position: 0 0;
+}
+
+#utilityArea dl dd.font_medium a {
+	background-position: -10px -12px;
+}

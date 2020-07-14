@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+body {  
+	font-size:14px; 
+}
+/* IE */
+html>/**/body {  
+	font-size: 14px;  
+}
+/* safari */
+html:not(:only-child:only-child) body {
+	font-size: 13px;
+}
+
+#utilityArea dl dd.font_small a {
+	background-position: 0 -12px;
+}
