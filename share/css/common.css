@@ -8671,8 +8671,13 @@ a img.icon-pdf {
   .box-corevalue-top {
     margin-top: 145px;
   }
+  .box-cutting-edge-wrapper {
+    background-image: url("../../images/index_bg_cutting-edge_01.jpg");
+    background-size:cover;
+    background-position: center right;
+  }
   .box-corevalue-top .box-corevalue-wrapper {
-    background-image: url("../../images/index_bg_corevalue_01.jpg");
+    background-image: url("../../images/index_bg_corevalue_08.jpg");
     height: 1186px;
     margin-top: 40px;
   }
