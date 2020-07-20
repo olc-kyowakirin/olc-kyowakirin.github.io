@@ -648,10 +648,10 @@ template {
 .box-carousel-01,
 .box-newssearch-wrapper .box-inner,
 .box-innumber-top .box-hdg2-wrapper,
-.box-ourphilosophy-top .box-hdg2-wrapper,
+.box-ourvision-top .box-hdg2-wrapper,
+.box-kkapinnumbers-top .box-hdg2-wrapper,
 .box-corevalue-top .box-hdg2-wrapper,
 .box-atagrance-top .box-hdg2-wrapper,
-.box-careers-top,
 .box-atagrance-top > .box-inner,
 .mediacenter-01 > .box-inner,
 .mediacenter-02 > .box-inner {
@@ -660,7 +660,12 @@ template {
   padding-top: .1px;
   padding-bottom: .1px;
 }
-
+.box-careers-top{
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: .1px;
+  padding-bottom: .1px;
+}
 /* ============================================================================
 * Font Face
 * ========================================================================= */
@@ -1267,6 +1272,7 @@ html:not(.js-enable) .header-nav .header-nav-list.header-search .btn-menu-global
 ._sectionNews {
   background-color: #f3f3f3;
   padding: 20px 0 26px;
+  display: none;
 }
 
 ._sectionNews-inner {
@@ -1456,7 +1462,21 @@ main.type-01 + footer {
   color: #ea5504;
   margin-bottom: calc(50px/2);
 }
-
+.box-kkapinnumbers-top .box-hdg2-wrapper .box-layout.col4 .hdg-lv2-02{
+    color: #5d6164;
+    margin-bottom:0;
+}
+.box-ourvision-top .box-hdg2-wrapper .title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 1.20833;
+    text-align: center;
+    color: #ea5504;
+    margin:20px 0;
+}
+.box-ourvision-top .box-hdg2-wrapper .box-text {
+    text-align: center;
+}
 .box-hdg2-wrapper .text-lead {
   font-size: calc(3.2rem/2);
   line-height: 1.125;
@@ -4747,10 +4767,14 @@ a img.icon-pdf {
   font-weight: bold;
   line-height: 1.03704;
   letter-spacing: -.1px;
-  text-align: center;
+  text-align: left;
   color: #ea5504;
+  margin-bottom: 20px;
 }
-
+.box-mainvisual-top .box-lead .text-lead{
+    font-size: 2.0rem;
+    line-height: 1.1;
+}
 .box-mainvisual-top .box-parts {
   position: absolute;
   height: auto;
@@ -5032,7 +5056,7 @@ a img.icon-pdf {
 
 /* TOP: inNumber
 * ========================================================================= */
-.box-ourphilosophy-top {
+.box-ourvision-top {
   margin-top: calc(200px/2);
 }
 
@@ -8631,7 +8655,7 @@ a img.icon-pdf {
     height: 607px;
   }
   .box-mainvisual-top .box-lead h1 {
-    font-size: 3.4rem;
+    font-size: 5.6rem;
     line-height: 1.05882;
   }
   .box-mainvisual-top .parts-1 {
@@ -8665,10 +8689,14 @@ a img.icon-pdf {
   .box-innumber-top .hdg {
     margin-bottom: 40px;
   }
-  .box-ourphilosophy-top {
+  .box-ourvision-top {
     margin-top: 100px;
   }
-  .box-corevalue-top {
+  .box-ourvision-top .box-hdg2-wrapper .title {
+      font-size: 2.4rem;
+  }
+
+  .box-corevalue-top, .box-ourphilosophy-top {
     margin-top: 145px;
   }
   .box-cutting-edge-wrapper {
@@ -8696,6 +8724,9 @@ a img.icon-pdf {
   .box-corevalue-top .box-corevalue-wrapper .parts-temwork {
     right: 30px;
     bottom: -180px;
+  }
+  .box-kkapinnumbers-top {
+    margin-top: 135px;
   }
   .box-atagrance-top {
     margin-top: 260px;
@@ -9605,10 +9636,13 @@ a img.icon-pdf {
 }
 
 @media screen and (min-width: 1201px) {
+  .box-mainvisual-top .box-lead{
+    width:50%;
+  }
   .box-mainvisual-top .parts-1 {
     top: 0;
     left: 19.49553vw;
-    width: 43.61534vw;
+    width: 33.61534vw;
   }
   .box-mainvisual-top .parts-1.animation-on {
     top: 0;
@@ -9632,7 +9666,7 @@ a img.icon-pdf {
   }
   .box-mainvisual-top .parts-4 {
     left: 0;
-    width: 30vw;
+    width: 23vw;
   }
   .box-mainvisual-top .parts-4.animation-on {
     right: 20.02102vw;
@@ -11638,7 +11672,8 @@ a img.icon-pdf {
   .box-carousel-01,
   .box-newssearch-wrapper .box-inner,
   .box-innumber-top .box-hdg2-wrapper,
-  .box-ourphilosophy-top .box-hdg2-wrapper,
+  .box-ourvision-top .box-hdg2-wrapper,
+  .box-kkapinnumbers-top .box-hdg2-wrapper,
   .box-corevalue-top .box-hdg2-wrapper,
   .box-atagrance-top .box-hdg2-wrapper,
   .box-careers-top,
