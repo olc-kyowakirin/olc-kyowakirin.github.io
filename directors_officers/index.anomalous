@@ -1,0 +1,246 @@
+<partial src="../includes/header.html"/>
+
+<div class="main-content">
+
+<div class="box-breadcrumb">
+<ul class="list-breadcrumb">
+<li><a href="/index-2.html">HOME</a></li>
+<li><a aria-current="page">Directors &amp; Officers</a></li>
+</ul>
+<!-- /.box-breadcrumb --></div>
+
+<h1 class="hdg-lv1-02">Directors &amp; Officers</h1>
+
+<div class="box-tab-02 type-01 js-tab-toggle js-tabBottom">
+<ul class="list js-hook-list">
+<li><a href="#tab-11">Board Members</a></li>
+<li><a href="#tab-12">Audit &amp; Supervisory Board Members</a></li>
+<li><a href="#tab-13">Executive Officers</a></li>
+</ul>
+
+<div class="js-tab-content box-tab-content" id="tab-11">
+<div class="js-content-inner box-tab-content-inner">
+<h2 id="anc-anchor-01" class="hdg-lv2-01">Board Members</h2>
+
+<div class="box-layout-image layout-left">
+<div class="box-content">
+<dl class="list-def-01">
+<div class="box-inner">
+<dt>Masashi Miyamoto, Ph.D.</dt>
+<dd>Executive Director of the Board<br>
+President and Chief Executive Officer</dd>
+</div>
+</dl>
+<!-- content --></div>
+<div class="box-image">
+<img src="images/index_img_02.jpg" alt="">
+<!-- image --></div>
+<!-- /.box-layout-image --></div>
+
+<div class="box-layout-image layout-left">
+<div class="box-content">
+<dl class="list-def-01">
+<div class="box-inner">
+<dt>Yutaka Osawa</dt>
+<dd>Executive Director of the Board<br>
+Executive Vice President</dd>
+</div>
+</dl>
+<!-- content --></div>
+<div class="box-image">
+<img src="images/index_img_03.jpg" alt="">
+<!-- image --></div>
+<!-- /.box-layout-image --></div>
+
+<div class="box-layout-image layout-left">
+<div class="box-content">
+<dl class="list-def-01">
+<div class="box-inner">
+<dt>Toshifumi Mikayama, Ph.D.</dt>
+<dd>Director of the Board<br>
+Senior Managing Executive Officer</dd>
+</div>
+</dl>
+<!-- content --></div>
+<div class="box-image">
+<img src="images/index_img_04.jpg" alt="">
+<!-- image --></div>
+<!-- /.box-layout-image --></div>
+
+<div class="box-layout-image layout-left">
+<div class="box-content">
+<dl class="list-def-01">
+<div class="box-inner">
+<dt>Noriya Yokota</dt>
+<dd>Director of the Board</dd>
+</div>
+</dl>
+<!-- content --></div>
+<div class="box-image">
+<img src="images/index_img_05.jpg" alt="">
+<!-- image --></div>
+<!-- /.box-layout-image --></div>
+
+<div class="box-layout-image layout-left">
+<div class="box-content">
+<dl class="list-def-01">
+<div class="box-inner">
+<dt>Kentaro Uryu</dt>
+<dd>Director of the Board</dd>
+</div>
+</dl>
+<!-- content --></div>
+<div class="box-image">
+<img src="images/index_img_06.jpg" alt="">
+<!-- image --></div>
+<!-- /.box-layout-image --></div>
+
+<div class="box-layout-image layout-left">
+<div class="box-content">
+<dl class="list-def-01">
+<div class="box-inner">
+<dt>Akira Morita</dt>
+<dd>Director of the Board</dd>
+</div>
+</dl>
+<!-- content --></div>
+<div class="box-image">
+<img src="images/index_img_07.jpg" alt="">
+<!-- image --></div>
+<!-- /.box-layout-image --></div>
+
+<div class="box-layout-image layout-left">
+<div class="box-content">
+<dl class="list-def-01">
+<div class="box-inner">
+<dt>Yuko Haga</dt>
+<dd>Director of the Board</dd>
+</div>
+</dl>
+<!-- content --></div>
+<div class="box-image">
+<img src="images/index_img_08.jpg" alt="">
+<!-- image --></div>
+<!-- /.box-layout-image --></div>
+</div>
+<!-- /.tab-content --></div>
+
+<div class="js-tab-content box-tab-content" id="tab-12">
+<div class="js-content-inner box-tab-content-inner">
+<h2 id="anc-anchor-02" class="hdg-lv2-01">Audit &amp; Supervisory Board Members</h2>
+<ul class="list-01">
+<li>Hiroshi Komatsu</li>
+<li>Masaki Ueno</li>
+<li>Jun Arai</li>
+<li>Yuji Inoue</li>
+<li>Keiji Kuwata</li>
+</ul>
+</div>
+<!-- /.tab-content --></div>
+
+<div class="js-tab-content box-tab-content" id="tab-13">
+<div class="js-content-inner box-tab-content-inner">
+<h2 id="anc-anchor-03" class="hdg-lv2-01">Executive Officers</h2>
+<dl class="list-def-01">
+<div class="box-inner">
+<dt>Hiroshi Sugitani</dt>
+<dd>Managing Executive Officer<br>
+Vice President Head<br>
+Sales &amp; Marketing Division</dd>
+</div>
+<div class="box-inner">
+<dt>Kenya Shitara, Ph.D.</dt>
+<dd>Managing Executive Officer<br>Director<br>Legal and Intellectual Property Department</dd>
+</div>
+<div class="box-inner">
+<dt>Wataru Murata</dt>
+<dd>Managing Executive Officer<br>Director<br>Human Resources Department</dd>
+</div>
+<div class="box-inner">
+<dt>Niro Sakamoto</dt>
+<dd>Director<br>General Affairs Department</dd>
+</div>
+<div class="box-inner">
+<dt>Hiroshi Sonekawa</dt>
+<dd>Director<br>Internal Audit Department</dd>
+</div>
+<div class="box-inner">
+<dt>Shin-ichiro Mohri</dt>
+<dd>Director<br>
+Corporate Strategy &amp; Planning Department</dd>
+</div>
+<div class="box-inner">
+<dt>Mitsuo Satoh, Ph.D.</dt>
+<dd>Director<br>
+Medical Affairs Department</dd>
+</div>
+<div class="box-inner">
+<dt>Nobuyuki Tsukahara</dt>
+<dd>Director<br>
+Nagoya Branch</dd>
+</div>
+<div class="box-inner">
+<dt>Takeyoshi Yamashita, Ph.D.</dt>
+<dd>Director<br>
+Corporate Strategy &amp; Planning Department</dd>
+</div>
+<div class="box-inner">
+<dt>Motohiko Kawaguchi</dt>
+<dd>Director<br>
+Finance Department</dd>
+</div>
+<div class="box-inner">
+<dt>Yasuo Fujii</dt>
+<dd>Director<br>
+Business Development Department</dd>
+</div>
+<div class="box-inner">
+<dt>Shin Inoue</dt>
+<dd>Director<br>
+Sales &amp; Marketing Planning Department</dd>
+</div>
+<div class="box-inner">
+<dt>Fumihiko Kanai</dt>
+<dd>Vice President Head<br>
+Production Division</dd>
+</div>
+<div class="box-inner">
+<dt>Koichiro Ishimaru</dt>
+<dd>Director<br>
+Corporate Social Responsibility Management Department</dd>
+</div>
+<div class="box-inner">
+<dt>Jean-David Rafizadeh-Kabe, MD, JD</dt>
+<dd>Vice President Head<br>
+Pharmacovigilance Division</dd>
+</div>
+<div class="box-inner">
+<dt>Yoshifumi Torii, Ph.D.</dt>
+<dd>Vice President Head<br>
+R&D Division</dd>
+</div>
+<div class="box-inner">
+<dt>Hiroki Takamatsu</dt>
+<dd>Vice President Head<br>
+Quality Assurance Division</dd>
+</div>
+<div class="box-inner">
+<dt>Tomohiro Sudo</dt>
+<dd>Director<br>
+Strategic Product Planning Department</dd>
+</div>
+</dl>
+
+</div>
+<!-- /.tab-content --></div>
+
+<!-- /.box-tab-02 --></div>
+
+
+
+
+
+
+<!-- /.main-content --></div>
+
+<partial src="../includes/footer.html"/>
