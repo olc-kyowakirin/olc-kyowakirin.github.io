@@ -5405,8 +5405,11 @@ a img.icon-pdf {
 .box-preview-globalarea .box-inner {
   padding-top: 20px;
 }
+.box-offices-globalarea .box-inner {
+  padding-top: 75px;
+}
 
-.box-preview-globalarea .box-inner .box-panel .panel {
+.box-offices-globalarea .box-inner .box-panel .panel {
   color: #ea5504;
   background-color: #fff;
   position: relative;
@@ -5417,11 +5420,11 @@ a img.icon-pdf {
   box-shadow: 1px 1px 2px rgba(0, 0, 0, .3);
 }
 
-.box-preview-globalarea .box-inner .box-panel .panel:last-child {
+.box-offices-globalarea .box-inner .box-panel .panel:last-child {
   margin-bottom: 0;
 }
 
-.box-preview-globalarea .box-inner .box-panel .panel .title {
+.box-offices-globalarea .box-inner .box-panel .panel .title {
   font-size: calc(3.2rem/2);
   font-weight: bold;
   color: #5d6164;
@@ -5438,7 +5441,7 @@ a img.icon-pdf {
 .box-regionalnetwork .box-panel-01 > .panel > .box-inner .box-image img{
   height: 100%;
 }
-.box-preview-globalarea .box-inner .box-panel .panel .title > .sub,
+.box-offices-globalarea .box-inner .box-panel .panel .title > .sub,
 .box-regionalnetwork .panel .title > .sub {
   font-size: 1.0rem;
   color: #ea5504;
@@ -5446,7 +5449,7 @@ a img.icon-pdf {
   margin-top: 10px;
 }
 
-.box-preview-globalarea .box-inner .box-panel .panel .guide {
+.box-offices-globalarea .box-inner .box-panel .panel .guide {
   font-size: 1.2rem;
   position: absolute;
   bottom: 5px;
@@ -5458,12 +5461,12 @@ a img.icon-pdf {
     color: #ea5504;
 }
 
-.box-preview-globalarea .box-inner .box-panel .panel .guide > img {
+.box-offices-globalarea .box-inner .box-panel .panel .guide > img {
   width: 14px;
   height: 14px;
 }
 
-.box-preview-globalarea .box-inner .box-panel .panel::after {
+xx.box-offices-globalarea .box-inner .box-panel .panel::after {
   background-image: url("../images/icon_globalnetwork_01.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -5479,12 +5482,12 @@ a img.icon-pdf {
   content: "";
 }
 
-.box-preview-globalarea .box-inner .box-panel .panel .box-thumb {
+.box-offices-globalarea .box-inner .box-panel .panel .box-thumb {
   line-height: 0;
   width: 150px;
 }
 
-.box-preview-globalarea .box-inner .box-panel .panel .box-content {
+.box-offices-globalarea .box-inner .box-panel .panel .box-content {
   width: calc(100% - 150px);
   padding: calc(25px/2) calc(28px/2) calc(50px/2);
 }
@@ -5574,7 +5577,19 @@ a img.icon-pdf {
 .js-enable .box-preview-globalarea .box-inner {
   padding-top: 0;
 }
+xx.js-enable .box-offices-globalarea .box-panel {
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  right: 87px;
+  transform: translateY(-50%);
+}
 
+.js-enable .box-offices-globalarea .box-panel {
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+}
 .js-enable .box-preview-globalarea .box-panel {
   position: absolute;
   z-index: 3;
@@ -5583,22 +5598,22 @@ a img.icon-pdf {
   transform: translateY(-50%);
 }
 
-.js-enable .box-preview-globalarea .box-panel .panel {
+.js-enable .box-offices-globalarea .box-panel .panel {
   flex-direction: row;
   flex-wrap: nowrap;
 }
 
-.js-enable .box-preview-globalarea .box-panel .panel .box-thumb {
+.js-enable .box-offices-globalarea .box-panel .panel .box-thumb {
   overflow: hidden;
 }
 
-.js-enable .box-preview-globalarea .box-panel .panel .box-thumb > img {
+.js-enable .box-offices-globalarea .box-panel .panel .box-thumb > img {
   transition: transform .5s ease;
 }
 
-.js-enable .box-preview-globalarea .box-panel .panel:focus .box-thumb > img,
-.js-enable .box-preview-globalarea .box-panel .panel:active .box-thumb > img,
-.js-enable .box-preview-globalarea .box-panel .panel:hover .box-thumb > img {
+.js-enable .box-offices-globalarea .box-panel .panel:focus .box-thumb > img,
+.js-enable .box-offices-globalarea .box-panel .panel:active .box-thumb > img,
+.js-enable .box-offices-globalarea .box-panel .panel:hover .box-thumb > img {
   transform: scale(1.2);
 }
 
@@ -8800,10 +8815,11 @@ a img.icon-pdf {
   .box-preview-globalarea {
     background-color: rgba(222, 222, 222, .4);
   }
-  .box-preview-globalarea .box-inner .box-panel .panel {
+  .box-offices-globalarea .box-inner .box-panel .panel {
     width: 330px;
+    margin:10px;
   }
-  .box-preview-globalarea .box-inner .box-panel .panel .title {
+  .box-offices-globalarea .box-inner .box-panel .panel .title {
     font-size: 1.6rem;
     line-height: 1;
   }
@@ -8811,12 +8827,12 @@ a img.icon-pdf {
     font-size: 1.6rem;
     line-height: 1;
   }
-  .box-preview-globalarea .box-inner .box-panel .panel::after {
+  .box-offices-globalarea .box-inner .box-panel .panel::after {
     right: -25px;
     width: 30px;
     height: 47px;
   }
-  .box-preview-globalarea .box-inner .box-panel .panel .box-content {
+  .box-offices-globalarea .box-inner .box-panel .panel .box-content {
     padding: 15px 14px 24px;
   }
   .box-preview-globalarea .box-inner .box-target-panel {
