@@ -52,7 +52,7 @@
 
 
 <div class="box-ourvision-top">
-<div class="box-hdg2-wrapper" id="anc-our-philosophy">
+<div class="box-hdg2-wrapper" id="anc-our-vision">
 <h2 class="hdg-lv2-02">Our vision</h2>
 <p class="text-lead">Kyowa Kirin is a Japan-based Global Specialty Pharmaceutical Company contributing to human health and wellbeing worldwide through innovative drug discovery and global commercialization, driven by state of-the-art antibody technologies mainly in the core therapeutic areas of oncology, nephrology and immunology.</p>
 <br>
@@ -63,15 +63,14 @@
 <div class="box-ourphilosophy-top">
 <div class="box-hdg2-wrapper" id="anc-our-philosophy">
 <h2 class="hdg-lv2-02">Our philosophy</h2>
-<p class="text-lead">The Kyowa Kirin Group companies <br class="pc-hide">strive to<br class="sp-hide">contribute to the health and <br class="pc-hide">well-being of people around<br class="sp-hide">the world by <br class="pc-hide">creating new value through the pursuit of<br>advances in life sciences and technologies.</p>
+<p class="text-lead">The Kyowa Kirin Group companies strive to contribute to the health and well-being of people around the world by creating new value through the pursuit of advances in life sciences and technologies.</p>
 <!-- /.box-hdg2-wrapper --></div>
 <!-- /.box-ourphilosophy-top --></div>
 <div class="box-corevalue-top">
 
 <div class="box-hdg2-wrapper" id="anc-core-values">
 <h2 class="hdg-lv2-02">Core values</h2>
-<p class="text-lead sp-hide">Our goal is clear: to do everything we can to answer the<br>unmet medical needs of patients, their families, and<br> medical professionals, and to do it as quickly as possible.<br>Because every moment counts.</p>
-<p class="text-lead pc-hide">Our values are a way of thinking and attitude<br>that supports the activity of each officer and<br>employee belonging to the Kyowa Kirin<br>Group. It consists of core concept<br>"Commitment to Life" and three key words.</p>
+<p class="text-lead sp-hide">Our goal is clear: to do everything we can to answer the unmet medical needs of patients, their families, and medical professionals, and to do it as quickly as possible. Because every moment counts.</p>
 <!-- /.box-hdg2-wrapper --></div>
 
 
@@ -171,21 +170,21 @@ to making positive contributions <br class="pc-hide">in human health and<br clas
 <div class="box-layout col2" data-sp-slider="0">
 <div class="col">
 <div class="tile-layout-wrapper col2 sp-col2">
-<a href="#modal-management" class="tile btn-modalopen kkc-anime_scroll_common_fade-in-bottom">
+<a href="#management-team" class="tile btn-modalopen kkc-anime_scroll_common_fade-in-bottom">
 <div class="box-content">
-<p class="title"><span>Management<span class="icon icon-modal">open</span></span></p>
+<p class="title"><span>Asia Pacific<br>Management Team<span class="icon icon-modal">open</span></span></p>
 <!-- /.box-content --></div>
 <div class="box-image">
-<img src="images/index_img_atagrance_01.jpg" alt="">
+<img src="images/index_img_atagrance-bg-orange_11.png" alt="">
 <!-- /.box-image --></div>
 <!-- /.tile --></a>
 
-<a href="what_we_do/products/index.html" class="tile kkc-anime_scroll_common_fade-in-bottom">
+<a href="#message-president" class="tile btn-modalopen kkc-anime_scroll_common_fade-in-bottom">
 <div class="box-content">
-<p class="title"><span>Products<span class="icon icon-arrow">move to page</span></span></p>
+<p class="title"><span>Message<br>from the President<span class="icon icon-modal">open</span></span></p>
 <!-- /.box-content --></div>
 <div class="box-image">
-<img src="images/index_img_atagrance_02.jpg" alt="">
+<img src="images/index_img_atagrance-bg-blue_12.png" alt="">
 <!-- /.box-image --></div>
 <!-- /.tile --></a>
 <!-- /.tile-layout-wrapper --></div>
@@ -195,57 +194,47 @@ to making positive contributions <br class="pc-hide">in human health and<br clas
 <p class="title"><span>Research &amp; Development<span class="icon icon-arrow">move to page</span></span></p>
 <!-- /.box-content --></div>
 <div class="box-image">
-<img src="images/index_img_atagrance_03.jpg" alt="">
+<img src="images/index_img_atagrance_13.jpg" alt="">
 <!-- /.box-image --></div>
 <!-- /.tile --></a>
 
-<div class="tile-layout-wrapper col2 sp-col2">
-<a href="https://ir.kyowakirin.com/en/management/governance.html" target="_blank" class="tile kkc-anime_scroll_common_fade-in-bottom">
-<div class="box-content">
-<p class="title"><span>Governance<span class="icon icon-arrow">move to page</span></span></p>
-<!-- /.box-content --></div>
-<div class="box-image">
-<img src="images/index_img_atagrance_04.jpg" alt="">
-<!-- /.box-image --></div>
-<!-- /.tile --></a>
 
-<a href="history/index.html" class="tile kkc-anime_scroll_common_fade-in-bottom">
+<a href="/what_we_do/index.html" target="_blank" class="tile kkc-anime_scroll_common_fade-in-bottom">
 <div class="box-content">
-<p class="title"><span>History<span class="icon icon-arrow">move to page</span></span></p>
+<p class="title"><span>Products<span class="icon icon-arrow">move to page</span></span></p>
 <!-- /.box-content --></div>
 <div class="box-image">
-<img src="images/index_img_atagrance_05.jpg" alt="">
+<img src="images/index_img_atagrance_14.jpg" alt="">
 <!-- /.box-image --></div>
 <!-- /.tile --></a>
-<!-- /.tile-layout-wrapper --></div>
 <!-- /.col --></div>
 
 <div class="col">
-<a href="overview/index.html" class="tile kkc-anime_scroll_common_fade-in-bottom">
+<a href="/careers/index.html" class="tile kkc-anime_scroll_common_fade-in-bottom">
 <div class="box-content">
-<p class="title"><span>Overview<span class="icon icon-arrow">move to page</span></span></p>
+<p class="title"><span>Life at KKAP<span class="icon icon-arrow">move to page</span></span></p>
 <!-- /.box-content --></div>
 <div class="box-image">
-<img src="images/index_img_atagrance_06.jpg" alt="KYOWA KIRIN">
+<img src="images/index_img_atagrance_15.jpg" alt="">
 <!-- /.box-image --></div>
 <!-- /.tile --></a>
 
 <div class="tile-layout-wrapper col2 sp-col2">
-<a href="sustainability/index.html" class="tile kkc-anime_scroll_common_fade-in-bottom">
+<a href="https://www.kyowakirin.com/sustainability/index.html" target="_blank" class="tile kkc-anime_scroll_common_fade-in-bottom">
 <div class="box-content">
 <p class="title"><span>Sustainability<span class="icon icon-arrow">move to page</span></span></p>
 <!-- /.box-content --></div>
 <div class="box-image">
-<img src="images/index_img_atagrance_07.jpg" alt="">
+<img src="images/index_img_atagrance_16.jpg" alt="">
 <!-- /.box-image --></div>
 <!-- /.tile --></a>
 
 <a href="https://www.mirai-port.com/en/" target="_blank" class="tile kkc-anime_scroll_common_fade-in-bottom">
 <div class="box-content">
-<p class="title"><span>MIRAI PORT<span class="icon icon-blank">move to page</span></span></p>
+<p class="title"><span>KKAP History<span class="icon icon-blank">move to page</span></span></p>
 <!-- /.box-content --></div>
 <div class="box-image">
-<img src="images/index_img_atagrance_10.jpg" alt="">
+<img src="images/index_img_atagrance-bg-orange_11.png" alt="">
 <!-- /.box-image --></div>
 <!-- /.tile --></a>
 <!-- /.tile-layout-wrapper --></div>
@@ -264,7 +253,7 @@ to making positive contributions <br class="pc-hide">in human health and<br clas
 <!-- /.col --></div>
 <!-- /.box-layout --></div>
 
-<div class="box-modal-content" id="modal-management">
+<div class="box-modal-content blueish" id="message-president">
 <div class="box-inner">
 
 <div class="box-content-02">
@@ -315,9 +304,43 @@ to making positive contributions <br class="pc-hide">in human health and<br clas
 
 <!-- /.box-inner --></div>
 <!-- /.box-modal-content --></div>
+<div class="box-modal-content" id="management-team">
+<div class="box-inner">
+<div class="box-content-02">
+
+<div class="box-btn-wrapper">
+<button type="button" class="btn-close-modal type-first"><span>close</span></button>
+<!-- /.box-btn-wrapper --></div>
+
+<div class="box-tab-01">
+
+<div class="box-tab-content">
+<p class="title">Asia pacific Management Team</p>
+<div class="box-text">
+<p>Our Executive Committee is the company's most senior leadership team. We bring together experts in their fields to drive the organisation and lead strategic decision making on financials and business operations of the company in line with our core values and mission to the higher good of the patients and society.</p>
+</div>
+<div class="box-text">
+<ul>
+<li>President- Dr. Tan Boon Heon</li>
+<li>Vice President (Business Operations)- Dr. Yumiko Kobori</li>
+<li>Vice President (Business Development and Corporate Strategy) - Komatsu Kazunori</li>
+<li>Director, Human Resources- Jocelyn Goh</li>
+<li>Director, Medical Affairs - Dr. Jerry Chng</li>
+</ul>
+</div>
+<!-- /.box-tab-content --></div>
+<!-- /.box-tab-01 --></div>
+
+<div class="box-btn-wrapper">
+<button type="button" class="btn-close-modal"><span>close</span></button>
+<!-- /.box-btn-wrapper --></div>
+
+<!-- /.box-content --></div>
 
 <!-- /.box-inner --></div>
+<!-- /.box-modal-content --></div>
 
+<!-- /.box-inner --></div>
 <!-- /.box-atagrance-top --></div>
 
 <div class="box-kkapinnumbers-top">
@@ -328,7 +351,7 @@ to making positive contributions <br class="pc-hide">in human health and<br clas
 <div class="box-text"></div>
 <div class="text-lead">
 <p class="hdg-lv2-02">18</p>
-<p>drugs in development</p>
+<p class="bolder">drugs in development</p>
 <!-- /.box-text--></div>
 <!-- /.col --></div>
 
@@ -336,7 +359,7 @@ to making positive contributions <br class="pc-hide">in human health and<br clas
 <div class="box-text"></div>
 <div class="text-lead">
 <p class="hdg-lv2-02">4</p>
-<p>antibody drugs released</p>
+<p class="bolder">antibody drugs released</p>
 <!-- /.box-text--></div>
 <!-- /.col --></div>
 
@@ -344,7 +367,7 @@ to making positive contributions <br class="pc-hide">in human health and<br clas
 <div class="box-text"></div>
 <div class="text-lead">
 <p class="hdg-lv2-02">8</p>
-<p>markets in Asia Pacific</p>
+<p class="bolder">markets in Asia Pacific</p>
 <!-- /.box-text--></div>
 <!-- /.col --></div>
 
@@ -352,7 +375,7 @@ to making positive contributions <br class="pc-hide">in human health and<br clas
 <div class="box-text"></div>
 <div class="text-lead">
 <p class="hdg-lv2-02">6</p>
-<p>antibody drugs</p>
+<p class="bolder">antibody drugs</p>
 <!-- /.box-text--></div>
 <!-- /.col --></div>
 
@@ -367,7 +390,7 @@ to making positive contributions <br class="pc-hide">in human health and<br clas
 <div class="box-text"></div>
 <div class="text-lead">
 <p class="hdg-lv2-02">XX</p>
-<p>patients</p>
+<p class="bolder">patients</p>
 <!-- /.box-text--></div>
 <!-- /.col --></div>
 
@@ -375,7 +398,7 @@ to making positive contributions <br class="pc-hide">in human health and<br clas
 <div class="box-text"></div>
 <div class="text-lead">
 <p class="hdg-lv2-02">XXX</p>
-<p>employees</p>
+<p class="bolder">employees</p>
 <!-- /.box-text--></div>
 <!-- /.col --></div>
 
@@ -516,28 +539,28 @@ to making positive contributions <br class="pc-hide">in human health and<br clas
 
 <div class="box-content">
 <h3 class="title">Kyowa Kirin Co., Ltd.<span class="sub">JAPAN</span></h3>
-<p class="guide">Careers<img src="share/images/icon_link_blank_07.png" alt="Open in new window" class="icon-blank"></p>
+<p class="guide"><img src="share/images/icon_link_blank_07.png" alt="Open in new window" class="icon-blank"></p>
 </div>
 <!-- /.panel --></a>
 <a href="#globalarea-singapore" class="panel">
 <div class="box-thumb"><img src="images/index_img_globalnetwork_panel_02.jpg" alt=""></div>
 <div class="box-content">
 <h3 class="title">Kyowa Kirin Asia Pacific Pte. Ltd.<span class="sub">SINGAPORE - ASIA</span></h3>
-<p class="guide">Careers<img src="share/images/icon_link_blank_07.png" alt="Open in new window" class="icon-blank"></p>
+<p class="guide"><img src="share/images/icon_link_blank_07.png" alt="Open in new window" class="icon-blank"></p>
 </div>
 <!-- /.panel --></a>
 <a href="#globalarea-uk" class="panel">
 <div class="box-thumb"><img src="images/index_img_globalnetwork_panel_03.jpg" alt=""></div>
 <div class="box-content">
 <h3 class="title">Kyowa Kirin International plc.<span class="sub">UK - EUROPE</span></h3>
-<p class="guide">Careers<img src="share/images/icon_link_blank_07.png" alt="Open in new window" class="icon-blank"></p>
+<p class="guide"><img src="share/images/icon_link_blank_07.png" alt="Open in new window" class="icon-blank"></p>
 </div>
 <!-- /.panel --></a>
 <a href="#globalarea-usa" class="panel">
 <div class="box-thumb"><img src="images/index_img_globalnetwork_panel_04.jpg" alt=""></div>
 <div class="box-content">
 <h3 class="title">Kyowa Kirin USA Holdings, Inc.<span class="sub">USA</span></h3>
-<p class="guide">Careers<img src="share/images/icon_link_blank_07.png" alt="Open in new window" class="icon-blank"></p>
+<p class="guide"><img src="share/images/icon_link_blank_07.png" alt="Open in new window" class="icon-blank"></p>
 </div>
 <!-- /.panel --></a>
 <!-- /.box-panel --></div>
@@ -546,32 +569,18 @@ to making positive contributions <br class="pc-hide">in human health and<br clas
 <!-- /.box-offices-globalarea --></div>
 
 <!-- /.box-globalnetwork --></div>
-
+<div class="box-layout-btn btn-center" data-column-sp="1">
+<a href="https://www.kyowakirin.com/index.html#anc-global-network" target="_blank" class="btn-04"><span>Global network</span></a>
+<!-- /.box-layout-btn --></div>
 
 <div class="box-careers-top">
 
 <div class="box-hdg2-wrapper" id="anc-careers">
 <h2 class="hdg-lv2-02">Life at KKAP</h2>
-<div class="box-text">
-<p>At KKAP, we believe that every patient is entitled to lead a quality life. Every job that we do is ingrained with this believe.  As a team, we respect each member’s individuality and endeavour to maintain a friendly workplace environment.</p>
-<br>
-<p>In embracing innovation we have been able to develop a cutting edge pipeline of products to meet the needs of patients suffering from diseases for which no effective treatments are available. This approach makes a real difference to patients and their families, helping to bring both relief and hope.</p>
-<br>
-<p>To grow we need the best people. People who are passionate about making a real difference and never settle for the status quo. People with a passion for innovation and science</p>
-<br>
-<p>What openings are currently available?
-<br>
-<p>In order for those of us at Kyowa Kirin Asia Pacific (KKAP) to meet the goals of our extraordinary mission to improve human health, we are continually looking for the very best and brightest to join in our efforts.</p>
-<br>
-<p>If who we are and what we do resonates with you, then click on the link below for a listing of current vacancies. </p>
-<!-- /.box-text--></div>
+<p class="text-lead">At KKAP, we believe that every patient is entitled to lead a quality life. Every job that we do is ingrained with this believe.  As a team, we respect each member’s individuality and endeavour to maintain a friendly workplace environment.</p>
 <!-- /.box-hdg2-wrapper --></div>
 
 <p class="align-c"><a href="careers/index.html" class="link-icon"><span>LEARN MORE</span></a></p>
-
-<div class="box-layout-btn btn-center" data-column-sp="1">
-<a href="story_of_basic_immunology/index.html" class="btn-04"><span>The Story of Basic Immunology</span></a>
-<!-- /.box-layout-btn --></div>
 
 <!-- /.box-careers-top --></div>
 <partial src="/includes/footer.html"/>

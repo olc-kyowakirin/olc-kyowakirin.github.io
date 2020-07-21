@@ -6,7 +6,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css?family=Hind+Madurai&amp;display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@400;500;600;700&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -650,7 +650,6 @@ template {
 .box-innumber-top .box-hdg2-wrapper,
 .box-kkapinnumbers-top .box-hdg2-wrapper,
 .box-regionalnetwork .box-hdg2-wrapper,
-.box-corevalue-top .box-hdg2-wrapper,
 .box-atagrance-top .box-hdg2-wrapper,
 .box-atagrance-top > .box-inner,
 .mediacenter-01 > .box-inner,
@@ -660,13 +659,10 @@ template {
   padding-top: .1px;
   padding-bottom: .1px;
 }
-.box-ourvision-top .box-hdg2-wrapper{
-  max-width: 600px;
-  margin: 0 auto;
-  padding-top: .1px;
-  padding-bottom: .1px;
-}
-.box-careers-top{
+.box-ourvision-top .box-hdg2-wrapper,
+.box-ourphilosophy-top .box-hdg2-wrapper,
+.box-corevalue-top .box-hdg2-wrapper,
+.box-careers-top .box-hdg2-wrapper{
   max-width: 600px;
   margin: 0 auto;
   padding-top: .1px;
@@ -799,7 +795,7 @@ td {
 }
 
 em {
-  font-weight: bold;
+  font-weight: 600;
   font-style: normal;
 }
 
@@ -853,8 +849,11 @@ a {
   display: inline-block;
   width: 100%;
   max-width: 154px;
+  padding-right:10px;
 }
-
+.header > .header-inner .logo img:nth-child(2) {
+    max-width: 213px;
+}
 .header > .header-inner .header-nav {
   float: right;
 }
@@ -905,7 +904,7 @@ html:not(.js-enable) .header > .header-inner .header-nav {
 
 .header-nav .header-nav-list.header-menu .header-menu-inner .title {
   font-size: 1.6rem;
-  font-weight: bold;
+  font-weight: 600;
   margin-bottom: 23px;
 }
 
@@ -1018,7 +1017,7 @@ html:not(.js-enable) .header > .header-inner .header-nav {
 .header-nav .header-nav-list.header-search > li .menu-global-hdg-lv2,
 .header-nav .header-nav-list.header-search > li .menu-global-hdg-lv3 {
   font-size: 1.8rem;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .header-nav .header-nav-list.header-search > li > .menu-global-wrapper {
@@ -1289,7 +1288,7 @@ html:not(.js-enable) .header-nav .header-nav-list.header-search .btn-menu-global
 
 ._sectionNews-inner .hdg {
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: 600;
   color: #ea5504;
   margin-bottom: 5px;
 }
@@ -1410,7 +1409,7 @@ main.type-01 + footer {
 
 .box-hdg-wrapper > .hdg-lv1-01 {
   font-size: calc(5.4rem/2);
-  font-weight: bold;
+  font-weight: 600;
   color: #fff;
   position: absolute;
   z-index: 1;
@@ -1439,7 +1438,7 @@ main.type-01 + footer {
 
 .hdg-lv1-02 {
   font-size: calc(5.8rem/2);
-  font-weight: bold;
+  font-weight: 600;
   color: #ea5504;
   margin-top: calc(50px/2);
   margin-bottom: calc(56px/2);
@@ -1447,14 +1446,14 @@ main.type-01 + footer {
 
 .hdg-lv1-03 {
   font-size: calc(5.4rem/2);
-  font-weight: bold;
+  font-weight: 600;
   color: #231815;
   margin-bottom: calc(24.25px/2);
 }
 
 .hdg-lv2-01 {
   font-size: calc(4.6rem/2);
-  font-weight: bold;
+  font-weight: 600;
   color: #231815;
   margin-top: calc(58.25px/2);
   margin-bottom: calc(34.25px/2);
@@ -1462,7 +1461,7 @@ main.type-01 + footer {
 
 .box-hdg2-wrapper .hdg-lv2-02 {
   font-size: calc(7.2rem/2);
-  font-weight: bold;
+  font-weight: 600;
   line-height: 1;
   text-align: center;
   color: #ea5504;
@@ -1471,10 +1470,14 @@ main.type-01 + footer {
 .box-kkapinnumbers-top .box-hdg2-wrapper .box-layout.col4 .hdg-lv2-02{
     color: #5d6164;
     margin-bottom:0;
+    font-weight: 700;
+}
+.box-kkapinnumbers-top .box-hdg2-wrapper .box-layout.col4 .bolder{
+  font-weight: 500;
 }
 .box-ourvision-top .box-hdg2-wrapper .title {
     font-size: 1.6rem;
-    font-weight: bold;
+    font-weight: 600;
     line-height: 1.20833;
     text-align: center;
     color: #ea5504;
@@ -1492,7 +1495,7 @@ main.type-01 + footer {
 
 .hdg-lv3-01 {
   font-size: calc(3.6rem/2);
-  font-weight: bold;
+  font-weight: 600;
   color: #ea5504;
   margin-top: calc(75.5px/2);
   margin-bottom: calc(29.5px/2);
@@ -1510,7 +1513,7 @@ main.type-01 + footer {
 
 .hdg-lv4-01 {
   font-size: calc(3.6rem/2);
-  font-weight: bold;
+  font-weight: 600;
   color: #231815;
   margin-top: calc(57px/2);
   margin-bottom: calc(27px/2);
@@ -1528,7 +1531,7 @@ main.type-01 + footer {
 * ========================================================================= */
 .link-return {
   font-size: 1.3rem;
-  font-weight: bold;
+  font-weight: 600;
   color: #ea5504;
 }
 
@@ -1572,7 +1575,7 @@ a img.icon-pdf {
 /* 右矢印付きリンクテキスト */
 .link-icon,
 .link-arrow {
-  font-weight: bold;
+  font-weight: 600;
   color: #ea5504;
 }
 
@@ -1616,7 +1619,7 @@ a img.icon-pdf {
 
 .link-nav-local-wrapper .btn-nav-local-toggle {
   font-size: calc(3.2rem/2);
-  font-weight: bold;
+  font-weight: 600;
   color: #fff;
   position: relative;
   display: none;
@@ -1663,7 +1666,7 @@ a img.icon-pdf {
 .link-nav-local-wrapper .list-nav-local > li a {
   font-size: calc(3.2rem/2);
   font-size: 1.0rem;
-  font-weight: bold;
+  font-weight: 600;
   text-align: center;
   color: #fff;
   background-color: #595757;
@@ -1754,7 +1757,7 @@ a img.icon-pdf {
 
 .box-panel-01 > .panel .title {
   font-size: 1.4rem;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .box-panel-01 > .panel:not(.type-02) > .box-inner > * {
@@ -1852,7 +1855,7 @@ a img.icon-pdf {
 .btn-01,
 .btn-back {
   font-size: calc(3.2rem/2);
-  font-weight: bold;
+  font-weight: 600;
   vertical-align: middle;
   color: #fff;
   background-color: #ea5504;
@@ -1929,7 +1932,7 @@ a img.icon-pdf {
 
 .btn-02 {
   font-size: calc(3.2rem/2);
-  font-weight: bold;
+  font-weight: 600;
   vertical-align: middle;
   color: #fff;
   background-color: #5d6164;
@@ -1994,7 +1997,7 @@ a img.icon-pdf {
 
 .btn-03 {
   font-size: calc(3.2rem/2);
-  font-weight: bold;
+  font-weight: 600;
   vertical-align: middle;
   color: #ea5504;
   background-color: #fff;
@@ -2059,7 +2062,7 @@ a img.icon-pdf {
 
 .btn-04 {
   font-size: calc(3.2rem/2);
-  font-weight: bold;
+  font-weight: 600;
   vertical-align: middle;
   color: #ea5504;
   background-color: #dfdfdf;
@@ -2133,7 +2136,7 @@ a img.icon-pdf {
 
 .btn-back-02 {
   font-size: 1.1rem;
-  font-weight: bold;
+  font-weight: 600;
   vertical-align: middle;
   color: #ea5504;
   background-color: #f3f3f3;
@@ -2202,7 +2205,7 @@ a img.icon-pdf {
 /*show more ボタン*/
 .btn-more {
   font-size: calc(2.8rem/2);
-  font-weight: bold;
+  font-weight: 600;
   position: relative;
   display: block;
   margin: 0 auto;
@@ -2449,7 +2452,7 @@ a img.icon-pdf {
 
 .list-def-01 > .box-inner > dt {
   font-size: 1.8rem;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .list-def-02 {
@@ -2471,7 +2474,7 @@ a img.icon-pdf {
 }
 
 .list-def-02 .title {
-  font-weight: bold;
+  font-weight: 600;
   color: #ea5504;
 }
 
@@ -2507,7 +2510,7 @@ a img.icon-pdf {
 }
 
 .table-01 th {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .table-01 th.type-02 {
@@ -2578,7 +2581,7 @@ a img.icon-pdf {
 
 .table-02 > caption {
   font-size: 2.0rem;
-  font-weight: bold;
+  font-weight: 600;
   text-align: left;
   color: #ea5504;
   margin-bottom: 17px;
@@ -2595,7 +2598,7 @@ a img.icon-pdf {
 }
 
 .table-02 tr th {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 /* ============================================================================
@@ -2780,6 +2783,9 @@ a img.icon-pdf {
 .box-tab-01 {
   border: 1px solid #ea5504;
 }
+.box-modal-content.blueish .box-tab-01 {
+    border-color: #1ba8d6;
+}
 
 .box-tab-01 .list-tab {
   display: flex;
@@ -2796,7 +2802,7 @@ a img.icon-pdf {
 
 .box-tab-01 .list-tab > li > a {
   font-size: calc(3.2rem/2);
-  font-weight: bold;
+  font-weight: 600;
   text-align: center;
   color: #ea5504;
   display: block;
@@ -2999,7 +3005,9 @@ a img.icon-pdf {
   justify-content: center;
   width: 100%;
 }
-
+.box-modal-content.blueish .box-inner {
+  background-color: #1ba8d6;
+}
 .box-modal-content .box-btn-wrapper {
   display: flex;
   flex-wrap: nowrap;
@@ -3059,7 +3067,9 @@ a img.icon-pdf {
   padding-left: 20px;
   border-radius: 21px;
 }
-
+.box-modal-content.blueish .btn-close-modal {
+  background-color: #4ab4d7;
+}
 .box-modal-content .btn-close-modal::before,
 .box-modal-content .btn-close-modal::after {
   background-color: #fff;
@@ -3147,7 +3157,7 @@ a img.icon-pdf {
 
 .text-newsrelease-lead {
   font-size: calc(4.6rem/2);
-  font-weight: bold;
+  font-weight: 600;
   color: #231815;
   margin-bottom: calc(40px/2);
 }
@@ -3157,7 +3167,7 @@ a img.icon-pdf {
 }
 
 .box-info-release .text-info-date {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .box-newsrelease-link {
@@ -3363,7 +3373,7 @@ a img.icon-pdf {
 
 .box-newssearch-wrapper .btn-search-toggle {
   font-size: calc(3.2rem/2);
-  font-weight: bold;
+  font-weight: 600;
   color: #fff;
   position: relative;
   display: block;
@@ -3524,7 +3534,7 @@ a img.icon-pdf {
 
 .box-newssearch-wrapper .box-text-result {
   font-size: calc(2.6rem/2);
-  font-weight: bold;
+  font-weight: 600;
   color: #ea5504;
   margin-top: calc(90px/2);
   margin-bottom: calc(60px/2);
@@ -3567,7 +3577,7 @@ a img.icon-pdf {
 }
 
 .box-newssearch-wrapper .panel-news .panel-info .title {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .box-newssearch-wrapper .panel-news .panel-info .link a {
@@ -3670,7 +3680,7 @@ a img.icon-pdf {
 }
 
 .box-pipeline .box-pipeline-option .headBox {
-  font-weight: bold;
+  font-weight: 600;
   color: #ea5504;
   background-color: rgba(255, 255, 255, .8);
   display: flex;
@@ -3729,7 +3739,7 @@ a img.icon-pdf {
 }
 
 .box-pipeline .dataBox .open > table th {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 /* ============================================================================
@@ -4741,7 +4751,7 @@ a img.icon-pdf {
 * ========================================================================= */
 .box-innumber-top .hdg {
   font-size: calc(5.0rem/2);
-  font-weight: bold;
+  font-weight: 600;
   color: #ea5504;
 }
 
@@ -4770,7 +4780,7 @@ a img.icon-pdf {
 
 .box-mainvisual-top .box-lead h1 {
   font-size: calc(4.4rem/2);
-  font-weight: bold;
+  font-weight: 600;
   line-height: 1.03704;
   letter-spacing: -.1px;
   text-align: left;
@@ -5226,7 +5236,7 @@ a img.icon-pdf {
 }
 
 .tile .title {
-  font-weight: bold;
+  font-weight: 600;
   color: #fff;
 }
 
@@ -5407,6 +5417,9 @@ a img.icon-pdf {
 }
 .box-offices-globalarea .box-inner {
   padding-top: 75px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 .box-offices-globalarea .box-inner .box-panel .panel {
@@ -5426,12 +5439,12 @@ a img.icon-pdf {
 
 .box-offices-globalarea .box-inner .box-panel .panel .title {
   font-size: calc(3.2rem/2);
-  font-weight: bold;
+  font-weight: 600;
   color: #5d6164;
 }
 .box-regionalnetwork .panel .title {
     font-size: 1.6rem;
-    font-weight: bold;
+    font-weight: 600;
     color: #5d6164;
 }
 .box-regionalnetwork .box-panel-01 > .panel > .box-inner{
@@ -5507,7 +5520,7 @@ xx.box-offices-globalarea .box-inner .box-panel .panel::after {
 
 .box-preview-globalarea .box-inner .box-target-panel .box-content .title {
   font-size: calc(4.2rem/2);
-  font-weight: bold;
+  font-weight: 600;
   margin-bottom: 15px;
 }
 
@@ -5523,7 +5536,7 @@ xx.box-offices-globalarea .box-inner .box-panel .panel::after {
 }
 
 .box-preview-globalarea .dist-globalarea-link > dt {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .box-preview-globalarea .dist-globalarea-link > dd {
@@ -5700,7 +5713,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 .mediacenter-01 .hdg-lv2-mediacenter,
 .mediacenter-02 .hdg-lv2-mediacenter {
   font-size: calc(7.2rem/2);
-  font-weight: bold;
+  font-weight: 600;
   text-align: center;
   color: #ea5504;
   margin-top: calc(230px/2);
@@ -5909,7 +5922,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 
 .box-pyramid-figure .btn-pyramid-link {
   font-size: 1.9rem;
-  font-weight: bold;
+  font-weight: 600;
   text-align: center;
   color: #ea5504;
   background-color: rgba(255, 255, 255, .94);
@@ -5948,7 +5961,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 
 .box-pyramid-figure .title {
   font-size: 1.8rem;
-  font-weight: bold;
+  font-weight: 600;
   line-height: 1.1;
   text-align: center;
   color: #fff;
@@ -5957,7 +5970,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 
 .box-pyramid-figure + .box-text {
   font-size: 1.0rem;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .list-pyramid-accordion .icon {
@@ -5979,7 +5992,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 .list-pyramid-accordion > li p,
 .list-pyramid-accordion > li button {
   font-size: calc(3.2rem/2);
-  font-weight: bold;
+  font-weight: 600;
   letter-spacing: -.6px;
   color: #fff;
   background-color: rgba(234, 85, 4, .8);
@@ -6046,7 +6059,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 
 .list-pyramid-accordion > li > ul > li a {
   font-size: calc(2.8rem/2);
-  font-weight: bold;
+  font-weight: 600;
   color: #ea5504;
   background-color: rgba(234, 85, 4, .2);
   position: relative;
@@ -6160,7 +6173,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 
 .panel-menu .panel-menu-list > li a dt {
   font-size: 1.6rem;
-  font-weight: bold;
+  font-weight: 600;
   color: #ea5504;
 
   overflow-wrap: break-word;
@@ -6356,7 +6369,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 }
 
 .history-wrapper .title > span {
-  font-weight: bold;
+  font-weight: 600;
   color: #fff;
   background-color: #ea5504;
   display: inline-block;
@@ -6435,7 +6448,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 
 .whatwedo-01 .area-focus-wrapper .title {
   font-size: 1.6rem;
-  font-weight: bold;
+  font-weight: 600;
   line-height: 1.20833;
   text-align: center;
   color: #ea5504;
@@ -6594,7 +6607,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 
 .global-base-wrapper .list-global-base .box-content .title {
   font-size: 1.6rem;
-  font-weight: bold;
+  font-weight: 600;
   line-height: 1.125;
   color: #5d6164;
 }
@@ -6639,7 +6652,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 
 .pipeline-table-wrapper .pipeline-btn-accordion {
   font-size: 32px;
-  font-weight: bold;
+  font-weight: 600;
   color: #ea5504;
   position: relative;
   width: 100%;
@@ -6712,7 +6725,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 
 .pipeline-table-wrapper .pipeline-hdg-pdf a {
   font-size: 1.2rem;
-  font-weight: bold;
+  font-weight: 600;
   color: #ea5504;
   display: inline-block;
 }
@@ -6741,7 +6754,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 
 .pipeline-table-wrapper .pipeline-box-hdg-wrapper .pipeline-text-date {
   font-size: 1.4rem;
-  font-weight: bold;
+  font-weight: 600;
   color: #ea5504;
 }
 
@@ -6766,7 +6779,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 
 .pipeline-table-wrapper .pipeline-box-search .content .title {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 600;
   white-space: nowrap;
   color: #ea5504;
   margin-right: 20px;
@@ -6808,7 +6821,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 }
 
 .pipeline-table-wrapper .pipeline-box-search .content .pipeline-checkbox input:checked + span {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .pipeline-table-wrapper .pipeline-box-search .content .pipeline-checkbox input:checked + span::before {
@@ -6832,7 +6845,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 }
 
 .pipeline-table-wrapper .pipeline-table > .inner > .head > .item {
-  font-weight: bold;
+  font-weight: 600;
   text-align: center;
   color: #ea5504;
   position: relative;
@@ -6855,7 +6868,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 }
 
 .pipeline-table-wrapper .pipeline-table > .inner > .head > .item > button {
-  font-weight: bold;
+  font-weight: 600;
   color: #ea5504;
   position: relative;
   padding-right: 22px;
@@ -6948,7 +6961,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 }
 
 .pipeline-table-wrapper .pipeline-table > .inner > .content .contentList .itemList._body {
-  font-weight: bold;
+  font-weight: 600;
   position: relative;
   display: -ms-grid;
   display:     grid;
@@ -7100,7 +7113,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 }
 
 .pipeline-table-wrapper .pipeline-table > .inner > .content .contentList .itemList._detail > .item dt {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .pipeline-table-wrapper .box-tab-01 {
@@ -8245,7 +8258,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
     padding: 1.125em 1em;
   }
   .table-02 tr td {
-    font-weight: bold;
+    font-weight: 600;
   }
   .box-image {
     margin-bottom: 20px;
@@ -8389,6 +8402,9 @@ xx.js-enable .box-offices-globalarea .box-panel {
     content: "";
     transform: translateY(-50%);
     border-radius: 50% 0 0 50%;
+  }
+.js-enable .box-modal-content.blueish .box-inner::after {
+    background-color: #1ba8d6;
   }
   .box-newsrelease {
     margin-bottom: 40px;
@@ -8816,7 +8832,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
     background-color: rgba(222, 222, 222, .4);
   }
   .box-offices-globalarea .box-inner .box-panel .panel {
-    width: 330px;
+    width: 300px;
     margin:10px;
   }
   .box-offices-globalarea .box-inner .box-panel .panel .title {
@@ -8867,13 +8883,15 @@ xx.js-enable .box-offices-globalarea .box-panel {
     z-index: 5;
     top: 0;
     right: 0;
-    min-height: 700px;
+    min-height: 590px;
+    max-height: 590px;
+    overflow-y: scroll;
   }
   .box-careers-top .box-layout-btn {
     margin-top: 170px;
   }
   .box-careers-top {
-    margin-top: 236px;
+    margin-top: 135px;
   }
   .mediacenter-01,
   .mediacenter-02 {
@@ -9725,6 +9743,12 @@ xx.js-enable .box-offices-globalarea .box-panel {
 }
 
 @media screen and (max-width: 768px) {
+  .header > .header-inner .logo{
+    padding-top: 10px;
+  }
+  .header > .header-inner .logo img:nth-child(2){
+    margin-top:-10px;
+  }
   .header-nav .header-nav-list.header-menu-sp .box-input-search {
     margin-bottom: 22px;
   }
