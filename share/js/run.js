@@ -1255,6 +1255,7 @@
     ==================== */
     (function () {
         var $root = $body.find('.box-preview-globalarea');
+        var $root2 = $body.find('.box-offices-globalarea');
         var $imageArea;
         var $targetPanel;
         var $targetAfterPanel;
@@ -1269,7 +1270,7 @@
         }
 
         $imageArea = $root.find('.box-image').find('img');
-        $targetPanel = $root.find('.box-panel').find('.panel').off('click.moveAnchor');
+        $targetPanel = $root2.find('.box-panel').find('.panel').off('click.moveAnchor');
         $targetAfterPanel = $root.find('.box-target-panel');
 
         // 閉じるボタンを生成・イベントを定義
@@ -1348,103 +1349,6 @@
         });
     }());
 
-    /* ====================
-    グローバルネットワークエリアプレビュー
-    ==================== */
-    (function () {
-        var $root = $body.find('.box-preview-regionalarea');
-        var $imageArea;
-        var $targetPanel;
-        var $targetAfterPanel;
-        var $btnClose;
-        var btnCloseHtml = '<button class="btn-close" data-content-target="regionalarea-normal">close panel</button>';
-        var fadeDuration = 200;
-        var funcChangeAreaImage;
-        var funcChangeAfterPanel;
-
-        if ($root.length === 0) {
-            return;
-        }
-
-        $imageArea = $root.find('.box-image').find('img');
-        $targetPanel = $root.find('.box-panel').find('.panel').off('click.moveAnchor');
-        $targetAfterPanel = $root.find('.box-target-panel');
-
-        // 閉じるボタンを生成・イベントを定義
-        $targetAfterPanel.each(function () {
-            var $selfAfterPanel = $(this);
-            var $boxContent = $selfAfterPanel.find('.box-content');
-
-            $boxContent.append(btnCloseHtml);
-            $btnClose = $boxContent.find('.btn-close');
-            $btnClose.attr('data-parent-id', $selfAfterPanel.attr('data-content-target'));
-
-            $btnClose.on('click.closeRegionalAreaPanel', function () {
-                var targetId = $(this).attr('data-content-target');
-                var parentId = '#' + $(this).attr('data-parent-id');
-
-                funcChangeAreaImage(targetId); // エリア画像の切り替え
-                $targetAfterPanel.fadeOut(fadeDuration, function () {
-                    // 元のパネルへフォーカス
-                    $targetPanel.filter('[href="' + parentId + '"]').focus();
-                });
-            });
-        });
-
-        // エリア画像の切り替え処理
-        funcChangeAreaImage = function (targetImageId) {
-            var target;
-
-            target = $imageArea.filter('[data-content-target="' + targetImageId + '"]');
-            if (target.length === 0) {
-                return;
-            }
-
-            $imageArea.hide();
-            target.fadeIn(400);
-        };
-
-        // 対象のパネルを表示する処理
-        funcChangeAfterPanel = function (targetPanelId) {
-            var target;
-
-            target = $targetAfterPanel.filter('[data-content-target="' + targetPanelId + '"]');
-            if (target.length === 0) {
-                return;
-            }
-
-            $targetAfterPanel.hide();
-            target.fadeIn(fadeDuration, function () {
-                $(this).find(focusable).eq(0).focus();
-            });
-        };
-
-        // 初期処理
-        $imageArea.hide();
-        $imageArea.first().show();
-
-        /*
-        仕様メモ
-        ・ 画像とパネルのコンテンツ切替は → data-content-target="ID" で切り替える（コンテンツにはIDも付与しておく）
-        */
-        // パネルのエリア切替処理
-        $targetPanel.each(function () {
-            var $selfPanel = $(this);
-
-            $selfPanel.on('click.changeRegionalAreaPanel', function (e) {
-                var $self = $(this);
-                var hrefTargetId = $self.attr('href').replace('#', '');
-
-                e.preventDefault();
-                if (!funcCheckSpView()) {
-                    // エリア画像の切り替え
-                    funcChangeAreaImage(hrefTargetId);
-                }
-                // 対応したパネルの展開
-                funcChangeAfterPanel(hrefTargetId);
-            });
-        });
-    }());
     /* ====================
     PDFファイルサイズ取得プラグイン
     ==================== */
