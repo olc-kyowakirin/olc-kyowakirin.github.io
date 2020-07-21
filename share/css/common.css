@@ -648,14 +648,20 @@ template {
 .box-carousel-01,
 .box-newssearch-wrapper .box-inner,
 .box-innumber-top .box-hdg2-wrapper,
-.box-ourvision-top .box-hdg2-wrapper,
 .box-kkapinnumbers-top .box-hdg2-wrapper,
+.box-regionalnetwork .box-hdg2-wrapper,
 .box-corevalue-top .box-hdg2-wrapper,
 .box-atagrance-top .box-hdg2-wrapper,
 .box-atagrance-top > .box-inner,
 .mediacenter-01 > .box-inner,
 .mediacenter-02 > .box-inner {
   max-width: 980px;
+  margin: 0 auto;
+  padding-top: .1px;
+  padding-bottom: .1px;
+}
+.box-ourvision-top .box-hdg2-wrapper{
+  max-width: 600px;
   margin: 0 auto;
   padding-top: .1px;
   padding-bottom: .1px;
@@ -5062,7 +5068,7 @@ a img.icon-pdf {
 
 /* TOP: Core values
 * ========================================================================= */
-.box-corevalue-top {
+.box-corevalue-top, .box-ourphilosophy-top {
   margin-top: calc(227px/2);
   margin-bottom: 16px;
   /*モーダルエリア*/
@@ -5382,6 +5388,10 @@ a img.icon-pdf {
   margin-top: calc(227px/2);
   margin-bottom: 16px;
 }
+.box-regionalnetwork {
+  margin-top: calc(227px/2);
+  margin-bottom: 16px;
+}
 
 /* グローバルネットワーク確認エリアボックス */
 .box-preview-globalarea {
@@ -5416,8 +5426,20 @@ a img.icon-pdf {
   font-weight: bold;
   color: #5d6164;
 }
-
-.box-preview-globalarea .box-inner .box-panel .panel .title > .sub {
+.box-regionalnetwork .panel .title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #5d6164;
+}
+.box-regionalnetwork .box-panel-01 > .panel > .box-inner{
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.box-regionalnetwork .box-panel-01 > .panel > .box-inner .box-image img{
+  height: 100%;
+}
+.box-preview-globalarea .box-inner .box-panel .panel .title > .sub,
+.box-regionalnetwork .panel .title > .sub {
   font-size: 1.0rem;
   color: #ea5504;
   display: block;
@@ -5428,6 +5450,12 @@ a img.icon-pdf {
   font-size: 1.2rem;
   position: absolute;
   bottom: 5px;
+}
+.box-regionalnetwork .panel .guide {
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 5px;
+    color: #ea5504;
 }
 
 .box-preview-globalarea .box-inner .box-panel .panel .guide > img {
@@ -8715,10 +8743,10 @@ a img.icon-pdf {
   }
   .box-corevalue-top .box-corevalue-wrapper .parts-innovation {
     bottom: 250px;
-    left: 430px;
+    left: 250px;
   }
   .box-corevalue-top .box-corevalue-wrapper .parts-integrity {
-    bottom: 20px;
+    bottom: -50px;
     left: -50px;
   }
   .box-corevalue-top .box-corevalue-wrapper .parts-temwork {
@@ -8766,6 +8794,9 @@ a img.icon-pdf {
     background-color: #fff;
     margin-top: 136px;
   }
+  .box-regionalnetwork{
+    margin-top: 100px;
+  }
   .box-preview-globalarea {
     background-color: rgba(222, 222, 222, .4);
   }
@@ -8773,6 +8804,10 @@ a img.icon-pdf {
     width: 330px;
   }
   .box-preview-globalarea .box-inner .box-panel .panel .title {
+    font-size: 1.6rem;
+    line-height: 1;
+  }
+  .box-regionalnetwork .panel .title {
     font-size: 1.6rem;
     line-height: 1;
   }
@@ -11674,6 +11709,7 @@ a img.icon-pdf {
   .box-innumber-top .box-hdg2-wrapper,
   .box-ourvision-top .box-hdg2-wrapper,
   .box-kkapinnumbers-top .box-hdg2-wrapper,
+  .box-regionalnetwork .box-hdg2-wrapper,
   .box-corevalue-top .box-hdg2-wrapper,
   .box-atagrance-top .box-hdg2-wrapper,
   .box-careers-top,
