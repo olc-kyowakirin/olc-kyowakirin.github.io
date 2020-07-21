@@ -1255,6 +1255,7 @@
     ==================== */
     (function () {
         var $root = $body.find('.box-preview-globalarea');
+        var $root2 = $body.find('.box-offices-globalarea');
         var $imageArea;
         var $targetPanel;
         var $targetAfterPanel;
@@ -1269,7 +1270,7 @@
         }
 
         $imageArea = $root.find('.box-image').find('img');
-        $targetPanel = $root.find('.box-panel').find('.panel').off('click.moveAnchor');
+        $targetPanel = $root2.find('.box-panel').find('.panel').off('click.moveAnchor');
         $targetAfterPanel = $root.find('.box-target-panel');
 
         // 閉じるボタンを生成・イベントを定義
