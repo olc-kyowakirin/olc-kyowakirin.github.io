@@ -647,7 +647,7 @@ template {
 .link-nav-local-wrapper > .link-nav-local-inner,
 .box-carousel-01,
 .box-newssearch-wrapper .box-inner,
-.box-innumber-top .box-hdg2-wrapper,
+.box-kkapinnumbers-top .box-hdg2-wrapper,
 .box-kkapinnumbers-top .box-hdg2-wrapper,
 .box-regionalnetwork .box-hdg2-wrapper,
 .box-atagrance-top .box-hdg2-wrapper,
@@ -795,7 +795,7 @@ td {
 }
 
 em {
-  font-weight: 600;
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -848,11 +848,11 @@ a {
 .header > .header-inner .logo img {
   display: inline-block;
   width: 100%;
-  max-width: 154px;
+  max-width: 164px;
   padding-right:10px;
 }
 .header > .header-inner .logo img:nth-child(2) {
-    max-width: 213px;
+    max-width: 200px;
 }
 .header > .header-inner .header-nav {
   float: right;
@@ -904,7 +904,7 @@ html:not(.js-enable) .header > .header-inner .header-nav {
 
 .header-nav .header-nav-list.header-menu .header-menu-inner .title {
   font-size: 1.6rem;
-  font-weight: 600;
+  ;
   margin-bottom: 23px;
 }
 
@@ -1017,7 +1017,7 @@ html:not(.js-enable) .header > .header-inner .header-nav {
 .header-nav .header-nav-list.header-search > li .menu-global-hdg-lv2,
 .header-nav .header-nav-list.header-search > li .menu-global-hdg-lv3 {
   font-size: 1.8rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .header-nav .header-nav-list.header-search > li > .menu-global-wrapper {
@@ -1288,7 +1288,7 @@ html:not(.js-enable) .header-nav .header-nav-list.header-search .btn-menu-global
 
 ._sectionNews-inner .hdg {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #ea5504;
   margin-bottom: 5px;
 }
@@ -1409,7 +1409,7 @@ main.type-01 + footer {
 
 .box-hdg-wrapper > .hdg-lv1-01 {
   font-size: calc(5.4rem/2);
-  font-weight: 600;
+  font-weight: 500;
   color: #fff;
   position: absolute;
   z-index: 1;
@@ -1438,7 +1438,7 @@ main.type-01 + footer {
 
 .hdg-lv1-02 {
   font-size: calc(5.8rem/2);
-  font-weight: 600;
+  font-weight: 500;
   color: #ea5504;
   margin-top: calc(50px/2);
   margin-bottom: calc(56px/2);
@@ -1446,14 +1446,14 @@ main.type-01 + footer {
 
 .hdg-lv1-03 {
   font-size: calc(5.4rem/2);
-  font-weight: 600;
+  font-weight: 500;
   color: #231815;
   margin-bottom: calc(24.25px/2);
 }
 
 .hdg-lv2-01 {
   font-size: calc(4.6rem/2);
-  font-weight: 600;
+  font-weight: 500;
   color: #231815;
   margin-top: calc(58.25px/2);
   margin-bottom: calc(34.25px/2);
@@ -1461,7 +1461,7 @@ main.type-01 + footer {
 
 .box-hdg2-wrapper .hdg-lv2-02 {
   font-size: calc(7.2rem/2);
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1;
   text-align: center;
   color: #ea5504;
@@ -1475,9 +1475,30 @@ main.type-01 + footer {
 .box-kkapinnumbers-top .box-hdg2-wrapper .box-layout.col4 .bolder{
   font-weight: 500;
 }
+.box-kkapinnumbers-top #col-drugs-dev .hdg-lv2-02{
+    font-size:8rem;
+    line-height:0.8em;
+}
+.box-kkapinnumbers-top #col-market-apac .hdg-lv2-02 {
+    font-size: 7rem;
+    line-height: 0.8em;
+}
+.box-kkapinnumbers-top #col-antibody-drugs-release .wrap-numbers,
+.box-kkapinnumbers-top #col-antibody-drugs .wrap-numbers{
+    display:flex;
+}
+.box-kkapinnumbers-top #col-antibody-drugs-release .bolder,
+.box-kkapinnumbers-top #col-antibody-drugs .bolder{
+    text-align: left;
+    padding-left: 10px;
+}
+.box-kkapinnumbers-top #col-antibody-drugs .bolder{
+    font-size: 2.8rem;
+    line-height: 0.9em;
+}
 .box-ourvision-top .box-hdg2-wrapper .title {
     font-size: 1.6rem;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.20833;
     text-align: center;
     color: #ea5504;
@@ -1495,7 +1516,7 @@ main.type-01 + footer {
 
 .hdg-lv3-01 {
   font-size: calc(3.6rem/2);
-  font-weight: 600;
+  font-weight: 500;
   color: #ea5504;
   margin-top: calc(75.5px/2);
   margin-bottom: calc(29.5px/2);
@@ -1513,7 +1534,7 @@ main.type-01 + footer {
 
 .hdg-lv4-01 {
   font-size: calc(3.6rem/2);
-  font-weight: 600;
+  font-weight: 500;
   color: #231815;
   margin-top: calc(57px/2);
   margin-bottom: calc(27px/2);
@@ -1531,7 +1552,7 @@ main.type-01 + footer {
 * ========================================================================= */
 .link-return {
   font-size: 1.3rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #ea5504;
 }
 
@@ -1575,7 +1596,7 @@ a img.icon-pdf {
 /* 右矢印付きリンクテキスト */
 .link-icon,
 .link-arrow {
-  font-weight: 600;
+  font-weight: 500;
   color: #ea5504;
 }
 
@@ -1619,7 +1640,7 @@ a img.icon-pdf {
 
 .link-nav-local-wrapper .btn-nav-local-toggle {
   font-size: calc(3.2rem/2);
-  font-weight: 600;
+  font-weight: 500;
   color: #fff;
   position: relative;
   display: none;
@@ -1666,7 +1687,7 @@ a img.icon-pdf {
 .link-nav-local-wrapper .list-nav-local > li a {
   font-size: calc(3.2rem/2);
   font-size: 1.0rem;
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
   color: #fff;
   background-color: #595757;
@@ -1757,7 +1778,7 @@ a img.icon-pdf {
 
 .box-panel-01 > .panel .title {
   font-size: 1.4rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .box-panel-01 > .panel:not(.type-02) > .box-inner > * {
@@ -1855,7 +1876,7 @@ a img.icon-pdf {
 .btn-01,
 .btn-back {
   font-size: calc(3.2rem/2);
-  font-weight: 600;
+  font-weight: 500;
   vertical-align: middle;
   color: #fff;
   background-color: #ea5504;
@@ -1932,7 +1953,7 @@ a img.icon-pdf {
 
 .btn-02 {
   font-size: calc(3.2rem/2);
-  font-weight: 600;
+  font-weight: 500;
   vertical-align: middle;
   color: #fff;
   background-color: #5d6164;
@@ -1997,7 +2018,7 @@ a img.icon-pdf {
 
 .btn-03 {
   font-size: calc(3.2rem/2);
-  font-weight: 600;
+  font-weight: 500;
   vertical-align: middle;
   color: #ea5504;
   background-color: #fff;
@@ -2062,7 +2083,7 @@ a img.icon-pdf {
 
 .btn-04 {
   font-size: calc(3.2rem/2);
-  font-weight: 600;
+  font-weight: 500;
   vertical-align: middle;
   color: #ea5504;
   background-color: #dfdfdf;
@@ -2136,7 +2157,7 @@ a img.icon-pdf {
 
 .btn-back-02 {
   font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: 500;
   vertical-align: middle;
   color: #ea5504;
   background-color: #f3f3f3;
@@ -2205,7 +2226,7 @@ a img.icon-pdf {
 /*show more ボタン*/
 .btn-more {
   font-size: calc(2.8rem/2);
-  font-weight: 600;
+  font-weight: 500;
   position: relative;
   display: block;
   margin: 0 auto;
@@ -2452,7 +2473,7 @@ a img.icon-pdf {
 
 .list-def-01 > .box-inner > dt {
   font-size: 1.8rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .list-def-02 {
@@ -2474,7 +2495,7 @@ a img.icon-pdf {
 }
 
 .list-def-02 .title {
-  font-weight: 600;
+  font-weight: 500;
   color: #ea5504;
 }
 
@@ -2510,7 +2531,7 @@ a img.icon-pdf {
 }
 
 .table-01 th {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .table-01 th.type-02 {
@@ -2581,7 +2602,7 @@ a img.icon-pdf {
 
 .table-02 > caption {
   font-size: 2.0rem;
-  font-weight: 600;
+  font-weight: 500;
   text-align: left;
   color: #ea5504;
   margin-bottom: 17px;
@@ -2598,7 +2619,7 @@ a img.icon-pdf {
 }
 
 .table-02 tr th {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /* ============================================================================
@@ -2802,7 +2823,7 @@ a img.icon-pdf {
 
 .box-tab-01 .list-tab > li > a {
   font-size: calc(3.2rem/2);
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
   color: #ea5504;
   display: block;
@@ -3157,7 +3178,7 @@ a img.icon-pdf {
 
 .text-newsrelease-lead {
   font-size: calc(4.6rem/2);
-  font-weight: 600;
+  font-weight: 500;
   color: #231815;
   margin-bottom: calc(40px/2);
 }
@@ -3167,7 +3188,7 @@ a img.icon-pdf {
 }
 
 .box-info-release .text-info-date {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .box-newsrelease-link {
@@ -3373,7 +3394,7 @@ a img.icon-pdf {
 
 .box-newssearch-wrapper .btn-search-toggle {
   font-size: calc(3.2rem/2);
-  font-weight: 600;
+  font-weight: 500;
   color: #fff;
   position: relative;
   display: block;
@@ -3534,7 +3555,7 @@ a img.icon-pdf {
 
 .box-newssearch-wrapper .box-text-result {
   font-size: calc(2.6rem/2);
-  font-weight: 600;
+  font-weight: 500;
   color: #ea5504;
   margin-top: calc(90px/2);
   margin-bottom: calc(60px/2);
@@ -3577,7 +3598,7 @@ a img.icon-pdf {
 }
 
 .box-newssearch-wrapper .panel-news .panel-info .title {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .box-newssearch-wrapper .panel-news .panel-info .link a {
@@ -3680,7 +3701,7 @@ a img.icon-pdf {
 }
 
 .box-pipeline .box-pipeline-option .headBox {
-  font-weight: 600;
+  font-weight: 500;
   color: #ea5504;
   background-color: rgba(255, 255, 255, .8);
   display: flex;
@@ -3739,7 +3760,7 @@ a img.icon-pdf {
 }
 
 .box-pipeline .dataBox .open > table th {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /* ============================================================================
@@ -4749,9 +4770,9 @@ a img.icon-pdf {
 * ========================================================================= */
 /* TOPページ
 * ========================================================================= */
-.box-innumber-top .hdg {
+.box-kkapinnumbers-top .hdg {
   font-size: calc(5.0rem/2);
-  font-weight: 600;
+  font-weight: 500;
   color: #ea5504;
 }
 
@@ -4780,7 +4801,7 @@ a img.icon-pdf {
 
 .box-mainvisual-top .box-lead h1 {
   font-size: calc(4.4rem/2);
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.03704;
   letter-spacing: -.1px;
   text-align: left;
@@ -4822,12 +4843,12 @@ a img.icon-pdf {
 
 /* TOP: inNumber
 * ========================================================================= */
-.box-innumber-top .hdg {
+.box-kkapinnumbers-top .hdg {
   text-align: center;
   margin: 100px 0 30px;
 }
 
-.box-innumber-top .box-innumber-inr {
+.box-kkapinnumbers-top .box-innumber-inr {
   position: relative;
   overflow: hidden;
   width: 100%;
@@ -4835,7 +4856,7 @@ a img.icon-pdf {
   padding-bottom: 30px;
 }
 
-.box-innumber-top .box-innumber-inr .animation-toggle-btn {
+.box-kkapinnumbers-top .box-innumber-inr .animation-toggle-btn {
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -4849,8 +4870,8 @@ a img.icon-pdf {
   border-radius: 50%;
 }
 
-.box-innumber-top .box-innumber-inr .animation-toggle-btn::before,
-.box-innumber-top .box-innumber-inr .animation-toggle-btn::after {
+.box-kkapinnumbers-top .box-innumber-inr .animation-toggle-btn::before,
+.box-kkapinnumbers-top .box-innumber-inr .animation-toggle-btn::after {
   background: #5d6164;
   display: block;
   width: 3px;
@@ -4859,16 +4880,16 @@ a img.icon-pdf {
   border: 0;
 }
 
-.box-innumber-top .box-innumber-inr .animation-toggle-btn::before {
+.box-kkapinnumbers-top .box-innumber-inr .animation-toggle-btn::before {
   margin-right: 3px;
 }
 
-.box-innumber-top .box-innumber-inr .animation-toggle-btn::after {
+.box-kkapinnumbers-top .box-innumber-inr .animation-toggle-btn::after {
   display: block;
   content: "";
 }
 
-.box-innumber-top .box-innumber-inr .animation-toggle-btn.paused::before {
+.box-kkapinnumbers-top .box-innumber-inr .animation-toggle-btn.paused::before {
   background: transparent;
   width: auto;
   height: auto;
@@ -4879,18 +4900,18 @@ a img.icon-pdf {
   border-left: 7.5px solid #5d6164;
 }
 
-.box-innumber-top .box-innumber-inr .animation-toggle-btn.paused::after {
+.box-kkapinnumbers-top .box-innumber-inr .animation-toggle-btn.paused::after {
   content: none;
 }
 
-.box-innumber-top .box-innumber-inr .animation-toggle-btn > span {
+.box-kkapinnumbers-top .box-innumber-inr .animation-toggle-btn > span {
   display: block;
   overflow: hidden;
   width: 0;
   height: 0;
 }
 
-.box-innumber-top .box-innumber-inr .innumber-item {
+.box-kkapinnumbers-top .box-innumber-inr .innumber-item {
   position: absolute;
   left: 0;
   transition: opacity .3s;
@@ -4913,77 +4934,77 @@ a img.icon-pdf {
   /* 5,267 employees */
 }
 
-.box-innumber-top .box-innumber-inr .innumber-item.inactive {
+.box-kkapinnumbers-top .box-innumber-inr .innumber-item.inactive {
   opacity: .3 !important;
 }
 
-.box-innumber-top .box-innumber-inr .innumber-item[data-name="item1"] {
+.box-kkapinnumbers-top .box-innumber-inr .innumber-item[data-name="item1"] {
   top: 50%;
   animation: innumbers-anime 26s linear -1s infinite;
   opacity: .3;
 }
 
-.box-innumber-top .box-innumber-inr .innumber-item[data-name="item2"] {
+.box-kkapinnumbers-top .box-innumber-inr .innumber-item[data-name="item2"] {
   top: 70%;
   animation: innumbers-anime 25s linear -6s infinite;
   opacity: .3;
 }
 
-.box-innumber-top .box-innumber-inr .innumber-item[data-name="item3"] {
+.box-kkapinnumbers-top .box-innumber-inr .innumber-item[data-name="item3"] {
   top: 12%;
   animation: innumbers-anime 20s linear -1s infinite;
   opacity: .6;
 }
 
-.box-innumber-top .box-innumber-inr .innumber-item[data-name="item4"] {
+.box-kkapinnumbers-top .box-innumber-inr .innumber-item[data-name="item4"] {
   top: 40%;
   animation: innumbers-anime 24s linear -18s infinite;
   opacity: .3;
 }
 
-.box-innumber-top .box-innumber-inr .innumber-item[data-name="item5"] {
+.box-kkapinnumbers-top .box-innumber-inr .innumber-item[data-name="item5"] {
   top: 70%;
   animation: innumbers-anime 18s linear -12s infinite;
 }
 
-.box-innumber-top .box-innumber-inr .innumber-item[data-name="item6"] {
+.box-kkapinnumbers-top .box-innumber-inr .innumber-item[data-name="item6"] {
   top: 80%;
   animation: innumbers-anime 21s linear -2s infinite;
   opacity: .6;
 }
 
-.box-innumber-top .box-innumber-inr .innumber-item[data-name="item7"] {
+.box-kkapinnumbers-top .box-innumber-inr .innumber-item[data-name="item7"] {
   top: 35%;
   animation: innumbers-anime 22s linear -20s infinite;
   opacity: .6;
 }
 
-.box-innumber-top .box-innumber-inr .innumber-item[data-name="item8"] {
+.box-kkapinnumbers-top .box-innumber-inr .innumber-item[data-name="item8"] {
   top: 60%;
   animation: innumbers-anime 17s linear -6s infinite;
 }
 
-.box-innumber-top .box-innumber-inr .innumber-item[data-name="item9"] {
+.box-kkapinnumbers-top .box-innumber-inr .innumber-item[data-name="item9"] {
   top: 11%;
   animation: innumbers-anime 20s linear -13s infinite;
   opacity: .6;
 }
 
-.box-innumber-top .box-innumber-inr .innumber-item[data-name="item10"] {
+.box-kkapinnumbers-top .box-innumber-inr .innumber-item[data-name="item10"] {
   top: 10%;
   animation: innumbers-anime 16s linear -2s infinite;
 }
 
-.box-innumber-top .box-innumber-inr .innumber-item img {
+.box-kkapinnumbers-top .box-innumber-inr .innumber-item img {
   vertical-align: middle;
   max-width: none;
 }
 
-.box-innumber-top .box-innumber-inr .innumber-item.paused {
+.box-kkapinnumbers-top .box-innumber-inr .innumber-item.paused {
   animation-play-state: paused;
 }
 
-.box-innumber-top .box-innumber-inr .innumbers-active-window {
+.box-kkapinnumbers-top .box-innumber-inr .innumbers-active-window {
   position: absolute;
   top: 0;
   left: 0;
@@ -4994,26 +5015,26 @@ a img.icon-pdf {
   height: 100%;
 }
 
-.box-innumber-top .box-innumber-inr .innumbers-active-window.active {
+.box-kkapinnumbers-top .box-innumber-inr .innumbers-active-window.active {
   display: flex;
 }
 
-.box-innumber-top .box-innumber-inr .innumbers-active-window .active-number-box {
+.box-kkapinnumbers-top .box-innumber-inr .innumbers-active-window .active-number-box {
   position: relative;
 }
 
-.box-innumber-top .box-innumber-inr .innumbers-active-window .item {
+.box-kkapinnumbers-top .box-innumber-inr .innumbers-active-window .item {
   background: #fff;
   display: none;
 }
 
-.box-innumber-top .box-innumber-inr .innumbers-active-window .item.active {
+.box-kkapinnumbers-top .box-innumber-inr .innumbers-active-window .item.active {
   background: transparent;
   display: block;
   animation: scaleUp .5s ease-in-out both;
 }
 
-.box-innumber-top .box-innumber-inr .innumbers-active-window .close-btn {
+.box-kkapinnumbers-top .box-innumber-inr .innumbers-active-window .close-btn {
   position: absolute;
   top: -34px;
   right: 0;
@@ -5023,8 +5044,8 @@ a img.icon-pdf {
   border-radius: 50%;
 }
 
-.box-innumber-top .box-innumber-inr .innumbers-active-window .close-btn::before,
-.box-innumber-top .box-innumber-inr .innumbers-active-window .close-btn::after {
+.box-kkapinnumbers-top .box-innumber-inr .innumbers-active-window .close-btn::before,
+.box-kkapinnumbers-top .box-innumber-inr .innumbers-active-window .close-btn::after {
   background: #ea5504;
   position: absolute;
   top: 50%;
@@ -5036,15 +5057,15 @@ a img.icon-pdf {
   content: "";
 }
 
-.box-innumber-top .box-innumber-inr .innumbers-active-window .close-btn::before {
+.box-kkapinnumbers-top .box-innumber-inr .innumbers-active-window .close-btn::before {
   transform: rotate(45deg);
 }
 
-.box-innumber-top .box-innumber-inr .innumbers-active-window .close-btn::after {
+.box-kkapinnumbers-top .box-innumber-inr .innumbers-active-window .close-btn::after {
   transform: rotate(-45deg);
 }
 
-.box-innumber-top .box-innumber-inr .innumbers-active-window .close-btn span {
+.box-kkapinnumbers-top .box-innumber-inr .innumbers-active-window .close-btn span {
   display: block;
   overflow: hidden;
   width: 0;
@@ -5236,7 +5257,7 @@ a img.icon-pdf {
 }
 
 .tile .title {
-  font-weight: 600;
+  font-weight: 500;
   color: #fff;
 }
 
@@ -5254,13 +5275,15 @@ a img.icon-pdf {
 }
 
 .tile .title .icon.icon-modal {
-  bottom: -20px;
+  bottom: -30px;
   width: 20px;
   height: 20px;
   border: 1px solid #fff;
   border-radius: 50%;
 }
-
+.box-atagrance-top .tile .title {
+    line-height: 1.2em;
+}
 .tile .title .icon.icon-modal::before,
 .tile .title .icon.icon-modal::after {
   background-color: #fff;
@@ -5283,7 +5306,7 @@ a img.icon-pdf {
 
 .tile .title .icon.icon-arrow {
   background-color: #fff;
-  bottom: -10px;
+  bottom: -20px;
   width: 20px;
   height: 1px;
 }
@@ -5439,12 +5462,12 @@ a img.icon-pdf {
 
 .box-offices-globalarea .box-inner .box-panel .panel .title {
   font-size: calc(3.2rem/2);
-  font-weight: 600;
+  font-weight: 400;
   color: #5d6164;
 }
 .box-regionalnetwork .panel .title {
     font-size: 1.6rem;
-    font-weight: 600;
+    font-weight: 500;
     color: #5d6164;
 }
 .box-regionalnetwork .box-panel-01 > .panel > .box-inner{
@@ -5520,7 +5543,7 @@ xx.box-offices-globalarea .box-inner .box-panel .panel::after {
 
 .box-preview-globalarea .box-inner .box-target-panel .box-content .title {
   font-size: calc(4.2rem/2);
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 15px;
 }
 
@@ -5536,7 +5559,7 @@ xx.box-offices-globalarea .box-inner .box-panel .panel::after {
 }
 
 .box-preview-globalarea .dist-globalarea-link > dt {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .box-preview-globalarea .dist-globalarea-link > dd {
@@ -5713,7 +5736,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 .mediacenter-01 .hdg-lv2-mediacenter,
 .mediacenter-02 .hdg-lv2-mediacenter {
   font-size: calc(7.2rem/2);
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
   color: #ea5504;
   margin-top: calc(230px/2);
@@ -5922,7 +5945,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 
 .box-pyramid-figure .btn-pyramid-link {
   font-size: 1.9rem;
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
   color: #ea5504;
   background-color: rgba(255, 255, 255, .94);
@@ -5961,7 +5984,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 
 .box-pyramid-figure .title {
   font-size: 1.8rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.1;
   text-align: center;
   color: #fff;
@@ -5970,7 +5993,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 
 .box-pyramid-figure + .box-text {
   font-size: 1.0rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .list-pyramid-accordion .icon {
@@ -5992,7 +6015,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 .list-pyramid-accordion > li p,
 .list-pyramid-accordion > li button {
   font-size: calc(3.2rem/2);
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: -.6px;
   color: #fff;
   background-color: rgba(234, 85, 4, .8);
@@ -6059,7 +6082,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 
 .list-pyramid-accordion > li > ul > li a {
   font-size: calc(2.8rem/2);
-  font-weight: 600;
+  font-weight: 500;
   color: #ea5504;
   background-color: rgba(234, 85, 4, .2);
   position: relative;
@@ -6173,7 +6196,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 
 .panel-menu .panel-menu-list > li a dt {
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #ea5504;
 
   overflow-wrap: break-word;
@@ -6369,7 +6392,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 }
 
 .history-wrapper .title > span {
-  font-weight: 600;
+  font-weight: 500;
   color: #fff;
   background-color: #ea5504;
   display: inline-block;
@@ -6448,7 +6471,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 
 .whatwedo-01 .area-focus-wrapper .title {
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.20833;
   text-align: center;
   color: #ea5504;
@@ -6607,7 +6630,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 
 .global-base-wrapper .list-global-base .box-content .title {
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.125;
   color: #5d6164;
 }
@@ -6652,7 +6675,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 
 .pipeline-table-wrapper .pipeline-btn-accordion {
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 500;
   color: #ea5504;
   position: relative;
   width: 100%;
@@ -6725,7 +6748,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 
 .pipeline-table-wrapper .pipeline-hdg-pdf a {
   font-size: 1.2rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #ea5504;
   display: inline-block;
 }
@@ -6754,7 +6777,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 
 .pipeline-table-wrapper .pipeline-box-hdg-wrapper .pipeline-text-date {
   font-size: 1.4rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #ea5504;
 }
 
@@ -6779,7 +6802,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 
 .pipeline-table-wrapper .pipeline-box-search .content .title {
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 500;
   white-space: nowrap;
   color: #ea5504;
   margin-right: 20px;
@@ -6821,7 +6844,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 }
 
 .pipeline-table-wrapper .pipeline-box-search .content .pipeline-checkbox input:checked + span {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .pipeline-table-wrapper .pipeline-box-search .content .pipeline-checkbox input:checked + span::before {
@@ -6845,7 +6868,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 }
 
 .pipeline-table-wrapper .pipeline-table > .inner > .head > .item {
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
   color: #ea5504;
   position: relative;
@@ -6868,7 +6891,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 }
 
 .pipeline-table-wrapper .pipeline-table > .inner > .head > .item > button {
-  font-weight: 600;
+  font-weight: 500;
   color: #ea5504;
   position: relative;
   padding-right: 22px;
@@ -6961,7 +6984,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 }
 
 .pipeline-table-wrapper .pipeline-table > .inner > .content .contentList .itemList._body {
-  font-weight: 600;
+  font-weight: 500;
   position: relative;
   display: -ms-grid;
   display:     grid;
@@ -7113,7 +7136,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 }
 
 .pipeline-table-wrapper .pipeline-table > .inner > .content .contentList .itemList._detail > .item dt {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .pipeline-table-wrapper .box-tab-01 {
@@ -8258,7 +8281,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
     padding: 1.125em 1em;
   }
   .table-02 tr td {
-    font-weight: 600;
+    font-weight: 500;
   }
   .box-image {
     margin-bottom: 20px;
@@ -8707,7 +8730,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
   .pc-hide {
     display: none !important;
   }
-  .box-innumber-top .hdg {
+  .box-kkapinnumbers-top .hdg {
     font-size: 2.4rem;
   }
   .box-mainvisual-top > .box-inner {
@@ -8745,7 +8768,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
   .box-mainvisual-top .parts-4.animation-on {
     left: -30.5vw;
   }
-  .box-innumber-top .hdg {
+  .box-kkapinnumbers-top .hdg {
     margin-bottom: 40px;
   }
   .box-ourvision-top {
@@ -8785,7 +8808,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
     bottom: -180px;
   }
   .box-kkapinnumbers-top {
-    margin-top: 135px;
+    margin-top: 0;
   }
   .box-atagrance-top {
     margin-top: 260px;
@@ -11495,20 +11518,20 @@ xx.js-enable .box-offices-globalarea .box-panel {
     width: 18px;
     height: 18px;
   }
-  .box-innumber-top .box-innumber-inr {
+  .box-kkapinnumbers-top .box-innumber-inr {
     height: 300px;
   }
-  .box-innumber-top .box-innumber-inr .animation-toggle-btn {
+  .box-kkapinnumbers-top .box-innumber-inr .animation-toggle-btn {
     width: 20px;
     height: 20px;
     margin-left: -10px;
   }
-  .box-innumber-top .box-innumber-inr .animation-toggle-btn::before,
-  .box-innumber-top .box-innumber-inr .animation-toggle-btn::after {
+  .box-kkapinnumbers-top .box-innumber-inr .animation-toggle-btn::before,
+  .box-kkapinnumbers-top .box-innumber-inr .animation-toggle-btn::after {
     width: 1px;
     height: 8px;
   }
-  .box-innumber-top .box-innumber-inr .innumber-item {
+  .box-kkapinnumbers-top .box-innumber-inr .innumber-item {
     /* 4 antibody drugs released */
     /* 6 antibody drugs in pipeline */
     /* 18 drugs in development */
@@ -11520,34 +11543,34 @@ xx.js-enable .box-offices-globalarea .box-panel {
     /* annual revenue 305 billion yen */
     /* 5,267 employees */
   }
-  .box-innumber-top .box-innumber-inr .innumber-item[data-name="item1"] img {
+  .box-kkapinnumbers-top .box-innumber-inr .innumber-item[data-name="item1"] img {
     width: 46px;
   }
-  .box-innumber-top .box-innumber-inr .innumber-item[data-name="item2"] img {
+  .box-kkapinnumbers-top .box-innumber-inr .innumber-item[data-name="item2"] img {
     width: 68.5px;
   }
-  .box-innumber-top .box-innumber-inr .innumber-item[data-name="item3"] img {
+  .box-kkapinnumbers-top .box-innumber-inr .innumber-item[data-name="item3"] img {
     width: 47.5px;
   }
-  .box-innumber-top .box-innumber-inr .innumber-item[data-name="item4"] img {
+  .box-kkapinnumbers-top .box-innumber-inr .innumber-item[data-name="item4"] img {
     width: 89px;
   }
-  .box-innumber-top .box-innumber-inr .innumber-item[data-name="item5"] img {
+  .box-kkapinnumbers-top .box-innumber-inr .innumber-item[data-name="item5"] img {
     width: 88px;
   }
-  .box-innumber-top .box-innumber-inr .innumber-item[data-name="item6"] img {
+  .box-kkapinnumbers-top .box-innumber-inr .innumber-item[data-name="item6"] img {
     width: 113.5px;
   }
-  .box-innumber-top .box-innumber-inr .innumber-item[data-name="item7"] img {
+  .box-kkapinnumbers-top .box-innumber-inr .innumber-item[data-name="item7"] img {
     width: 46.5px;
   }
-  .box-innumber-top .box-innumber-inr .innumber-item[data-name="item8"] img {
+  .box-kkapinnumbers-top .box-innumber-inr .innumber-item[data-name="item8"] img {
     width: 83.9px;
   }
-  .box-innumber-top .box-innumber-inr .innumber-item[data-name="item9"] img {
+  .box-kkapinnumbers-top .box-innumber-inr .innumber-item[data-name="item9"] img {
     width: 63px;
   }
-  .box-innumber-top .box-innumber-inr .innumber-item[data-name="item10"] img {
+  .box-kkapinnumbers-top .box-innumber-inr .innumber-item[data-name="item10"] img {
     width: 101.5px;
   }
 }
@@ -11746,7 +11769,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
   .link-nav-local-wrapper > .link-nav-local-inner,
   .box-carousel-01,
   .box-newssearch-wrapper .box-inner,
-  .box-innumber-top .box-hdg2-wrapper,
+  .box-kkapinnumbers-top .box-hdg2-wrapper,
   .box-ourvision-top .box-hdg2-wrapper,
   .box-kkapinnumbers-top .box-hdg2-wrapper,
   .box-regionalnetwork .box-hdg2-wrapper,
