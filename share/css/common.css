@@ -643,7 +643,6 @@ template {
 
 .footer > .footer-inner,
 .wrapper > .main-content,
-.str-section-wrapper > .str-section,
 .link-nav-local-wrapper > .link-nav-local-inner,
 .box-carousel-01,
 .box-newssearch-wrapper .box-inner,
@@ -653,7 +652,8 @@ template {
 .box-atagrance-top .box-hdg2-wrapper,
 .box-atagrance-top > .box-inner,
 .mediacenter-01 > .box-inner,
-.mediacenter-02 > .box-inner {
+.mediacenter-02 > .box-inner,
+.str-section-wrapper > .str-section {
   max-width: 980px;
   margin: 0 auto;
   padding-top: .1px;
@@ -662,7 +662,8 @@ template {
 .box-ourvision-top .box-hdg2-wrapper,
 .box-ourphilosophy-top .box-hdg2-wrapper,
 .box-corevalue-top .box-hdg2-wrapper,
-.box-careers-top .box-hdg2-wrapper{
+.box-careers-top .box-hdg2-wrapper,
+.str-section-wrapper > .str-section.therapeutic-areas{
   max-width: 600px;
   margin: 0 auto;
   padding-top: .1px;
@@ -6467,12 +6468,12 @@ xx.js-enable .box-offices-globalarea .box-panel {
 }
 
 /* What We Doページ
-* ========================================================================= */
-.whatwedo-01 .box-hdg2-wrapper .text-lead,
+/* ========================================================================= */
+/*.whatwedo-01 .box-hdg2-wrapper .text-lead,
 .whatwedo-02 .box-hdg2-wrapper .text-lead,
 .whatwedo-04 .box-hdg2-wrapper .text-lead {
   font-size: 1.6rem;
-}
+}*/
 
 .whatwedo-01 {
   padding-top: calc(230px/2);
@@ -8929,8 +8930,6 @@ xx.js-enable .box-offices-globalarea .box-panel {
     top: 0;
     right: 0;
     min-height: 590px;
-    max-height: 590px;
-    overflow-y: scroll;
   }
   .box-careers-top .box-layout-btn {
     margin-top: 170px;
