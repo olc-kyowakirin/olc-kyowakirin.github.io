@@ -5573,7 +5573,7 @@ xx.box-offices-globalarea .box-inner .box-panel .panel::after {
   color: #ea5504;
   display: block;
 }
-
+.box-preview-globalarea .regionalarea-address,
 .box-preview-globalarea .dist-globalarea-link {
   font-size: 1.4rem;
   margin-top: 15px;
@@ -8909,6 +8909,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
   .box-preview-globalarea .box-inner .box-target-panel .box-content .title > .sub {
     font-size: 1.4rem;
   }
+  .box-preview-globalarea .regionalarea-address,
   .box-preview-globalarea .dist-globalarea-link {
     font-size: 1.8rem;
     margin-top: 34px;
