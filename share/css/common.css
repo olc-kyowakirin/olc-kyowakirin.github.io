@@ -5477,9 +5477,9 @@ a img.icon-pdf {
   box-shadow: 1px 1px 2px rgba(0, 0, 0, .3);
 }
 
-.box-offices-globalarea .box-inner .box-panel .panel:last-child {
+/*.box-offices-globalarea .box-inner .box-panel .panel:last-child {
   margin-bottom: 0;
-}
+}*/
 
 .box-offices-globalarea .box-inner .box-panel .panel .title {
   font-size: calc(3.2rem/2);
