@@ -852,7 +852,7 @@ a {
   padding-right:10px;
 }
 .header > .header-inner .logo img:nth-child(2) {
-    max-width: 170px;
+    max-width: 180px;
 }
 .header > .header-inner .header-nav {
   float: right;
@@ -1267,7 +1267,28 @@ html:not(.js-enable) .header-nav .header-nav-list.header-search .btn-menu-global
   width: 15px;
   height: 15px;
 }
-
+.footer-area-sub a.btn-03.btn-small span{
+    font-size:1.2rem;
+}
+.footer-area-sub a.btn-03.btn-small span::after {
+    background-image: url('/share/images/icon_arrow_right_02.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% auto;
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    margin-left: 5px;
+    margin-bottom: -0.35em;
+    content: "";
+    transition: transform .4s;
+    line-height: 0em;
+    transform:rotate(-90deg);
+}
+.footer-area-sub a.btn-03.btn-small:hover span::after {
+    background-image: url('/share/images/icon_arrow_right_01.png');
+    transform: translateY(-5px) rotate(-90deg);
+}
 /* ============================================================================
 * 共通ナビゲーション
 * ========================================================================= */
