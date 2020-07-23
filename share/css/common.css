@@ -855,7 +855,7 @@ a {
   padding-right:10px;
 }
 .header > .header-inner .logo img:nth-child(2) {
-    max-width: 180px;
+    max-width: 190px;
 }
 .header > .header-inner .header-nav {
   float: right;
@@ -6559,14 +6559,11 @@ xx.js-enable .box-offices-globalarea .box-panel {
 }
 
 .whatwedo-03, .workingwithus-03 {
-  color: #fff;
   padding-top: calc(150px/2);
   padding-bottom: calc(150px/2);
 }
-.whatwedo-03 {
-  background-color: #3e3a39;
-}
 .workingwithus-03 {
+  color: #fff;
   background-color: #ea5504;
 }
 .whatwedo-03 .box-hdg2-wrapper,
@@ -6574,10 +6571,11 @@ xx.js-enable .box-offices-globalarea .box-panel {
   margin-bottom: 60px;
 }
 
-.whatwedo-03 .box-carousel-wrapper .box-text,
-.workingwithus-03 .box-carousel-wrapper .box-text {
-  font-size: 1.2rem;
-  color: #fff;
+.whatwedo-03 .box-carousel-wrapper .box-text{
+  color: #5d6164;
+}
+.whatwedo-03 .box-carousel-01 .panel .panel-image .panel-image-inr{
+    border:solid 1px #ededed;
 }
 
 .whatwedo-03 .box-carousel-wrapper .link-arrow,
@@ -7739,7 +7737,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
     max-width: 100px;
   }
   .footer small {
-    font-size: .7rem;
+    font-size: 1rem;
   }
   .footer > .footer-inner {
     flex-direction: row;
@@ -9258,10 +9256,6 @@ xx.js-enable .box-offices-globalarea .box-panel {
     padding-top: 130px;
     padding-bottom: 250px;
     margin-bottom: -300px;
-  }
-  .whatwedo-03 .box-carousel-wrapper,
-  .workingwithus-03 .box-carousel-wrapper {
-    margin-bottom: 70px;
   }
   .whatwedo-04 {
     padding-top: 130px;
