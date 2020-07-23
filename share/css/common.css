@@ -1509,27 +1509,6 @@ main.type-01 + footer {
 .box-kkapinnumbers-top .box-hdg2-wrapper .box-layout.col4 .bolder{
   font-weight: 500;
 }
-.box-kkapinnumbers-top #col-drugs-dev .hdg-lv2-02{
-    font-size:8rem;
-    line-height:0.8em;
-}
-.box-kkapinnumbers-top #col-market-apac .hdg-lv2-02 {
-    font-size: 7rem;
-    line-height: 0.8em;
-}
-.box-kkapinnumbers-top #col-antibody-drugs-release .wrap-numbers,
-.box-kkapinnumbers-top #col-antibody-drugs .wrap-numbers{
-    display:flex;
-}
-.box-kkapinnumbers-top #col-antibody-drugs-release .bolder,
-.box-kkapinnumbers-top #col-antibody-drugs .bolder{
-    text-align: left;
-    padding-left: 10px;
-}
-.box-kkapinnumbers-top #col-antibody-drugs .bolder{
-    font-size: 2.8rem;
-    line-height: 0.9em;
-}
 .box-ourvision-top .box-hdg2-wrapper .title {
     font-size: 1.6rem;
     font-weight: 500;
@@ -9406,6 +9385,27 @@ xx.js-enable .box-offices-globalarea .box-panel {
   .whatwedo-06 .box-hdg2-wrapper + .box-text {
     margin-bottom: 70px;
   }
+  .box-kkapinnumbers-top #col-drugs-dev .hdg-lv2-02{
+    font-size:8rem;
+    line-height:0.8em;
+}
+.box-kkapinnumbers-top #col-market-apac .hdg-lv2-02 {
+    font-size: 7rem;
+    line-height: 0.8em;
+}
+.box-kkapinnumbers-top #col-antibody-drugs-release .wrap-numbers,
+.box-kkapinnumbers-top #col-antibody-drugs .wrap-numbers{
+    display:flex;
+}
+.box-kkapinnumbers-top #col-antibody-drugs-release .bolder,
+.box-kkapinnumbers-top #col-antibody-drugs .bolder{
+    text-align: left;
+    padding-left: 10px;
+}
+.box-kkapinnumbers-top #col-antibody-drugs .bolder{
+    font-size: 2.8rem;
+    line-height: 0.9em;
+}
 }
 
 @media screen and (min-width: 769px) and (min-width: 769px) {
