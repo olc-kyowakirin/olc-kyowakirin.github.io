@@ -1,478 +1,67 @@
 <partial src="../includes/header.html"/>
 
 <div class="box-hdg-wrapper type-02 kkc-anime_load_other-mainvisual">
-<h1 class="hdg-lv1-01">What we do<span class="text-sub">State-of-the-art biotechnology<br>
-centered on antibody engineering</span></h1>
+<h1 class="hdg-lv1-01">Working with us<span class="text-sub">Don’t just make medicine.<br>
+Make people smile, bring light to their lives.</span></h1>
 <div class="image">
 <img src="images/index_img_hdg_01.jpg" alt="" class="sp-hide">
 <img src="images/index_img_hdg_01_sp.jpg" alt="" class="pc-hide">
 <!-- /.image --></div>
 <!-- /.box-hdg-wrapper --></div>
 
-<div class="str-section-wrapper whatwedo-01">
+<div class="str-section-wrapper workingwithus-01">
 <div class="str-section">
 
 <div class="box-hdg2-wrapper" id="anc-areas-of-focus">
-<h2 class="hdg-lv2-02">Areas of focus</h2>
-<p class="text-lead">Kyowa Kirin is a Japan-based Global Specialty Pharmaceutical Company, contributing to <br>human health and well-being worldwide through innovative drug discovery and <br>global commercialization, driven by state-of-the-art antibody technologies, <br>in the core therapeutic areas of oncology, nephrology, <br>central nervous system and immunology.</p>
+<h2 class="hdg-lv2-02">Life at KKAP</h2>
+<div class="box-text">
+<p class="text-lead">At KKAP, we believe that every patient is entitled to lead a quality life</p>
+<!-- /.box-text --></div>
+<div class="box-text">
+<p>Every job that we do is ingrained with this believe.  As a team, we respect each member’s individuality and endeavour to maintain a friendly workplace environment.</p>
+<br>
+<p>In embracing innovation we have been able to develop a cutting edge pipeline of products to meet the needs of patients suffering from diseases for which no effective treatments are available. This approach makes a real difference to patients and their families, helping to bring both relief and hope.</p>
+<br>
+<p>To grow we need the best people. People who are passionate about making a real difference and never settle for the status quo. People with a passion for innovation and science</p>
+<!-- /.box-text --></div>
 <!-- /.box-hdg2-wrapper --></div>
 <!-- /.str-section --></div>
 
-<div class="area-focus-wrapper">
-<div class="area-focus-inner">
-<p class="title">Cutting-edge biotechnology<br> centered on antibody<br> engineering technology</p>
-<!-- /.area-focus-inner --></div>
-<div class="area-focus-icon icon-01 kkc-anime_scroll_focus-icon_trigger kkc-anime_trigger_focus-icon_item" data-trigger="focus-icon1" data-trigger-name="focus-icon1">
-<img src="images/index_img_parts_01.png" class="sp-hide" alt="Nephrology">
-<img src="images/index_img_parts_01_sp.png" class="pc-hide" alt="Nephrology">
-</div>
-<div class="area-focus-icon icon-02 kkc-anime_trigger_focus-icon_item" data-trigger-name="focus-icon1">
-<img src="images/index_img_parts_02.png" class="sp-hide" alt="Immunology & Allergy">
-<img src="images/index_img_parts_02_sp.png" class="pc-hide" alt="Immunology & Allergy">
-</div>
-<div class="area-focus-icon icon-03 kkc-anime_scroll_focus-icon_trigger kkc-anime_trigger_focus-icon_item" data-trigger="focus-icon2" data-trigger-name="focus-icon2">
-<img src="images/index_img_parts_03.png" class="sp-hide" alt="Oncology">
-<img src="images/index_img_parts_03_sp.png" class="pc-hide" alt="Oncology">
-</div>
-<div class="area-focus-icon icon-04 kkc-anime_trigger_focus-icon_item" data-trigger-name="focus-icon2">
-<img src="images/index_img_parts_04.png" class="sp-hide" alt="Central Nervous System">
-<img src="images/index_img_parts_04_sp.png" class="pc-hide" alt="Central Nervous System">
-</div>
-<!-- /.area-focus-wrapper --></div>
-
 <!-- /.str-section-wrapper --></div>
 
-<div class="str-section-wrapper type-01 whatwedo-02">
+<div class="str-section-wrapper type-01 workingwithus-02">
 <div class="str-section">
 
-<div class="box-hdg2-wrapper" id="anc-technology-driven-drug-discovery">
-<h2 class="hdg-lv2-02">Technology-driven drug discovery</h2>
-<p class="text-lead">The novel drug discovery of Kyowa Kirin is firmly<br class="pc-hide"> supported by the exquisite experience and<br>
-technologies in research, development and<br class="pc-hide"> manufacture of biologics, and by open<br class="pc-hide"> innovation.<br class="sp-hide">
-This unique style of drug discovery is<br class="pc-hide"> what we call technology-driven drug discovery,<br class="pc-hide"> focused<br class="sp-hide"> on 4 key modalities below.</p>
-<!-- /.box-hdg2-wrapper --></div>
-
-<div class="box-panel-01 col4 sp-col2">
-
-<a href="approach_for_innovation/index.html#anc-h5o-3" class="panel">
-<div class="box-inner">
-<div class="box-content">
-<h3 class="title">Next Generation<br> Therapeutic Antibodies</h3>
-<p class="link-arrow"><span>LEARN MORE</span></p>
-<!-- /.box-content --></div>
-<div class="box-image"><img src="images/index_img_01.jpg" alt=""></div>
-<!-- /.box-inner--></div>
-<!-- /.panel --></a>
-
-<a href="approach_for_innovation/index.html#anc-h5o-4" class="panel">
-<div class="box-inner">
-<div class="box-content">
-<h3 class="title">New Type of Small<br> Molecule Drugs</h3>
-<p class="link-arrow"><span>LEARN MORE</span></p>
-<!-- /.box-content --></div>
-<div class="box-image"><img src="images/index_img_02.jpg" alt=""></div>
-<!-- /.box-inner--></div>
-<!-- /.panel --></a>
-
-<a href="approach_for_innovation/index.html#anc-h5o-5" class="panel">
-<div class="box-inner">
-<div class="box-content">
-<h3 class="title">Nucleic Acid Drugs</h3>
-<p class="link-arrow"><span>LEARN MORE</span></p>
-<!-- /.box-content --></div>
-<div class="box-image"><img src="images/index_img_03.jpg" alt=""></div>
-<!-- /.box-inner--></div>
-<!-- /.panel --></a>
-
-<a href="approach_for_innovation/index.html#anc-h5o-6" class="panel">
-<div class="box-inner">
-<div class="box-content">
-<h3 class="title">Regenerative Medicine</h3>
-<p class="link-arrow"><span>LEARN MORE</span></p>
-<!-- /.box-content --></div>
-<div class="box-image"><img src="images/index_img_04.jpg" alt=""></div>
-<!-- /.box-inner--></div>
-<!-- /.panel --></a>
-
-<!-- /.box-panel-01 --></div>
+  <div class="box-layout-image">
+  <div class="box-content">
+  <h2 class="hdg-lv2-01">What openings are currently available? </h2>
+  <div class="box-text">
+  <p>In order for those of us at Kyowa Kirin Asia Pacific (KKAP) to meet the goals of our extraordinary mission to improve human health, we are continually looking for the very best and brightest to join in our efforts. </p>
+  <!-- /.box-text --></div>
+  <!-- content --></div>
+  <div class="box-image">
+  <img src="images/index_img_job_01.png" alt="">
+  <!-- image --></div>
+  <!-- /.box-layout-image --></div>
 
 <!-- /.str-section --></div>
 <!-- /.str-section-wrapper --></div>
 
-<div class="str-section-wrapper whatwedo-03">
+<div class="str-section-wrapper workingwithus-03">
 <div class="str-section">
 
 <div class="box-hdg2-wrapper" id="anc-main-products">
-<h2 class="hdg-lv2-02">Main products</h2>
-<!-- /.box-hdg2-wrapper --></div>
-
-<!-- /.str-section --></div>
-
-<div class="box-carousel-wrapper">
-<div class="box-carousel-01">
-<a href="products/espo_nesp/index.html" class="panel">
-<div class="panel-image"><div class="panel-image-inr"><img src="images/index_img_slide_espo.jpg" alt=""></div></div>
-<h3 class="hdg-lv3-01 type-01">ESPO<sup>&reg;</sup> / NESP<sup>&reg;</sup></h3>
+<h2 class="hdg-lv2-02">Join us</h2>
 <div class="box-text">
-<p>NESP<sup>&reg;</sup> is an erythropoiesis stimulating agent (ESA) with longer-lasting effect than conventional erythropoietin drugs. It is effective for improving renal anemia with reduced administration frequency. </p>
-<p><span class="link-arrow"><span>LEARN MORE</span></span></p>
-</div>
-<!-- /.panel --></a>
-
-<a href="products/regpara/index.html" class="panel">
-<div class="panel-image"><div class="panel-image-inr"><img src="images/index_img_slide_regpara.jpg" alt=""></div></div>
-<h3 class="hdg-lv3-01 type-01">REGPARA<sup>&reg;</sup></h3>
-<div class="box-text">
-<p>REGPARA<sup>&reg;</sup> is a new class of agent for the treatment of secondary hyperparathyroidism. REGPARA<sup>&reg;</sup> acts on parathyroid calcium receptor directly and suppresses parathyroid hormone secretion, while simultaneously lowering serum calcium and phosphorus levels.</p>
-<p><span class="link-arrow"><span>LEARN MORE</span></span></p>
-</div>
-<!-- /.panel --></a>
-
-<a href="products/gran_peglasta_neulasta/index.html" class="panel">
-<div class="panel-image"><div class="panel-image-inr"><img src="images/index_img_slide_gran.jpg" alt=""></div></div>
-<h3 class="hdg-lv3-01 type-01">GRAN<sup>&reg;</sup> / Peglasta<sup>&reg;</sup> / Neulasta<sup>&reg;</sup></h3>
-<div class="box-text">
-<p>GRAN<sup>&reg;</sup> (Filgrastim) is a human colony-stimulating factor (G-CSF) produced by genetic recombination technology. It works to selectively increase the count of a type of white blood cell called neurotrophil, as well as increase their functional efficacy. </p>
-<p><span class="link-arrow"><span>LEARN MORE</span></span></p>
-</div>
-<!-- /.panel --></a>
-
-<a href="products/romiplate_nplate/index.html" class="panel">
-<div class="panel-image"><div class="panel-image-inr"><img src="images/index_img_slide_romiplate.jpg" alt=""></div></div>
-<h3 class="hdg-lv3-01 type-01">Romiplate<sup>&reg;</sup>/ Nplate<sup>&reg;</sup></h3>
-<div class="box-text">
-<p>Romiplate<sup>&reg;</sup>/ Nplate<sup>&reg;</sup>, a genetically recombinant protein, stimulates platelet production via stimulation of the thrombopoietin receptors.</p>
-<p><span class="link-arrow"><span>LEARN MORE</span></span></p>
-</div>
-<!-- /.panel --></a>
-
-<a href="products/crysvita/index.html" class="panel">
-<div class="panel-image"><div class="panel-image-inr"><img src="images/index_img_slide_crysvita.jpg" alt=""></div></div>
-<h3 class="hdg-lv3-01 type-01">Crysvita<sup>&reg;</sup></h3>
-<div class="box-text">
-<p>Crysvita<sup>&reg;</sup> is a recombinant fully human monoclonal IgG1 antibody against the phosphaturic hormone fibroblast growth factor 23 (FGF23). By blocking excess FGF23 in patients, Crysvita<sup>&reg;</sup> is intended to increase phosphate reabsorption in the kidney and increase the production of vitamin D, which enhances intestinal absorption of phosphate and calcium in patients with X linked hypophosphatemia.</p>
-<p><span class="link-arrow"><span>LEARN MORE</span></span></p>
-</div>
-<!-- /.panel --></a>
-
-<a href="products/poteligeo/index.html" class="panel">
-<div class="panel-image"><div class="panel-image-inr"><img src="images/index_img_slide_poteligeo.jpg" alt=""></div></div>
-<h3 class="hdg-lv3-01 type-01">POTELIGEO<sup>&reg;</sup></h3>
-<div class="box-text">
-<p>POTELIGEO<sup>&reg;</sup> (mogamulizumab-kpkc) is a humanized monoclonal antibody that targets CC chemokine receptor 4 (CCR4), which is frequently expressed on leukemic cells of certain hematologic malignancies including cutaneous T-cell lymphomas (CTCL), such as mycosis fungoides and Sézary syndrome.</p>
-<p><span class="link-arrow"><span>LEARN MORE</span></span></p>
-</div>
-<!-- /.panel --></a>
-<!-- /.box-carousel-01 --></div>
-<!-- /.box-carousel-wrapper --></div>
-
-<div class="box-layout-btn btn-center" data-column-sp="0">
-<a href="products/index.html" class="btn-03">See list of products</a>
-<!-- /.box-layout-btn --></div>
-
-<!-- /.str-section-wrapper --></div>
-
-<div class="str-section-wrapper type-01 whatwedo-04">
-<div class="str-section">
-
-<div class="box-hdg2-wrapper" id="anc-pipeline">
-<h2 class="hdg-lv2-02">Pipeline</h2>
-<p class="text-lead">Numerous promising pharmaceutical<br class="pc-hide"> candidates are emerging from our<br class="pc-hide"> development<br class="sp-hide"> pipelines the result of our<br class="pc-hide"> never-ending efforts to hone the edge of our<br class="pc-hide"> state-of-the-art<br class="sp-hide"> technologies anddeliver<br class="pc-hide"> innovation in medical care.</p>
-<!-- /.box-hdg2-wrapper --></div>
-
-<!-- /.str-section --></div>
-
-<div class="pipeline-table-wrapper">
-<button class="pipeline-btn-accordion" aria-expanded="false" aria-controls="pipeline-table-content" type="button">SEE FULL LIST</button>
-<div id="pipeline-table-content" class="pipeline-table-content" aria-hidden="true">
-<p class="pipeline-hdg-pdf"><a href="pdf/pipeline_e_20200331.pdf" target="_blank"><span>As of March 31, 2020</span><span class="pdf-text"><img src="../share/images/icon_pdf_blank_10.png" alt="PDF file">Kyowa Kirin R&D Pipeline</span></a></p>
-
-<div class="box-tab-01">
-<ul class="list-tab">
-<li><a href="#tab-1">Overview</a></li>
-<li><a href="#tab-2">Recent Changes</a></li>
-<!-- /.list-tab --></ul>
-
-<div class="box-tab-content" id="tab-1">
-<div class="pipeline-box-search">
-<button class="pipeline-btn-accordion _search" type="button" aria-expanded="true" aria-hidden="true" aria-controls="pipeline-box-search-inner">Search</button>
-<div id="pipeline-box-search-inner" class="inner" aria-hidden="false">
-<div class="content">
-<div class="title">Modalities :</div>
-<ul class="list">
-<li><label class="pipeline-checkbox"><input type="checkbox" name="modalities" class="item" value="00"><span>ALL</span></label></li>
-<li><label class="pipeline-checkbox"><input type="checkbox" name="modalities" class="item" value="01"><span>antibody</span></label></li>
-<li><label class="pipeline-checkbox"><input type="checkbox" name="modalities" class="item" value="02"><span>protein</span></label></li>
-<li><label class="pipeline-checkbox"><input type="checkbox" name="modalities" class="item" value="03"><span>small molecule</span></label></li>
-</ul>
-</div>
-<div class="content">
-<div class="title">Therapeutic Area :</div>
-<ul class="list">
-<li><label class="pipeline-checkbox"><input type="checkbox" name="therapeuticArea" class="item" value="00"><span>ALL</span></label></li>
-<li><label class="pipeline-checkbox"><input type="checkbox" name="therapeuticArea" class="item" value="01"><span>Oncology</span></label></li>
-<li><label class="pipeline-checkbox"><input type="checkbox" name="therapeuticArea" class="item" value="02"><span>Nephrology</span></label></li>
-<li><label class="pipeline-checkbox"><input type="checkbox" name="therapeuticArea" class="item" value="03"><span>Immunology/Allergy</span></label></li>
-<li><label class="pipeline-checkbox"><input type="checkbox" name="therapeuticArea" class="item" value="04"><span>Central Nervous System</span></label></li>
-<li><label class="pipeline-checkbox"><input type="checkbox" name="therapeuticArea" class="item" value="05"><span>Other</span></label></li>
-</ul>
-</div>
-</div>
-</div>
-
-<div class="pipeline-table" data-mount-name="overview">
-<div class="inner">
-<ul class="head">
-<li class="item codeName">
-<button class="desc" type="button"><span>Code Name</span></button>
-<!-- /.item.product --></li>
-<li class="item genericName">
-<p>Generic name</p>
-<!-- /.item.treatment --></li>
-<li class="item therapeuticArea">
-<p>Therapeutic Area</p>
-<!-- /.item.disease --></li>
-<li class="item indication">
-<p>Indication</p>
-<!-- /.item.disease --></li>
-<li class="item phase">
-<button class="desc" type="button"><span>Phase</span></button>
-<ul class="phaseList">
-<li class="item">1</li>
-<li class="item">2</li>
-<li class="item">3</li>
-<li class="item">F/A</li>
-</ul>
-<!-- /.item.phase --></li>
-<li class="item region">
-<p>Region</p>
-<!-- /.item.region --></li>
-<!-- /.head --></ul>
-<ul class="content">
-<!-- /.content --></ul>
-<!-- /.inner --></div>
-<!-- /.pipeline-table --></div>
-<!-- /.box-tab-content --></div>
-
-<div class="box-tab-content" id="tab-2">
-<div class="pipeline-box-hdg-wrapper">
-<h3 class="hdg-lv3-01">New / Advanced</h3>
-<p class="pipeline-text-date">Since March 31, 2019</p>
-</div>
-
-<div class="pipeline-table" data-mount-name="recentChanges1">
-<div class="inner">
-<ul class="head">
-<li class="item codeName">
-<span>Code Name</span>
-<!-- /.item.product --></li>
-<li class="item genericName">
-<p>Generic name</p>
-<!-- /.item.treatment --></li>
-<li class="item therapeuticArea">
-<p>Therapeutic Area</p>
-<!-- /.item.disease --></li>
-<li class="item indication">
-<p>Indication</p>
-<!-- /.item.disease --></li>
-<li class="item phase">
-<span>Phase</span>
-<ul class="phaseList">
-<li class="item">1</li>
-<li class="item">2</li>
-<li class="item">3</li>
-<li class="item">F/A</li>
-</ul>
-<!-- /.item.phase --></li>
-<li class="item region">
-<p>Region</p>
-<!-- /.item.region --></li>
-<!-- /.head --></ul>
-<ul class="content">
-<!-- /.content --></ul>
-<!-- /.inner --></div>
-<!-- /.pipeline-table --></div>
-
-<!--
-<div class="pipeline-box-hdg-wrapper mt-30">
-<h3 class="hdg-lv3-01">Removed</h3>
-</div>
--->
-
-<div class="pipeline-table pc-hide sp-hide" data-mount-name="recentChanges2">
-<div class="inner">
-<ul class="head">
-<li class="item codeName">
-<span>Code Name</span>
-<!-- /.item.product --></li>
-<li class="item genericName">
-<p>Generic name</p>
-<!-- /.item.treatment --></li>
-<li class="item therapeuticArea">
-<p>Therapeutic Area</p>
-<!-- /.item.disease --></li>
-<li class="item indication">
-<p>Indication</p>
-<!-- /.item.disease --></li>
-<li class="item phase">
-<span>Phase</span>
-<ul class="phaseList">
-<li class="item">1</li>
-<li class="item">2</li>
-<li class="item">3</li>
-<li class="item">F/A</li>
-</ul>
-<!-- /.item.phase --></li>
-<li class="item region">
-<p>Region</p>
-<!-- /.item.region --></li>
-<!-- /.head --></ul>
-<ul class="content">
-<!-- /.content --></ul>
-<!-- /.inner --></div>
-<!-- /.pipeline-table --></div>
-
-<!-- /.box-tab-content --></div>
-
-<!-- /.box-tab-01 --></div>
-<!-- /.pipeline-table-content --></div>
-<noscript>
-<div class="box-01">
-<p>This website uses JavaScript to display a part of contents.</p>
-<p>Please enable JavaScript in your browser to correctly veiw our website.</p>
-<!-- /.box-01 --></div>
-</noscript>
-<!-- /.pipeline-table-wrapper --></div>
-
-<!-- /.str-section-wrapper --></div>
-
-<div class="str-section-wrapper whatwedo-05">
-<div class="str-section">
-
-<div class="box-hdg2-wrapper" id="anc-around-the-world">
-<h2 class="hdg-lv2-02">Around the world</h2>
-<p class="text-lead">Seamless collaboration between regions<br class="pc-hide"> ensures timely<br class="sp-hide"> delivery of novel medicines<br class="pc-hide"> to patients around the world,<br class="sp-hide"> enhanced by<br class="pc-hide"> close ties to research partners.</p>
-<!-- /.box-hdg2-wrapper --></div>
-<!-- /.str-section --></div>
-
-<div class="global-base-wrapper">
-<div class="global-base-inner">
-<ul class="list-global-base col3">
-<li class="col kkc-anime_scroll_common_fade-in-bottom">
-<a href="https://www.kyowakirin.co.jp/index.html" target="_blank" class="panel">
-<div class="box-thumb"><img src="images/index_img_05.jpg" alt=""></div>
-<div class="box-content">
-<h3 class="title">Kyowa Kirin Co., Ltd. (HQ)<span class="sub">JAPAN</span></h3>
-<img src="../share/images/icon_link_blank_07.png" alt="Open in new window" class="icon-blank">
-</div>
-<!-- /.panel --></a>
-</li>
-<li class="col kkc-anime_scroll_common_fade-in-bottom">
-<a href="research_laboratories/index.html#anc-cmc" class="panel">
-<div class="box-thumb"><img src="images/index_img_06.jpg" alt=""></div>
-<div class="box-content">
-<h3 class="title">CMC R&D Center<span class="sub">JAPAN</span></h3>
-<img src="../share/images/icon_link_blank_07.png" alt="Open in new window" class="icon-blank">
-</div>
-<!-- /.panel --></a>
-</li>
-<li class="col kkc-anime_scroll_common_fade-in-bottom">
-<a href="http://www.international.kyowa-kirin.com/index.html" target="_blank" class="panel">
-<div class="box-thumb"><img src="images/index_img_07.jpg" alt=""></div>
-<div class="box-content">
-<h3 class="title">Kyowa Kirin International plc<span class="sub">UK</span></h3>
-<img src="../share/images/icon_link_blank_07.png" alt="Open in new window" class="icon-blank">
-</div>
-<!-- /.panel --></a>
-</li>
-<li class="col kkc-anime_scroll_common_fade-in-bottom">
-<a href="research_laboratories/index.html#anc-tokyo-research-park" class="panel">
-<div class="box-thumb"><img src="images/index_img_08.jpg" alt=""></div>
-<div class="box-content">
-<h3 class="title">Tokyo Research Park<span class="sub">JAPAN</span></h3>
-<img src="../share/images/icon_link_blank_07.png" alt="Open in new window" class="icon-blank">
-</div>
-<!-- /.panel --></a>
-</li>
-<li class="col kkc-anime_scroll_common_fade-in-bottom">
-<a href="../kkd/index.html" target="_blank" class="panel">
-<div class="box-thumb"><img src="images/index_img_09.jpg" alt=""></div>
-<div class="box-content">
-<h3 class="title">Kyowa Kirin Pharmaceutical Development, Inc.<span class="sub">USA</span></h3>
-<img src="../share/images/icon_link_blank_07.png" alt="Open in new window" class="icon-blank">
-</div>
-<!-- /.panel --></a>
-</li>
-<li class="col kkc-anime_scroll_common_fade-in-bottom">
-<a href="http://www.kyowa-kirin.com.cn/index.html" target="_blank" class="panel">
-<div class="box-thumb"><img src="images/index_img_10.jpg" alt=""></div>
-<div class="box-content">
-<h3 class="title">Kyowa Kirin China Pharmaceutical Co., Ltd.<span class="sub">CHINA</span></h3>
-<img src="../share/images/icon_link_blank_07.png" alt="Open in new window" class="icon-blank">
-</div>
-<!-- /.panel --></a>
-</li>
-<li class="col kkc-anime_scroll_common_fade-in-bottom">
-<a href="research_laboratories/index.html#anc-fuji-research-park" class="panel">
-<div class="box-thumb"><img src="images/index_img_11.jpg" alt=""></div>
-<div class="box-content">
-<h3 class="title">Fuji Research Park<span class="sub">JAPAN</span></h3>
-<img src="../share/images/icon_link_blank_07.png" alt="Open in new window" class="icon-blank">
-</div>
-<!-- /.panel --></a>
-</li>
-<li class="col kkc-anime_scroll_common_fade-in-bottom">
-<a href="../kkr/index.html" target="_blank" class="panel">
-<div class="box-thumb"><img src="images/index_img_12.jpg" alt=""></div>
-<div class="box-content">
-<h3 class="title">Kyowa Kirin Pharmaceutical Research, Inc.<span class="sub">USA</span></h3>
-<img src="../share/images/icon_link_blank_07.png" alt="Open in new window" class="icon-blank">
-</div>
-<!-- /.panel --></a>
-</li>
-<li class="col kkc-anime_scroll_common_fade-in-bottom">
-<a href="../kr/index.html" target="_blank" class="panel">
-<div class="box-thumb"><img src="images/index_img_13.jpg" alt=""></div>
-<div class="box-content">
-<h3 class="title">Kyowa Kirin Korea Co., Ltd.<span class="sub">KOREA</span></h3>
-<img src="../share/images/icon_link_blank_07.png" alt="Open in new window" class="icon-blank">
-</div>
-<!-- /.panel --></a>
-</li>
-<li class="col kkc-anime_scroll_common_fade-in-bottom">
-<a href="research_laboratories/index.html#anc-bio-process-research" class="panel">
-<div class="box-thumb"><img src="images/index_img_14.jpg" alt=""></div>
-<div class="box-content">
-<h3 class="title">Bio Process Research and Development Laboratories<span class="sub">JAPAN</span></h3>
-<img src="../share/images/icon_link_blank_07.png" alt="Open in new window" class="icon-blank">
-</div>
-<!-- /.panel --></a>
-</li>
-<!-- /.list-global-base --></ul>
-<button type="button" class="btn-more mt-50">SHOW MORE<span class="status">OPEN</span></button>
-<!-- /.global-base-inner --></div>
-<!-- /.global-base-wrapper --></div>
-
-<!-- /.str-section-wrapper --></div>
-
-<div class="str-section-wrapper whatwedo-06">
-<div class="str-section">
-
-<div class="box-hdg2-wrapper" id="anc-partnerships">
-<h2 class="hdg-lv2-02">Partnerships</h2>
-<p class="text-lead">We are open and flexible to strategic collaborations<br class="pc-hide"> and partnerships<br class="sp-hide"> with pharmaceuticals, biotech,<br class="pc-hide"> and academia partners.</p>
-<!-- /.box-hdg2-wrapper --></div>
-
-<div class="box-text">
-<p class="align-c"><a href="research_collaboration_licensing/index.html" class="link-arrow"><span>LEARN MORE</span></a></p>
+<p class="text-lead">If who we are and what we do resonates with you, then click on the link below for a listing of current vacancies. </p>
 <!-- /.box-text --></div>
-
-<div class="box-image">
-<img src="images/index_img_logo_01.jpg" class="sp-hide" alt="ADARE pharmaceuticals&trade; aevi Allakos genomic medicine&trade; Alnylam PHARMACEUTICALS AMGEN ARDELYX argenx Argos THERAPEUTICS aspen JAPAN ARQULE&reg; astellas Leading Light for Life AstraZeneca Medlmmune AVEO ONCOLOGY Biogen Bristol-Myers Squibb BRITANNIA PHARMACEUTICALS LTD Cantergia CHUGAI Roche A member of the Roche group Daiichi-Sankyo Dexa Medica Expertise for the Promotion of health Eisai FERRING PHARMACEUTICALS first PHARMACEUTICAL FivePrime FOBENI FUJIFILM Genentech IN BUSINESS FOR LIFE gsk HI-Eisai Hisamitsu Humanigen IDC Theranostics Immunas Pharma inibsa HOSPITAL janssen Jazz Pharmaceuticals JB Japan Blood Products Organization LEO Lonza meiji MEI pharma Mitsubishi Tanabe pharma Novartis ONO ONO PHARMACEUTICAL CO.,LTD. orexo Otsuka OXFORD BioTherapeutics Phzer Pierre Fabre REATA REGiMMUNE Sandoz SANOFI SERVIER Solasia Syndax synmosa Takeda TERUMO ZERIA GROUP TILLOTTS PHARMA GI-health is our passion&trade; TOYOCHEM ultragenyx pharmaceutical Winhealth Pharma WIDATRA Yakult ゼリア新薬 ZERIA Zuellig Pharma">
-<img src="images/index_img_logo_01_sp.jpg" class="pc-hide" alt="ADARE pharmaceuticals&trade; aevi Allakos genomic medicine&trade; Alnylam PHARMACEUTICALS AMGEN ARDELYX argenx Argos THERAPEUTICS aspen JAPAN ARQULE&reg; astellas Leading Light for Life AstraZeneca Medlmmune AVEO ONCOLOGY Biogen Bristol-Myers Squibb BRITANNIA PHARMACEUTICALS LTD Cantergia CHUGAI Roche A member of the Roche group Daiichi-Sankyo Dexa Medica Expertise for the Promotion of health Eisai FERRING PHARMACEUTICALS first PHARMACEUTICAL FivePrime FOBENI FUJIFILM Genentech IN BUSINESS FOR LIFE gsk HI-Eisai Hisamitsu Humanigen IDC Theranostics Immunas Pharma inibsa HOSPITAL janssen Jazz Pharmaceuticals JB Japan Blood Products Organization LEO Lonza meiji MEI pharma Mitsubishi Tanabe pharma Novartis ONO ONO PHARMACEUTICAL CO.,LTD. orexo Otsuka OXFORD BioTherapeutics Phzer Pierre Fabre REATA REGiMMUNE Sandoz SANOFI SERVIER Solasia Syndax synmosa Takeda TERUMO ZERIA GROUP TILLOTTS PHARMA GI-health is our passion&trade; TOYOCHEM ultragenyx pharmaceutical Winhealth Pharma WIDATRA Yakult ゼリア新薬 ZERIA Zuellig Pharma">
-<!-- /.box-image --></div>
+<div class="box-layout-btn btn-center" data-column-sp="0">
+<a href="$$dummy$$" class="btn-03"><span>View our Job openings on LinkedIn</span></a>
+<!-- /.box-layout-btn --></div>
+<!-- /.box-hdg2-wrapper --></div>
 
 <!-- /.str-section --></div>
 <!-- /.str-section-wrapper --></div>
+
 
 <partial src="../includes/footer.html"/>
