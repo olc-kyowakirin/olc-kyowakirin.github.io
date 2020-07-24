@@ -636,6 +636,7 @@ template {
 .box-carousel-wrapper,
 .box-corevalue-top .box-corevalue-wrapper > .box-inner,
 .box-preview-globalarea .box-inner,
+.box-cookie-notice .box-inner,
 .global-base-wrapper > .global-base-inner {
   max-width: 1200px;
   margin: 0 auto;
@@ -11883,3 +11884,16 @@ xx.js-enable .box-offices-globalarea .box-panel {
     content: none;
   }
 }
+
+.box-cookie-notice {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    border: 1px solid #f00;
+    background: gray;
+    color: white;
+    z-index: 1000;
+}
+.box-cookie-notice .box-inner { box-shadow: 0 2px 2px rgba(0, 0, 0, .12); }
+.box-cookie-notice .box-text { margin-bottom: 0px; }
+.box-cookie-notice .btn-small{ max-width:100px; }
