@@ -1,0 +1,110 @@
+<partial src="../includes/header.html"/>
+
+<div class="main-content">
+
+<div class="box-breadcrumb">
+<ul class="list-breadcrumb">
+<li><a href="../index-2.html">HOME</a></li>
+<li><a aria-current="page">Terms &amp; Conditions of Use</a></li>
+</ul>
+<!-- /.box-breadcrumb --></div>
+
+<h1 class="hdg-lv1-02">Terms &amp; Conditions of Use</h1>
+<div class="box-text">
+<p>Kyowa Kirin's website (Hereafter, this website) is operated by Kyowa Kirin Co., Ltd. (Hereafter, Kyowa Kirin) or its agent.</p>
+<!-- /.box-text --></div>
+<div class="box-text">
+<p>The terms that the user must agree to in advance when using this website are posted below.</p>
+<!-- /.box-text --></div>
+<div class="box-text">
+<p>Prior to making use of this website, please read the following terms and conditions regarding the use of it in advance carefully and use it only if you agree with them.</p>
+<!-- /.box-text --></div>
+
+
+
+
+<h2 class="hdg-lv2-01">1. Copyrights and Trademarks</h2>
+<div class="box-text">
+<p>All the contents posted on this website (documents, pictures, illustrations, images, diagrams, videos, audio and programs etc.) are protected by copyrights and related laws. Reproduction or transfer of these contents without the permission of the rights holder is prohibited by law. Furthermore, if all or a portion of the content posted on this website, are reproduced or published, in magazines books or other print media, and homepages CD-ROM or other electronic media, the prior written permission of Kyowa Kirin required.</p>
+<!-- /.box-text --></div>
+
+
+
+<h2 class="hdg-lv2-01">2. Links</h2>
+<div class="box-text">
+<p>Kyowa Kirin makes no warranties or guarantees whatsoever regarding the contents of the third party's web site(s) linked to or from this website (“Linked Sites”) and assumes no responsibilities or liabilities for any losses, expenses or damages occurred in making use of such Linked Sites that are independently operated by third parties. When making use of the Linked Sites, you are requested to carefully check the terms and conditions of such Linked Sites.</p>
+<!-- /.box-text --></div>
+
+<div class="box-text">
+<p>If you want to link to this website, please contact Kyowa Kirin regarding the operator and subject of the linking site, the purpose of the link, and the URL of the page of the originating link. The prior written permission of Kyowa Kirin is required.</p>
+<!-- /.box-text --></div>
+
+<div class="box-text">
+<p>Use of the Kyowa Kirin's logo and opening this website inside a frame at a linked site is prohibited. Furthermore, Kyowa Kirin is not responsible for the contents of linked sites.</p>
+<!-- /.box-text --></div>
+
+
+
+<h2 class="hdg-lv2-01">3. Disclaimer</h2>
+<div class="box-text">
+<p>Kyowa Kirin takes due care when posting information on this website, and runs this website and updates the information on it with all due care, but we make no guarantees as to whether the information is accurate, pertinent, and, recent as well as useful to the user and suits the userls purpose.</p>
+<!-- /.box-text --></div>
+
+<div class="box-text">
+<p>We have no responsibility for any loss, damage or problems to the user caused by the use of this website or by information posted on this website.</p>
+<!-- /.box-text --></div>
+
+<div class="box-text">
+<p>Kyowa Kirin may as a general principal correct or delete the information published on this website without prior notice.</p>
+<!-- /.box-text --></div>
+
+<div class="box-text">
+<p>Also, be advised that, for unavoidable reasons, the publication of this website may be interrupted or discontinued without prior notice.</p>
+<!-- /.box-text --></div>
+
+<div class="box-text">
+<p>Kyowa Kirin has no responsibility for any problems, loss or damage to the user caused by correction deletion, suspension or discontinuance of the information posted on this website.</p>
+<!-- /.box-text --></div>
+
+
+
+<h2 class="hdg-lv2-01">4. Information on Future Performance</h2>
+<div class="box-text">
+<p>The parts of this website regarding Kyowa Kirin's future management vision and strategy, marketing strategy, policy, earnings forecast, and development schedule etc are all forecasted and computed based on information as comprehended by Kyowa Kirin at the time of publication. And, various uncertain factors or risks such as change in Kyowa Kirin's business environment, the status of research developments or market scale change may affect it. Be advised that the actual results may differ from the content at the time of publication due to these causes.</p>
+<!-- /.box-text --></div>
+
+
+
+<h2 class="hdg-lv2-01">5. Privacy statement</h2>
+<div class="box-text">
+<p>Kyowa Kirin, respects the privacy of users of this website based on its Privacy Policy.</p>
+<!-- /.box-text --></div>
+
+
+
+<h2 class="hdg-lv2-01">6. Provided Information from You</h2>
+<div class="box-text">
+<p>Kyowa Kirin has no obligation to reply to inquiries by e-mail or web forms, etc.</p>
+<!-- /.box-text --></div>
+
+<div class="box-text">
+<p>Refrain from sending confidential information because the content of questions, opinions and suggestions provided to Kyowa Kirin by e-mail, etc, can not be handled as confidential information. Also, Kyowa Kirin has no responsibility whatever for such information.</p>
+<!-- /.box-text --></div>
+
+<div class="box-text">
+<p>Kyowa Kirin, its subsidiaries and affiliated companies, can freely use information and documents provided by means such as e-mail for any purpose such as reproduction or reprinting and the ideas, concepts, know-how or technology included in them, can be freely used for any purpose such as product research, development, manufacture, or sales.</p>
+<!-- /.box-text --></div>
+
+
+
+<h2 class="hdg-lv2-01">7. Applicable laws and jurisdiction</h2>
+<div class="box-text">
+<p>Unless otherwise established, the laws of Japan are applicable for the use of this website and the interpretation and applicability of its use conditions. And, unless otherwise established, The Tokyo District Court is the first court with exclusive jurisdiction regarding all disputes related this website.</p>
+<!-- /.box-text --></div>
+
+
+
+
+<!-- /.main-content --></div>
+
+<partial src="../includes/footer.html"/>
