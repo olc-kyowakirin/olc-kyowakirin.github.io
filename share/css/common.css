@@ -665,7 +665,8 @@ template {
 .box-careers-top .box-hdg2-wrapper,
 .str-section-wrapper > .str-section.therapeutic-areas,
 .workingwithus-01.str-section-wrapper > .str-section,
-.workingwithus-03.str-section-wrapper > .str-section{
+.workingwithus-03.str-section-wrapper > .str-section,
+.whatwedo-06.str-section-wrapper .box-hdg2-wrapper{
   max-width: 600px;
   margin: 0 auto;
   padding-top: .1px;
@@ -3041,6 +3042,9 @@ a img.icon-pdf {
 }
 .box-modal-content.blueish .box-inner {
   background-color: #1ba8d6;
+}
+div#message-president .box-image{
+    text-align:left;
 }
 .box-modal-content .box-btn-wrapper {
   display: flex;
@@ -9378,6 +9382,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
   }
   .whatwedo-06 .box-hdg2-wrapper + .box-text {
     margin-bottom: 70px;
+    margin-top:40px;
   }
   .box-kkapinnumbers-top #col-drugs-dev .hdg-lv2-02{
     font-size:8rem;
