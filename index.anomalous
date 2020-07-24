@@ -278,10 +278,12 @@ to making positive contributions <br class="pc-hide">in human health and<br clas
 <div class="box-text">
 <p>We look forward to hearing from you,</p>
 </div>
-<div class="box-text">
-<p>President</p>
-<p>Dr. Tan Boon Heon</p>
-</div>
+<div class="box-image">
+<img src="/images/index_img_boon_01.jpg" alt="">
+<div class="caption">
+  <p>President</p>
+  <p>Dr. Tan Boon Heon</p></div>
+<!-- /.box-image --></div>
 <!-- /.box-tab-content --></div>
 <!-- /.box-tab-01 --></div>
 
