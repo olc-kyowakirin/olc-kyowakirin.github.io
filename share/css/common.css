@@ -777,8 +777,7 @@ iframe {
 }
 
 ul,
-ol,
-li {
+ol:not(.showlist) li {
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -1134,7 +1133,12 @@ html:not(.js-enable) .header-nav .header-nav-list.header-search .btn-menu-global
   cursor: pointer;
   border: none;
 }
-
+ol.showlist li{
+    margin-bottom:20px
+}
+ol.showlist li ol{
+    margin-top:10px;
+}
 /* jS用スタイル */
 .js-enable .header-search .menu-global-wrapper {
   display: none;
