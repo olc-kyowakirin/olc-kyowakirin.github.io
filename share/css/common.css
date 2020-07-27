@@ -8915,8 +8915,12 @@ xx.js-enable .box-offices-globalarea .box-panel {
     height: 47px;
   }
   .box-offices-globalarea .box-inner .box-panel .panel .box-content {
-    padding: 15px 14px 24px;
+    padding: 15px 14px 30px;
   }
+  .box-offices-globalarea .box-inner .box-panel .panel .box-thumb img{
+    max-width: auto;
+    height: 100%;
+}
   .box-preview-globalarea .box-inner .box-target-panel {
     background-color: #fff;
     width: 417px;
