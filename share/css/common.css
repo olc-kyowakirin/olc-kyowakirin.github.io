@@ -1914,7 +1914,6 @@ a img.icon-pdf {
   position: static;
 }
 
-.btn-01.btn-small,
 .btn-small.btn-back {
   font-size: 1.6rem;
   max-width: 230px;
@@ -11893,11 +11892,12 @@ xx.js-enable .box-offices-globalarea .box-panel {
     position: fixed;
     width: 100%;
     bottom: 0px;
-    border: 1px solid #f00;
-    background: gray;
-    color: white;
+    background: white;
+    color: #5d616;
     z-index: 1000;
+    padding: 1em;
+    box-shadow: 0 -2px 2px rgba(0, 0, 0, .12);
 }
-.box-cookie-notice .box-inner { box-shadow: 0 2px 2px rgba(0, 0, 0, .12); }
 .box-cookie-notice .box-text { margin-bottom: 0px; }
-.box-cookie-notice .btn-small{ max-width:100px; }
+.box-cookie-notice .btn-small{ max-width:100px; margin-left: 20px;}
+.btn-01.btn-small {font-size: 1.3rem; padding: 5px 10px;}
