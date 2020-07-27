@@ -666,9 +666,14 @@ template {
 .box-careers-top .box-hdg2-wrapper,
 .str-section-wrapper > .str-section.therapeutic-areas,
 .workingwithus-01.str-section-wrapper > .str-section,
-.workingwithus-03.str-section-wrapper > .str-section,
-.whatwedo-06.str-section-wrapper .box-hdg2-wrapper{
+.workingwithus-03.str-section-wrapper > .str-section{
   max-width: 600px;
+  margin: 0 auto;
+  padding-top: .1px;
+  padding-bottom: .1px;
+}
+.whatwedo-06.str-section-wrapper .box-hdg2-wrapper{
+  max-width: 750px;
   margin: 0 auto;
   padding-top: .1px;
   padding-bottom: .1px;
