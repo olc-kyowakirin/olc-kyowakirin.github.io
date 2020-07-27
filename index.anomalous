@@ -434,15 +434,15 @@ to making positive contributions <br class="pc-hide">in human health and<br clas
   <div class="box-thumb"><img src="images/index_img_regionalnetwork_panel_singapore_01_on.jpg" alt=""></div>
   <div class="box-content">
   <h4 class="title">Kyowa Kirin Asia Pacific Pte. Ltd.<span class="sub">SINGAPORE</span></h4>
-  <!--<p class="regionalarea-address">80 Robinson Road - #22-01/01A<br>Singapore 068898</p>
-  <a href="https://www.google.com.sg/maps/dir//80+Robinson+Rd,+Singapore+068898/@1.2800365,103.8470064,16.96z/data=!4m9!4m8!1m0!1m5!1m1!1s0x31da190d8aa6f957:0x7b4dea4a70665f84!2m2!1d103.8492068!2d1.2800305!3e0" target="_blank">Find the direction<img src="share/images/icon_link_blank_07.png" alt="Open in new window" class="icon-blank"></a> -->
+  <p class="regionalarea-address">80 Robinson Road<br>#22-01/01A<br>Singapore 068898</p>
   <!-- /.box-content --></div>
   <!-- /.box-target-panel --></div>
 
 <div class="box-target-panel" id="regionalarea-malaysia" data-content-target="regionalarea-malaysia">
 <div class="box-thumb"><img src="images/index_img_regionalnetwork_panel_malaysia_01_on.jpg" alt=""></div>
 <div class="box-content">
-<h4 class="title">Kyowa Kirin Malaysia<span class="sub">MALAYSIA</span></h4>
+<h4 class="title">Kyowa Kirin Malaysia Sdn Bhd<span class="sub">MALAYSIA</span></h4>
+<p class="regionalarea-address">A501 West Wing, Wisma Consplant 2,<br> Jalan SS 16/1, Subang Jaya,<br>47500 Selangor, Malaysia</p>
 <!-- /.box-content --></div>
 <!-- /.box-target-panel --></div>
 
@@ -456,14 +456,20 @@ to making positive contributions <br class="pc-hide">in human health and<br clas
 <div class="box-target-panel" id="regionalarea-australia" data-content-target="regionalarea-australia">
 <div class="box-thumb"><img src="images/index_img_regionalnetwork_panel_australia_01_on.jpg" alt=""></div>
 <div class="box-content">
-<h4 class="title">Kyowa Kirin Australia <span class="sub">AUSTRALIA</span></h4>
+<h4 class="title">Kyowa Kirin Australia Pty Ltd <span class="sub">AUSTRALIA</span></h4>
+<p class="regionalarea-address">68 York Street,<br>Sydney,<br>NSW 2000, Australia</p>
 <!-- /.box-content --></div>
 <!-- /.box-target-panel --></div>
 
 <div class="box-target-panel" id="regionalarea-china" data-content-target="regionalarea-china">
 <div class="box-thumb"><img src="images/index_img_regionalnetwork_panel_china_01_on.jpg" alt=""></div>
 <div class="box-content">
-<h4 class="title">Kyowa Kirin China<span class="sub">CHINA</span></h4>
+<h4 class="title">Kyowa Hakko Kirin China Pharmaceutical Co., Ltd. <span class="sub">CHINA</span></h4>
+<p class="regionalarea-address">970 Longdong Road,<br>Pudong New Area,<br>Shanghai, 201203, China</p>
+<p class="regionalarea-address"><strong>Phone number:</strong> +86-021-5080-0909</p>
+<a href="http://www.kyowa-kirin.com.cn/en/index.html" target="_blank">website<img src="share/images/icon_link_blank_07.png" alt="Open in new window" class="icon-blank"></a>
+
+
 <!-- /.box-content --></div>
 <!-- /.box-target-panel --></div>
 
@@ -471,6 +477,8 @@ to making positive contributions <br class="pc-hide">in human health and<br clas
 <div class="box-thumb"><img src="images/index_img_regionalnetwork_panel_taiwan_01_on.jpg" alt=""></div>
 <div class="box-content">
 <h4 class="title">Kyowa Kirin Taiwan Co., Ltd. <span class="sub">TAIWAN</span></h4>
+<p class="regionalarea-address">9th floor, No. 68, Section 2,<br>Zhongshan North Road, Zhongshan District,<br>Taipei City, Taiwan 10448</p>
+<p class="regionalarea-address">富邦中山大樓9F<br>中山北路二段68號</p>
 <!-- /.box-content --></div>
 <!-- /.box-target-panel --></div>
 
@@ -478,6 +486,7 @@ to making positive contributions <br class="pc-hide">in human health and<br clas
 <div class="box-thumb"><img src="images/index_img_regionalnetwork_panel_korea_01_on.jpg" alt=""></div>
 <div class="box-content">
 <h4 class="title">Kyowa Kirin Korea Co., Ltd. ( 한국어 )<span class="sub">KOREA</span></h4>
+<p class="regionalarea-address">11F, Asia Tower,<br>430, Nonhyeon-ro, Gangnam-gu,<br>Seoul, 06223, Rep. of Korea</p>
 <!-- /.box-content --></div>
 <!-- /.box-target-panel --></div>
 
@@ -485,6 +494,7 @@ to making positive contributions <br class="pc-hide">in human health and<br clas
 <div class="box-thumb"><img src="images/index_img_regionalnetwork_panel_hongkong_01_on.jpg" alt=""></div>
 <div class="box-content">
 <h4 class="title">Kyowa Kirin Hong Kong Co., Ltd <span class="sub">HONG KONG</span></h4>
+<p class="regionalarea-address">Unit B, 13/F., 169 Electric Road,<br>North Point, Hong Kong</p>
 <!-- /.box-content --></div>
 <!-- /.box-target-panel --></div>
 <!-- /.box-inner --></div>
@@ -517,7 +527,7 @@ to making positive contributions <br class="pc-hide">in human health and<br clas
 <a href="#regionalarea-malaysia" class="panel">
   <div class="box-thumb"><img src="images/index_img_regionalnetwork_panel_malaysia_01.jpg" alt=""></div>
   <div class="box-content">
-  <h3 class="title">Kyowa Kirin Malaysia<span class="sub">MALAYSIA</span></h3>
+  <h3 class="title">Kyowa Kirin Malaysia Sdn Bhd <span class="sub">MALAYSIA</span></h3>
   <p class="guide"><img src="share/images/icon_link_blank_07.png" alt="Open in new window" class="icon-blank"></p>
   </div>
 <!-- /.panel Malaysia --></a>
@@ -535,7 +545,7 @@ to making positive contributions <br class="pc-hide">in human health and<br clas
 <a href="#regionalarea-australia" class="panel">
   <div class="box-thumb"><img src="images/index_img_regionalnetwork_panel_australia_01.jpg" alt=""></div>
   <div class="box-content">
-  <h3 class="title">Kyowa Kirin Australia<span class="sub">AUSTRALIA</span></h3>
+  <h3 class="title">Kyowa Kirin Australia Pty Ltd<span class="sub">AUSTRALIA</span></h3>
   <p class="guide"><img src="share/images/icon_link_blank_07.png" alt="Open in new window" class="icon-blank"></p>
   </div>
 <!-- /.panel Australia --></a>
@@ -544,7 +554,7 @@ to making positive contributions <br class="pc-hide">in human health and<br clas
 <a href="#regionalarea-china" class="panel">
   <div class="box-thumb"><img src="images/index_img_regionalnetwork_panel_china_01.jpg" alt=""></div>
   <div class="box-content">
-  <h3 class="title">Kyowa Kirin China<span class="sub">CHINA</span></h3>
+  <h3 class="title">Kyowa Hakko Kirin China Pharmaceutical Co., Ltd.<span class="sub">CHINA</span></h3>
   <p class="guide"><img src="share/images/icon_link_blank_07.png" alt="Open in new window" class="icon-blank"></p>
   </div>
 <!-- /.panel China --></a>
