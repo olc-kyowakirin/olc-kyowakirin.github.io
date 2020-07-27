@@ -11901,3 +11901,9 @@ xx.js-enable .box-offices-globalarea .box-panel {
 .box-cookie-notice .box-text { margin-bottom: 0px; }
 .box-cookie-notice .btn-small{ max-width:100px; margin-left: 20px;}
 .btn-01.btn-small {font-size: 1.3rem; padding: 5px 10px;}
+
+
+.box-cookie-notice .btn-01.btn-small:hover{
+  background: #ee7736;
+  color: white;
+}
