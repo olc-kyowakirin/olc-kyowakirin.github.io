@@ -5,8 +5,8 @@ $(function () {
         if($cookie_notice=="accepted") { $(".box-cookie-notice").hide(); }
         $('a#cookie-notice-ok').on("click",function(){
           var $cookie_notice = localStorage.getItem('cookie-notice');
-          alert( $cookie_notice );
           localStorage.setItem('cookie-notice','accepted');
+          $(".box-cookie-notice").hide();
         });
     }());
 });

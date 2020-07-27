@@ -777,8 +777,7 @@ iframe {
 }
 
 ul,
-ol,
-li {
+ol:not(.showlist) li {
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -1134,7 +1133,12 @@ html:not(.js-enable) .header-nav .header-nav-list.header-search .btn-menu-global
   cursor: pointer;
   border: none;
 }
-
+ol.showlist li{
+    margin-bottom:20px
+}
+ol.showlist li ol{
+    margin-top:10px;
+}
 /* jS用スタイル */
 .js-enable .header-search .menu-global-wrapper {
   display: none;
@@ -1910,7 +1914,6 @@ a img.icon-pdf {
   position: static;
 }
 
-.btn-01.btn-small,
 .btn-small.btn-back {
   font-size: 1.6rem;
   max-width: 230px;
@@ -8790,11 +8793,11 @@ xx.js-enable .box-offices-globalarea .box-panel {
     right: -29.91667vw;
   }
   .box-mainvisual-top .parts-3 {
-    right: 10.41667vw;
+    right: 0vw;
     width: 55.83333vw;
   }
   .box-mainvisual-top .parts-3.animation-on {
-    right: 20.02102vw;
+    right:0vw;
   }
   .box-mainvisual-top .parts-4 {
     left: -30.5vw;
@@ -9821,11 +9824,11 @@ xx.js-enable .box-offices-globalarea .box-panel {
     right: 0;
   }
   .box-mainvisual-top .parts-3 {
-    right: 20.02102vw;
+    right: 0vw;
     width: 41.98634vw;
   }
   .box-mainvisual-top .parts-3.animation-on {
-    right: 20.02102vw;
+    right: 0vw;
   }
   .box-mainvisual-top .parts-4 {
     left: 0;
@@ -9837,6 +9840,9 @@ xx.js-enable .box-offices-globalarea .box-panel {
 }
 
 @media screen and (max-width: 768px) {
+  .box-mainvisual-top .parts-3{
+    display:none;
+  }
   .header > .header-inner .logo{
     padding-top: 10px;
   }
@@ -11889,11 +11895,18 @@ xx.js-enable .box-offices-globalarea .box-panel {
     position: fixed;
     width: 100%;
     bottom: 0px;
-    border: 1px solid #f00;
-    background: gray;
-    color: white;
+    background: white;
+    color: #5d616;
     z-index: 1000;
+    padding: 1em;
+    box-shadow: 0 -2px 2px rgba(0, 0, 0, .12);
 }
-.box-cookie-notice .box-inner { box-shadow: 0 2px 2px rgba(0, 0, 0, .12); }
 .box-cookie-notice .box-text { margin-bottom: 0px; }
-.box-cookie-notice .btn-small{ max-width:100px; }
+.box-cookie-notice .btn-small{ max-width:100px; margin-left: 20px;}
+.btn-01.btn-small {font-size: 1.3rem; padding: 5px 10px;}
+
+
+.box-cookie-notice .btn-01.btn-small:hover{
+  background: #ee7736;
+  color: white;
+}
