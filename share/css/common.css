@@ -8793,11 +8793,11 @@ xx.js-enable .box-offices-globalarea .box-panel {
     right: -29.91667vw;
   }
   .box-mainvisual-top .parts-3 {
-    right: 10.41667vw;
+    right: 0vw;
     width: 55.83333vw;
   }
   .box-mainvisual-top .parts-3.animation-on {
-    right: 20.02102vw;
+    right:0vw;
   }
   .box-mainvisual-top .parts-4 {
     left: -30.5vw;
@@ -9824,11 +9824,11 @@ xx.js-enable .box-offices-globalarea .box-panel {
     right: 0;
   }
   .box-mainvisual-top .parts-3 {
-    right: 20.02102vw;
+    right: 0vw;
     width: 41.98634vw;
   }
   .box-mainvisual-top .parts-3.animation-on {
-    right: 20.02102vw;
+    right: 0vw;
   }
   .box-mainvisual-top .parts-4 {
     left: 0;
@@ -9840,6 +9840,9 @@ xx.js-enable .box-offices-globalarea .box-panel {
 }
 
 @media screen and (max-width: 768px) {
+  .box-mainvisual-top .parts-3{
+    display:none;
+  }
   .header > .header-inner .logo{
     padding-top: 10px;
   }
