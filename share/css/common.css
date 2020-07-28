@@ -8839,7 +8839,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
   }
   .box-corevalue-top .box-corevalue-wrapper {
     background-image: url("../../images/index_bg_corevalue_08.jpg");
-    height: 1186px;
+    height: 950px;
     margin-top: 40px;
   }
   .box-corevalue-top .box-corevalue-wrapper .parts-commitment {
@@ -8847,17 +8847,26 @@ xx.js-enable .box-offices-globalarea .box-panel {
     left: 14px;
   }
   .box-corevalue-top .box-corevalue-wrapper .parts-innovation {
-    bottom: 250px;
-    left: 250px;
+    bottom: -140px;
+    left: 32%;
   }
   .box-corevalue-top .box-corevalue-wrapper .parts-integrity {
-    bottom: -50px;
+    bottom: -130px;
     left: -50px;
   }
   .box-corevalue-top .box-corevalue-wrapper .parts-temwork {
     right: 30px;
     bottom: -180px;
   }
+.box-corevalue-top .box-corevalue-wrapper .parts-integrity .sp-hide.parts-feature-before,
+.box-corevalue-top .box-corevalue-wrapper .parts-integrity .parts-feature-after.minimum,
+.box-corevalue-top .box-corevalue-wrapper .parts-temwork .sp-hide.parts-feature-before,
+.box-corevalue-top .box-corevalue-wrapper .parts-temwork .parts-feature-after.minimum,
+.box-corevalue-top .box-corevalue-wrapper .parts-innovation .sp-hide.parts-feature-before,
+.box-corevalue-top .box-corevalue-wrapper .parts-innovation .parts-feature-after.minimum{
+    max-width:85%;
+}
+
   .box-kkapinnumbers-top {
     margin-top: 0;
   }
@@ -9682,8 +9691,8 @@ xx.js-enable .box-offices-globalarea .box-panel {
 
 @media screen and (min-width: 884px) {
   .box-corevalue-top .box-corevalue-wrapper .parts-temwork {
-    right: 140px;
-    bottom: -180px;
+    right: 0px;
+    bottom: -140px;
   }
   .workingwithus-02 .box-image{
  padding-left:2em;
