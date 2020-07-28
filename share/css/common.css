@@ -1512,10 +1512,18 @@ main.type-01 + footer {
 .workingwithus-03 .btn-03:hover{
     background-color: #EE7735
 }
-.box-kkapinnumbers-top .box-hdg2-wrapper .box-layout.col4 .hdg-lv2-02{
+.box-kkapinnumbers-top .box-hdg2-wrapper .box-layout.col4 .hdg-lv2-02,
+.box-kkapinnumbers-top .box-hdg2-wrapper .box-layout.col3 .hdg-lv2-02{
     color: #5d6164;
     margin-bottom:0;
     font-weight: 700;
+}
+.box-kkapinnumbers-top .box-hdg2-wrapper .box-layout.col3,
+.box-kkapinnumbers-top .box-hdg2-wrapper .box-layout.col4 {
+  margin: 0 auto;
+  padding-top: .1px;
+  padding-bottom: .1px;
+  max-width: 680px;
 }
 .box-kkapinnumbers-top .box-hdg2-wrapper .box-layout.col4 .bolder{
   font-weight: 500;
