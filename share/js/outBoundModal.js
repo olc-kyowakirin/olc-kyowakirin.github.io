@@ -10,7 +10,6 @@ $(function () {
     * ======================================== */
     (function ($) {
         var whiteListHost = [ // モーダルを表示させないhostname + directore
-            'kyowakirin.ourlittlecompany.com.sg',
             'www.kyowa-kirin.co.jp',
             'www.kyowa-kirin.com',
             'ir.kyowa-kirin.com/en',
