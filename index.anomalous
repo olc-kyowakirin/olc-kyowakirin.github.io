@@ -340,7 +340,8 @@ to making positive contributions <br class="pc-hide">in human health and<br clas
 <div class="box-kkapinnumbers-top">
 <div class="box-hdg2-wrapper" id="anc-kkap-in-numbers">
 <h2 class="hdg">Kyowa Kirin Asia Pacific</h2>
-<div class="box-layout col4" data-sp-slider="0">
+
+<div class="box-layout col3" data-sp-slider="0">
 <div class="col" id="col-drugs-dev">
 <div class="box-text"></div>
 <div class="text-lead">
@@ -371,6 +372,23 @@ to making positive contributions <br class="pc-hide">in human health and<br clas
 <!-- /.box-text--></div>
 <!-- /.col --></div>
 
+<div class="col">
+<div class="box-text"></div>
+<div class="text-lead">
+<p class="hdg-lv2-02"></p>
+<p class="bolder"></p>
+<!-- /.box-text--></div>
+<!-- /.col --></div>
+<!-- /.box-layout --></div>
+
+
+<div class="box-layout col4" data-sp-slider="0">
+<div class="col">
+  <div class="box-text"></div>
+  <div class="text-lead">
+  <p></p>
+  <!-- /.box-text--></div>
+<!-- /.col --></div>
 <div class="col" id="col-antibody-drugs">
 <div class="box-text"></div>
 <div class="text-lead">
@@ -384,22 +402,7 @@ to making positive contributions <br class="pc-hide">in human health and<br clas
 <div class="col">
 <div class="box-text"></div>
 <div class="text-lead">
-<p></p>
-<!-- /.box-text--></div>
-<!-- /.col --></div>
-
-<div class="col">
-<div class="box-text"></div>
-<div class="text-lead">
-<p class="hdg-lv2-02">XX</p>
-<p class="bolder">patients</p>
-<!-- /.box-text--></div>
-<!-- /.col --></div>
-
-<div class="col">
-<div class="box-text"></div>
-<div class="text-lead">
-<p class="hdg-lv2-02">XXX</p>
+<p class="hdg-lv2-02">500</p>
 <p class="bolder">employees</p>
 <!-- /.box-text--></div>
 <!-- /.col --></div>
