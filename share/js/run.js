@@ -1260,7 +1260,7 @@
         var $targetPanel;
         var $targetAfterPanel;
         var $btnClose;
-        var btnCloseHtml = '<button class="btn-close" data-content-target="globalarea-normal">close panel</button>';
+        var btnCloseHtml = '<button class="btn-close" data-content-target="regionalarea-normal">close panel</button>';
         var fadeDuration = 200;
         var funcChangeAreaImage;
         var funcChangeAfterPanel;
