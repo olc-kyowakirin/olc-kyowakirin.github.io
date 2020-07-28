@@ -1,4 +1,4 @@
-<partial src="/includes/header.html"/> 
+<partial src="/includes/header.html"/>
 
 <div class="box-mainvisual-top kkc-anime_load_top-mainvisual_arrow">
 <div class="box-inner box-cutting-edge-wrapper">
@@ -508,11 +508,15 @@ to making positive contributions <br class="pc-hide">in human health and<br clas
 <!-- /.box-inner --></div>
 
 <div class="box-image">
-<img src="images/index_img_globalnetwork_01.png" data-content-target="globalarea-normal" alt="">
-<img src="images/index_img_globalnetwork_japan_01.png" data-content-target="globalarea-japan" alt="">
-<img src="images/index_img_globalnetwork_singapore_01.png" data-content-target="globalarea-singapore" alt="">
-<img src="images/index_img_globalnetwork_uk_01.png" data-content-target="globalarea-uk" alt="">
-<img src="images/index_img_globalnetwork_usa_01.png" data-content-target="globalarea-usa" alt="">
+<img src="images/index_img_regionalnetwork_01.png" data-content-target="regionalarea-normal" alt="">
+<img src="images/index_img_regionalnetwork_singapore_01.png" data-content-target="regionalarea-singapore" alt="">
+<img src="images/index_img_regionalnetwork_malaysia_01.png" data-content-target="regionalarea-malaysia" alt="">
+<img src="images/index_img_regionalnetwork_thailand_01.png" data-content-target="regionalarea-thailand" alt="">
+<img src="images/index_img_regionalnetwork_australia_01.png" data-content-target="regionalarea-australia" alt="">
+<img src="images/index_img_regionalnetwork_china_01.png" data-content-target="regionalarea-china" alt="">
+<img src="images/index_img_regionalnetwork_taiwan_01.png" data-content-target="regionalarea-taiwan" alt="">
+<img src="images/index_img_regionalnetwork_korea_01.png" data-content-target="regionalarea-korea" alt="">
+<img src="images/index_img_regionalnetwork_hongkong_01.png" data-content-target="regionalarea-hong-kong" alt="">
 <!-- /.box-image --></div>
 
 <!--/.box-preview-globalarea-outer --></div>
