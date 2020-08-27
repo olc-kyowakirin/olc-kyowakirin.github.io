@@ -682,6 +682,10 @@ template {
 .str-section.str-section-spacing{
   padding-top: 50px;
 }
+.whatwedo-01 .str-section.str-section-spacing{
+  padding-top:100px;
+}
+
 .whatwedo-06.str-section-wrapper .box-hdg2-wrapper{
   max-width: 750px;
   margin: 0 auto;
