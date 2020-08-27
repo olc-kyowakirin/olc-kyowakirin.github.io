@@ -683,6 +683,22 @@ template {
   padding-top: .1px;
   padding-bottom: .1px;
 }
+.homepage-header{
+  background-image: url('/images/index_bg_homepage_01.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: fixed;
+}
+.who-we-are-header{
+  background-image: url('/images/index_bg_who-we-are_01.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: fixed;
+}
+
+
 .str-section-wrapper.homepage-02 .box-hdg2-wrapper{
   padding-top: 100px;
   text-align: center;
@@ -1450,6 +1466,10 @@ main.type-01 + footer {
 
 .box-hdg-wrapper.type-02 {
   min-height: 81.13333vw;
+}
+.box-hdg-wrapper.type-03,
+.box-hdg-wrapper.type-04{
+  min-height: 60vh;
 }
 
 .box-hdg-wrapper.type-02 > .hdg-lv1-01 {
@@ -4990,6 +5010,11 @@ div#message-president .box-image{
   left: 0;
   max-width:1200px;
 }
+.box-hdg-wrapper.type-03 .image img,
+.box-hdg-wrapper.type-04 .image img{
+    position: absolute;
+    bottom: 0;
+}
 
 /* TOP: inNumber
 * ========================================================================= */
@@ -5371,7 +5396,7 @@ div#message-president .box-image{
 /* TOP: At a grance
 * ========================================================================= */
 .box-atagrance-top {
-  margin-top: 120vw;
+  margin-top: 100px;
 }
 
 .box-atagrance-top > .box-inner {
@@ -7916,6 +7941,10 @@ xx.js-enable .box-offices-globalarea .box-panel {
   }
   .box-hdg-wrapper.type-03 {
     min-height: 100vh;
+    margin-top: -47px;
+  }
+  .box-hdg-wrapper.type-04 {
+    min-height: 65vh;
     margin-top: -47px;
   }
   .box-hdg-wrapper.type-arrow::after {
