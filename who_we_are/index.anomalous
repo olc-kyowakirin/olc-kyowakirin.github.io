@@ -1,10 +1,9 @@
-<partial src="../includes/header.html"/> 
+<partial src="../includes/header.html"/>
 
-<div class="box-hdg-wrapper type-02 kkc-anime_load_other-mainvisual">
-<h1 class="hdg-lv1-01">What we do<span class="text-sub">Using innovation to help patients</span></h1>
+<div class="box-hdg-wrapper type-04 kkc-anime_load_other-mainvisual who-we-are-header">
 <div class="image">
-<img src="images/index_img_hdg_01.jpg" alt="" class="sp-hide">
-<img src="images/index_img_hdg_01_sp.jpg" alt="" class="pc-hide">
+<img src="/images/index_bg_mainsection_01.png" alt="">
+  <!-- /.image --></div>
 <!-- /.image --></div>
 <!-- /.box-hdg-wrapper --></div>
 
