@@ -1,32 +1,18 @@
 <partial src="/includes/header.html"/>
 
 <div class="box-mainvisual-top kkc-anime_load_top-mainvisual_arrow">
-<div class="box-inner box-cutting-edge-wrapper">
-  <div class="box-layout col2 sp-col3" data-sp-slider="0">
-  <div class="col">
-  <div class="box-text">
-    <div class="box-lead kkc-anime_load_top-mainvisual_lead">
-    <h1>We live only once.</h1>
-    <p class="text-lead">We are dedicated to help patients live better lives, <br class="sp-hide">using the power of innovation in life-sciences and<br class="sp-hide">technologies.</p></div>
-  <!-- /.box-text--></div>
-  <!-- /.col --></div>
-  <div class="col">
-  <!-- /.col --></div>
-  <!-- /.box-layout --></div>
-
-<div class="box-parts parts-1 kkc-anime_load_top-mainvisual_parts-1">
-<img src="images/index_img_mainparts_01.png" class="sp-hide" alt="Nephrology">
-<img src="images/index_img_mainparts_01_sp.png" class="pc-hide" alt="Nephrology">
-</div>
-<div class="box-parts parts-3 kkc-anime_load_top-mainvisual_parts-3 kkc-anime_state_animation-end">
-<img src="/images/index_img_mainparts_03.png" class="sp-hide" alt="Central Nervous System">
-<img src="/images/index_img_mainparts_03_sp.png" class="pc-hide" alt="Central Nervous System">
-</div>
-<div class="box-parts parts-4 kkc-anime_load_top-mainvisual_parts-4">
-<img src="images/index_img_mainparts_04.png" class="sp-hide" alt="Oncology">
-<img src="images/index_img_mainparts_04_sp.png" class="pc-hide" alt="Oncology">
-</div>
-<!-- /.box-mainvisual --></div>
+<div class="box-hdg-wrapper type-03 kkc-anime_load_other-mainvisual">
+<div class="box-hdg-container">
+<div class="box-content-right">
+<h1 class="hdg-lv1-04">Taking a Walk of Life.<br>One Life at a Time.</h1>
+<a href="#anc-areas-of-focus" class="btn-olc-small-size btn-orange-white btn-arrow-down btn-align-right"><span>Learn more</span></a>
+<!-- /.box-content-right --></div>
+<!-- /.box-hdg-container --></div>
+<div class="image">
+<img src="/images/index_bg_mainsection_01.jpg" alt="" class="sp-hide">
+<img src="/images/index_bg_mainsection_01_sp.jpg" alt="" class="pc-hide">
+<!-- /.image --></div>
+<!-- /.box-hdg-wrapper --></div>
 
 <!-- Notice area -->
 <div class="_sectionNews">
@@ -35,13 +21,10 @@
 <div class="_sectionNews-box">
 <dl class="contentList">
 <div class="box">
-<dt><time datetime="2020-04-30">April 30, 2020</time></dt><dd><a href="notice/2020/pdf/e20200430_01.pdf" target="_blank">Kyowa Kirin’s Response to the COVID-19 Pandemic<img src="share/images/icon_pdf_blank_01.png" alt="PDF file" class="icon-pdf"></a></dd>
+<dt><time datetime="2020-04-30">April 30, 2020</time></dt><dd><a href="#" target="_blank">Kyowa Kirin’s Response to the COVID-19 Pandemic</a></dd>
 </div>
 <div class="box">
-<dt><time datetime="2020-04-08">April 8, 2020</time></dt><dd><a href="sustainability/community_involvement/access_to_health_and_nutrition/index.html#anc-medical05-03">Kyowa Kirin publishes &quot;Cutaneous T-cell lymphoma (CTCL) Patient Experiences Report&quot;</a></dd>
-</div>
-<div class="box">
-<dt><time datetime="2020-03-26">March 26, 2020</time></dt><dd><a href="notice/2020/pdf/e20200326_01.pdf" target="_blank">Kyowa Kirin Statement- Responding COVID-19 Situation<img src="share/images/icon_pdf_blank_01.png" alt="PDF file" class="icon-pdf"></a></dd>
+<dt><time datetime="2020-04-08">April 8, 2020</time></dt><dd><a href="#">Kyowa Kirin’s Response to the COVID-19 Pandemic<img src="share/images/icon_pdf_blank_01.png" alt="PDF file" class="icon-pdf"></a></dd>
 </div>
 </dl>
 <div class="button">
@@ -51,291 +34,125 @@
 </div>
 </div>
 <!-- /Notice area -->
+<div class="str-section-wrapper whatwedo-01">
+<div class="str-section">
 
-
-
-<div class="box-ourvision-top">
-<div class="box-hdg2-wrapper" id="anc-our-vision">
-<h2 class="hdg-lv2-02">Our vision</h2>
-<p class="text-lead">Kyowa Kirin is a Japan-based Global Specialty Pharmaceutical Company contributing to human health and wellbeing worldwide through innovative drug discovery and global commercialization, driven by state of-the-art antibody technologies mainly in the core therapeutic areas of oncology, nephrology and immunology.</p>
-<br>
-<p class="text-lead">In APAC, we aim to be the best in class specialty pharmaceutical company in our therapeutic areas, and partner of choice for the commercialisation of specialty drugs.</p>
+<div class="box-hdg2-wrapper" id="anc-areas-of-focus">
+<h2 class="hdg-lv2-02">Areas of focus</h2>
+<p class="text-lead">We are committed towards our patient health and their well-being through innovative drug discovery and global commercialization, driven by state-of-the-art antibody technologies,
+in the core therapeutic areas of: nephrology, oncology, central nervous system and immunology and allergy.</p>
 <!-- /.box-hdg2-wrapper --></div>
-<!-- /.box-ourvision-top --></div>
+<!-- /.str-section --></div>
 
-<div class="box-ourphilosophy-top">
-<div class="box-hdg2-wrapper" id="anc-our-philosophy">
-<h2 class="hdg-lv2-02">Our philosophy</h2>
-<p class="text-lead">The Kyowa Kirin Group companies strive to contribute to the health and well-being of people around the world by creating new value through the pursuit of advances in life sciences and technologies.</p>
+<div class="area-focus-wrapper">
+<div class="area-focus-inner">
+<p class="title">Cutting-edge biotechnology<br> centered on antibody<br> engineering technology</p>
+<!-- /.area-focus-inner --></div>
+<div class="area-focus-icon icon-01 kkc-anime_scroll_focus-icon_trigger kkc-anime_trigger_focus-icon_item kkc-anime_state_show kkc-anime_state_ignition kkc-anime_state_animation-end" data-trigger="focus-icon1" data-trigger-name="focus-icon1">
+<img src="/what_we_do/images/index_img_parts_01.png" class="sp-hide" alt="Nephrology">
+<img src="/what_we_do/images/index_img_parts_01_sp.png" class="pc-hide" alt="Nephrology">
+</div>
+<div class="area-focus-icon icon-02 kkc-anime_trigger_focus-icon_item kkc-anime_state_ignition kkc-anime_state_animation-end" data-trigger-name="focus-icon1">
+<img src="/what_we_do/images/index_img_parts_02.png" class="sp-hide" alt="Immunology &amp; Allergy">
+<img src="/what_we_do/images/index_img_parts_02_sp.png" class="pc-hide" alt="Immunology &amp; Allergy">
+</div>
+<div class="area-focus-icon icon-03 kkc-anime_scroll_focus-icon_trigger kkc-anime_trigger_focus-icon_item kkc-anime_state_show kkc-anime_state_ignition kkc-anime_state_animation-end" data-trigger="focus-icon2" data-trigger-name="focus-icon2">
+<img src="/what_we_do/images/index_img_parts_03.png" class="sp-hide" alt="Oncology">
+<img src="/what_we_do/images/index_img_parts_03_sp.png" class="pc-hide" alt="Oncology">
+</div>
+<div class="area-focus-icon icon-04 kkc-anime_trigger_focus-icon_item kkc-anime_state_ignition kkc-anime_state_animation-end" data-trigger-name="focus-icon2">
+<img src="/what_we_do/images/index_img_parts_04.png" class="sp-hide" alt="Central Nervous System">
+<img src="/what_we_do/images/index_img_parts_04_sp.png" class="pc-hide" alt="Central Nervous System">
+</div>
+<!-- /.area-focus-wrapper --></div>
+<!-- /.str-section-wrapper --></div>
+
+<div class="str-section-wrapper homepage-02">
+<div class="box-who-we-are-button">
+<div class="box-hdg2-wrapper">
+<a href="$$dummy$$" class="btn-olc-small-size btn-orange-grey"><span>Who we are</span></a>
 <!-- /.box-hdg2-wrapper --></div>
-<!-- /.box-ourphilosophy-top --></div>
-<div class="box-corevalue-top">
+<!-- /.box-who-we-are-button --></div>
+<!-- /.str-section-wrapper --></div>
 
+<div class="str-section-wrapper homepage-03">
+<div class="box-get-to-know-us">
 <div class="box-hdg2-wrapper" id="anc-core-values">
-<h2 class="hdg-lv2-02">Core values</h2>
-<p class="text-lead sp-hide">Our goal is clear: to do everything we can to answer the unmet medical needs of patients, their families, and medical professionals, and to do it as quickly as possible. Because every moment counts.</p>
-<!-- /.box-hdg2-wrapper --></div>
+<h2 class="hdg-lv2-02">Get to know us</h2>
+<p class="text-lead sp-hide">We help patients to live better lives, using the power of innovation in life-sciences and technologies</p>
 
-
-<div class="box-corevalue-wrapper">
-
-<div class="box-inner kkc-anime_scroll_top-beans_parent" data-trigger="beans" data-fade-point-pc="bottom:50px">
-<a href="#modal-corevalue" class="kkc-anime_scroll_common_fade-in btn-modalopen parts-feature parts-commitment">
-<img src="images/index_img_corevalue_01.png" class="sp-hide" alt="Commitment to Life For us, innovation does not just mean growth. It means doing everything we can to improve the quality of life for people around the world. READ THE FULL MISSION STATEMENT show content">
-<img src="images/index_img_corevalue_01_sp.png" class="pc-hide" alt="Commitment to Life For us, innovation does not just mean growth. It means doing everything we can to improve the quality of life for people around the world. READ THE FULL MISSION STATEMENT show content">
-</a>
-<button type="button" class="kkc-anime_trigger_top-beans_child-1 kkc-anime_scroll_top-beans_fade-in parts-feature parts-innovation" data-trigger-name="beans">
-<img src="images/index_img_corevalue_02.png" class="sp-hide parts-feature-before" alt="Innovation show content">
-<img src="images/index_img_corevalue_05.png" class="parts-feature-after" alt="Innovation Transform lives with passion and excitement. Challenge the status quo in all of our work. close content">
-<img src="images/index_img_corevalue_02_sp.png" class="pc-hide" alt="Innovation Transform lives with passion and excitement. Challenge the status quo in all of our work.">
-</button>
-<button type="button" class="kkc-anime_trigger_top-beans_child-2 kkc-anime_scroll_top-beans_fade-in parts-feature parts-integrity" data-trigger-name="beans">
-<img src="images/index_img_corevalue_03.png" class="sp-hide parts-feature-before" alt="Integrity show content">
-<img src="images/index_img_corevalue_06.png" class="parts-feature-after" alt="Integrity Do the right things. Be sincere and ethical consistently Make a better world through good business practices.  close content">
-<img src="images/index_img_corevalue_03_sp.png" class="pc-hide" alt="Integrity Do the right things. Be sincere and ethical consistently. Make a better world through good business practices.">
-</button>
-<button type="button" class="kkc-anime_trigger_top-beans_child-3 kkc-anime_scroll_top-beans_fade-in parts-feature parts-temwork" data-trigger-name="beans">
-<img src="images/index_img_corevalue_04.png" class="sp-hide parts-feature-before" alt="Teamwork/Wa show content">
-<img src="images/index_img_corevalue_07.png" class="parts-feature-after" alt="Teamwork/Wa One for all, all for one. Work in diverse teams and respect each other. Go beyond boundaries and collaborate with stakeholders. close content">
-<img src="images/index_img_corevalue_04_sp.png" class="pc-hide" alt="Teamwork/Wa One for all, all for one. Work in diverse teams and respect each other. Go beyond boundaries and collaborate with stakeholders.">
-</button>
-<!-- /.box-inner --></div>
-
-<!-- /.box-corevalue-wrapper --></div>
-
-<div class="box-modal-content" id="modal-corevalue">
-<div class="box-inner">
-
-<div class="box-content">
-
-<button type="button" class="btn-close-modal type-first"><span>close</span></button>
-
-<div class="box-text">
-<p>Countless precious lifes surround us.</p>
-<p>Brought into this world, blessed, raised with loving care</p>
-<p>Full of dreams, happiness as the goal of life.</p>
-<p>Deeply instill in us, and know that what we work for -</p>
-<p>The most precious presence of all on this planet.</p>
-<p>Infinite possibilities for us, a pharmaceutical company.</p>
-<p>Believe in ourselves, believe in our power</p>
-<p>Believe in what we have built together.</p>
-<!-- /.box-text --></div>
-<div class="box-text">
-<p>Not a large company, but with quality like none other</p>
-<p>History so unique we can be proud of,</p>
-<p>Technology unmatched,</p>
-<p>And superior human beings that cannot be found elsewhere.</p>
-<!-- /.box-text --></div>
-<div class="box-text">
-<p>Be brave; do not shy away from challenges.</p>
-<p>Have passion; break away from the norm.</p>
-<p>Innovation is not just about growth-</p>
-<p>But instead a leap towards the future, a grand growth with wings.</p>
-<p>Wings never to be given to those who settle for the status-quo.</p>
-<!-- /.box-text --></div>
-<div class="box-text">
-<p>Don’t just make medicine.</p>
-<p>Make people smile, bring light to their lives.</p>
-<!-- /.box-text --></div>
-<div class="box-text">
-<p>How strongly one longs to live.</p>
-<p>How deeply one is loved by their loved ones.</p>
-<p>How sincerely one desires to help the one life</p>
-<p>they dedicate themselves to in the field of medicine.</p>
-<!-- /.box-text --></div>
-<div class="box-text">
-<p>...</p>
-<!-- /.box-text --></div>
-<div class="box-text">
-<p>Taking the walk of life,</p>
-<p>one life at a time.</p>
-<!-- /.box-text --></div>
-
-<button type="button" class="btn-close-modal"><span>close</span></button>
-<!-- /.box-content --></div>
-
-<!-- /.box-inner --></div>
-<!-- /.box-modal-content --></div>
-
-<!-- /.box-corevalue-top --></div>
-
-
-<div class="box-atagrance-top">
-
-<div class="box-hdg2-wrapper" id="anc-at-a-glance">
-<h2 class="hdg-lv2-02">At a glance</h2>
-<p class="text-lead">Find out more about our company and our <br class="pc-hide">commitment <br class="sp-hide">
-to making positive contributions <br class="pc-hide">in human health and<br class="sp-hide">community welfare.</p>
-<!-- /.box-hdg2-wrapper --></div>
-
-<div class="box-inner">
-
-<div class="box-layout col2" data-sp-slider="0">
-<div class="col">
-<div class="tile-layout-wrapper col2 sp-col2">
-<a href="#management-team" class="tile btn-modalopen kkc-anime_scroll_common_fade-in-bottom">
-<div class="box-content">
-<p class="title"><span>Asia Pacific Management Team<span class="icon icon-modal">open</span></span></p>
-<!-- /.box-content --></div>
-<div class="box-image">
-<img src="images/index_img_atagrance-bg-orange_11.png" alt="">
-<!-- /.box-image --></div>
-<!-- /.tile --></a>
-
-<a href="#message-president" class="tile btn-modalopen kkc-anime_scroll_common_fade-in-bottom">
-<div class="box-content">
-<p class="title"><span>Message<br>from the President<span class="icon icon-modal">open</span></span></p>
-<!-- /.box-content --></div>
-<div class="box-image">
-<img src="images/index_img_atagrance_17.jpg" alt="">
-<!-- /.box-image --></div>
-<!-- /.tile --></a>
-<!-- /.tile-layout-wrapper --></div>
-
-<a href="/what_we_do/index.html#anc-technology-driven-drug-discovery" class="tile size-m kkc-anime_scroll_common_fade-in-bottom">
-<div class="box-content">
-<p class="title"><span>Research &amp; Development<span class="icon icon-arrow">move to page</span></span></p>
-<!-- /.box-content --></div>
-<div class="box-image">
-<img src="images/index_img_atagrance_13.jpg" alt="">
-<!-- /.box-image --></div>
-<!-- /.tile --></a>
-
-
-<a href="/what_we_do/index.html" class="tile kkc-anime_scroll_common_fade-in-bottom">
-<div class="box-content">
-<p class="title"><span>Products<span class="icon icon-arrow">move to page</span></span></p>
-<!-- /.box-content --></div>
-<div class="box-image">
-<img src="images/index_img_atagrance_14.jpg" alt="">
-<!-- /.box-image --></div>
-<!-- /.tile --></a>
-<!-- /.col --></div>
-
-<div class="col">
-<a href="/working_with_us/index.html" class="tile kkc-anime_scroll_common_fade-in-bottom">
-<div class="box-content">
-<p class="title"><span>Life at Kyowa Kirin Asia Pacific (KKAP)<span class="icon icon-arrow">move to page</span></span></p>
-<!-- /.box-content --></div>
-<div class="box-image">
-<img src="images/index_img_atagrance_15.jpg" alt="">
-<!-- /.box-image --></div>
-<!-- /.tile --></a>
-
-<div class="tile-layout-wrapper col2 sp-col2">
-<a href="https://www.kyowakirin.com/sustainability/index.html" target="_blank" class="tile kkc-anime_scroll_common_fade-in-bottom">
-<div class="box-content">
-<p class="title"><span>Sustainability<span class="icon icon-arrow">move to page</span></span></p>
-<!-- /.box-content --></div>
-<div class="box-image">
-<img src="images/index_img_atagrance_16.jpg" alt="">
-<!-- /.box-image --></div>
-<!-- /.tile --></a>
-
-<a href="#" target="_blank" class="tile kkc-anime_scroll_common_fade-in-bottom">
-<div class="box-content">
-<p class="title"><span>Kyowa Kirin Asia Pacific (KKAP) History<span class="icon icon-blank">move to page</span></span></p>
-<!-- /.box-content --></div>
-<div class="box-image">
-<img src="images/index_img_atagrance-bg-orange_11.png" alt="">
-<!-- /.box-image --></div>
-<!-- /.tile --></a>
-<!-- /.tile-layout-wrapper --></div>
 
 <div class="tile size-m box-movie-modal-wrapper kkc-anime_scroll_common_fade-in-bottom">
 <div class="box-content box-movie-thumb">
-<p class="title"><span>Corporate video<span class="icon icon-blank">move to page</span></span></p>
+<p class="title"><span>Power of innovation video<span class="icon icon-blank">move to page</span></span></p>
 <!-- /.box-content --></div>
 <div class="box-image">
-<img src="images/index_img_atagrance_08.jpg" alt="">
+<img src="images/index_img_power-of-innovation_01.jpg" alt="">
 <!-- /.box-image --></div>
 <div class="box-movie-frame">
 <iframe src="https://www.youtube.com/embed/So2GnXRadcI?rel=0" title="Kyowa Kirin Corporate Video" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
 <!-- /.box-movie-frame --></div>
 <!-- /.tile --></div>
-<!-- /.col --></div>
-<!-- /.box-layout --></div>
+<!-- /.box-hdg2-wrapper --></div>
+<!-- /.box-get-to-know-us --></div>
+<!-- /.str-section-wrapper --></div>
 
-<div class="box-modal-content blueish" id="message-president">
+<div class="box-atagrance-top">
+
+<div class="box-hdg2-wrapper" id="anc-at-a-glance">
+<h2 class="hdg-lv2-02">At a glance</h2>
+<p class="text-lead">We help patients to live better lives, using the power of innovation in life-sciences and technologies</p>
+<!-- /.box-hdg2-wrapper --></div>
+
 <div class="box-inner">
-
-<div class="box-content-02">
-
-<div class="box-btn-wrapper">
-<button type="button" class="btn-close-modal type-first"><span>close</span></button>
-<!-- /.box-btn-wrapper --></div>
-
-<div class="box-tab-01">
-<div class="box-tab-content">
+<div class="col">
+<a href="/working_with_us/index.html" class="tile size-m kkc-anime_scroll_common_fade-in-bottom">
+<div class="box-content">
+<p class="title"><span>Commitment To Life<span class="icon icon-arrow">move to page</span></span></p>
+<!-- /.box-content --></div>
 <div class="box-image">
-  <img src="/images/index_img_boon_01.jpg" alt="">
+<img src="images/index_img_atagrance_01.jpg" alt="">
 <!-- /.box-image --></div>
-<p class="title">Delivering life-changing value is at the heart of what we do.</p>
-<div class="box-text">
-<p>Like you, every one of us at Kyowa Kirin is a parent, child, sibling, friend, relative. We know the pain of falling sick, and what it means to take care of loved ones who are ill. The knowledge that what we do brings relief to the lives of others motivates us. Whether it is ensuring our products meet the highest standards of safety and quality, making them available in the pharmacy reliably, or disclosing unbiased information you need to make informed decisions to use them effectively, we are steadfast in our <em>commitment to life.</em></p>
-</div>
-<div class="box-text">
-<p>Kyowa Kirin colleagues are at the core of this commitment. We provide each colleague with the best opportunity to contribute to our mission, and to grow our company together in a nurturing environment based on a culture of Teamwork, Integrity and Innovation. As a company focused on the betterment of life, what we do must add value to the community, including patients and their families and friends, healthcare professionals, and the society at large in which we live. Consequently, decisions at Kyowa Kirin are driven by <em>sustainability.</em></p>
-</div>
-<div class="box-text">
-<p>As we enter a new decade forged in the wake of a global pandemic that has disrupted lives and accelerated changes to the way we live and work, we are determined to stay on the forefront of improving the way we deliver healthcare.  We cannot do this alone! Your suggestions, ideas, and thoughts are important to us. We encourage you to reach out to us whenever you have feedback that can help us deliver value better, if you wish to let us know how a patient is doing, or inquire about how you might join our mission!</p>
-</div>
-<div class="box-text">
-<p>We look forward to hearing from you,</p>
-</div>
-<div class="box-text">
-  <p>President</p>
-  <p>Dr. Tan Boon Heon</p>
-</div>
-<!-- /.box-tab-content --></div>
-<!-- /.box-tab-01 --></div>
-
-<div class="box-btn-wrapper">
-<button type="button" class="btn-close-modal"><span>close</span></button>
-<!-- /.box-btn-wrapper --></div>
-
+<!-- /.tile --></a>
+<a href="/working_with_us/index.html" class="tile size-m kkc-anime_scroll_common_fade-in-bottom">
+<div class="box-content">
+<p class="title"><span>Our products<span class="icon icon-arrow">move to page</span></span></p>
 <!-- /.box-content --></div>
-
-<!-- /.box-inner --></div>
-<!-- /.box-modal-content --></div>
-<div class="box-modal-content" id="management-team">
-<div class="box-inner">
-<div class="box-content-02">
-
-<div class="box-btn-wrapper">
-<button type="button" class="btn-close-modal type-first"><span>close</span></button>
-<!-- /.box-btn-wrapper --></div>
-
-<div class="box-tab-01">
-
-<div class="box-tab-content">
-<p class="title">Asia pacific Management Team</p>
-<div class="box-text">
-<p>Our Executive Committee is the company's most senior leadership team. We bring together experts in their fields to drive the organisation and lead strategic decision making on financials and business operations of the company in line with our core values and mission to the higher good of the patients and society.</p>
-</div>
-<div class="box-text">
-<ul>
-<li>President- Dr. Tan Boon Heon</li>
-<li>Executive Vice President (Business Operations)- Dr. Yumiko Kobori</li>
-<li>Vice President (Business Development and Corporate Planning) - Kazunori Komatsu</li>
-<li>Senior Director, Medical Affairs - Dr. Jerry Chng</li>
-<li>Director, Human Resources- Jocelyn Goh</li>
-</ul>
-</div>
-<!-- /.box-tab-content --></div>
-<!-- /.box-tab-01 --></div>
-
-<div class="box-btn-wrapper">
-<button type="button" class="btn-close-modal"><span>close</span></button>
-<!-- /.box-btn-wrapper --></div>
-
+<div class="box-image">
+<img src="images/index_img_atagrance_02.jpg" alt="">
+<!-- /.box-image --></div>
+<!-- /.tile --></a>
+<div class="tile-layout-wrapper col2 sp-col2">
+<a href="https://www.kyowakirin.com/sustainability/index.html" target="_blank" class="tile size-m kkc-anime_scroll_common_fade-in-bottom">
+<div class="box-content">
+<p class="title"><span>Partner with us<span class="icon icon-arrow">move to page</span></span></p>
 <!-- /.box-content --></div>
+<div class="box-image">
+<img src="images/index_img_atagrance_03.jpg" alt="">
+<!-- /.box-image --></div>
+<!-- /.tile --></a>
 
-<!-- /.box-inner --></div>
-<!-- /.box-modal-content --></div>
-
+<a href="#" target="_blank" class="tile size-m kkc-anime_scroll_common_fade-in-bottom">
+<div class="box-content">
+<p class="title"><span>Join us<span class="icon icon-arrow">move to page</span></span></p>
+<!-- /.box-content --></div>
+<div class="box-image">
+<img src="images/index_img_atagrance_04.jpg" alt="">
+<!-- /.box-image --></div>
+<!-- /.tile --></a>
+<!-- /.tile-layout-wrapper --></div>
+<!-- /.col --></div>
 <!-- /.box-inner --></div>
 <!-- /.box-atagrance-top --></div>
+
+<div class="str-section-wrapper homepage-04">
+<div class="box-button-olc">
+<div class="box-hdg2-wrapper">
+<a href="$$dummy$$" class="btn-olc-small-size btn-orange-grey"><span>Learn more about what we do</span></a>
+<!-- /.box-hdg2-wrapper --></div>
+<!-- /.box-who-we-are-button --></div>
+<!-- /.str-section-wrapper --></div>
+
 
 <div class="box-kkapinnumbers-top">
 <div class="box-hdg2-wrapper" id="anc-kkap-in-numbers">
