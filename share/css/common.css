@@ -661,6 +661,8 @@ template {
   padding-top: .1px;
   padding-bottom: .1px;
 }
+
+.str-section.str-section-boxed,
 .box-ourvision-top .box-hdg2-wrapper,
 .box-ourphilosophy-top .box-hdg2-wrapper,
 .box-corevalue-top .box-hdg2-wrapper,
@@ -676,6 +678,9 @@ template {
   margin: 0 auto;
   padding-top: .1px;
   padding-bottom: .1px;
+}
+.str-section.str-section-spacing{
+  padding-top: 50px;
 }
 .whatwedo-06.str-section-wrapper .box-hdg2-wrapper{
   max-width: 750px;
@@ -703,13 +708,16 @@ template {
   padding-top: 100px;
   text-align: center;
 }
+.str-section-wrapper.homepage-03,
+.str-section-wrapper.who-we-are-3{
+  background-image: url('/images/index_img_bg_get-to-know_01.png');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
 .str-section-wrapper.homepage-03{
   margin-top: 80px;
   margin-bottom: 80px;
-  background-image: url('/images/index_img_bg_get-to-know_01.png');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
   padding:80px 0;
 }
 .str-section-wrapper.homepage-04{
@@ -722,6 +730,21 @@ template {
 .str-section-wrapper.homepage-03 .tile .box-image{
     max-width:600px;
 }
+
+.str-section.focus-box{
+    max-width:400px;
+    padding: 7em 4em;
+    background-image: url('/images/index_bg_focus-box_01.png');
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+@media only screen and (min-width: 991px) {
+.str-section.focus-box{
+    margin-top: -5em;
+}
+}
+
 /* ============================================================================
 * Font Face
 * ========================================================================= */
@@ -1562,6 +1585,14 @@ main.type-01 + footer {
   color: #ea5504;
   margin-bottom: calc(50px/2);
 }
+.box-hdg2-wrapper .hdg-lv2-03{
+  font-size: calc(5.2rem/2);
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+  color: #ea5504;
+  margin-bottom: calc(50px/2);
+}
 .workingwithus-03 h2.hdg-lv2-02 {
   color: #ffffff;
 }
@@ -1636,6 +1667,12 @@ main.type-01 + footer {
 * ========================================================================= */
 .box-text {
   margin-bottom: calc(48.75px/2);
+}
+.box-text.text-center{
+  text-align: center;
+}
+.box-text.white-text{
+  color: white;
 }
 
 /* ============================================================================
@@ -2790,7 +2827,12 @@ a img.icon-pdf {
   text-align: center;
   margin-bottom: calc(30px/2);
 }
-
+.box-image.img-align-left{
+  text-align: left;
+}
+#modal-management .box-image.img-align-left{
+  padding-left:30px;
+}
 .box-image:last-child {
   margin-bottom: 0;
 }
@@ -5274,10 +5316,20 @@ div#message-president .box-image{
 
 /* TOP: Core values
 * ========================================================================= */
-.box-corevalue-top, .box-ourphilosophy-top {
+.box-ourphilosophy-top {
   margin-top: calc(227px/2);
   margin-bottom: 16px;
   /*モーダルエリア*/
+}
+@media only screen and (min-width: 749px) {
+.box-corevalue-top {
+    margin-bottom: 700px;
+}
+}
+@media only screen and (max-width: 748px) {
+.box-corevalue-top {
+    margin-bottom: 450px;
+}
 }
 
 .box-corevalue-top .box-corevalue-wrapper {
@@ -5315,7 +5367,6 @@ div#message-president .box-image{
 }
 
 .box-corevalue-top .box-corevalue-wrapper .parts-commitment {
-  top: 17.86667vw;
   left: 0;
   width: 59.86667vw;
 }
@@ -5328,11 +5379,10 @@ div#message-president .box-image{
 
 .box-corevalue-top .box-corevalue-wrapper .parts-innovation .parts-feature-before.minimum ~ .parts-feature-after {
   transform: scale(.52408, .52484) !important;
-  transform-origin: 18.5% 85%;
 }
 
 .box-corevalue-top .box-corevalue-wrapper .parts-innovation .parts-feature-after {
-  transform-origin: left 105%;
+  transform-origin: 100% 100%;
 }
 
 .box-corevalue-top .box-corevalue-wrapper .parts-innovation .parts-feature-after.minimum {
@@ -5435,13 +5485,21 @@ div#message-president .box-image{
   font-weight: 500;
   color: #fff;
 }
+.tile.box-with-paragraph .text{
+    font-weight:400;
+    color: white;
+    font-size:0.9em;
+    padding-top:10px;
+}
 
-.tile .title > span {
+.tile .title > span,
+.tile .text > span {
   position: relative;
   display: inline-block;
 }
 
-.tile .title .icon {
+.tile .title .icon,
+.tile .text .icon {
   font-size: 0;
   position: absolute;
   left: 0;
@@ -5479,14 +5537,16 @@ div#message-president .box-image{
   transform: rotate(90deg);
 }
 
-.tile .title .icon.icon-arrow {
+.tile .title .icon.icon-arrow,
+.tile .text .icon.icon-arrow {
   background-color: #fff;
   bottom: -20px;
   width: 20px;
   height: 1px;
 }
 
-.tile .title .icon.icon-arrow::after {
+.tile .title .icon.icon-arrow::after,
+.tile .text .icon.icon-arrow::after {
   position: absolute;
   top: 0;
   right: 1px;
@@ -6628,7 +6688,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
   font-size: 1.6rem;
 }*/
 
-.whatwedo-01, .workingwithus-01 {
+.workingwithus-01 {
   padding-top: calc(230px/2);
 }
 
@@ -7362,6 +7422,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
   }
   .js-enable .box-corevalue-top .box-corevalue-wrapper .parts-feature {
     width: auto;
+    transform: scale(0.9);
   }
   .sustainability-06 .str-section {
     padding-right: 65px;
@@ -7998,6 +8059,10 @@ xx.js-enable .box-offices-globalarea .box-panel {
   .box-hdg2-wrapper .hdg-lv2-02,
   .workingwithus-02 h2.hdg-lv2-01 {
     font-size: 5.6rem;
+    margin-bottom: 20px;
+  }
+  .box-hdg2-wrapper .hdg-lv2-03 {
+    font-size: 3.3rem;
     margin-bottom: 20px;
   }
   .box-hdg2-wrapper .text-lead {
@@ -8987,7 +9052,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
       font-size: 2.4rem;
   }
 
-  .box-corevalue-top, .box-ourphilosophy-top {
+ .box-ourphilosophy-top {
     margin-top: 100px;
   }
   .box-cutting-edge-wrapper {
@@ -8997,20 +9062,19 @@ xx.js-enable .box-offices-globalarea .box-panel {
   }
   .box-corevalue-top .box-corevalue-wrapper {
     background-image: url("../../images/index_bg_corevalue_08.jpg");
-    height: 950px;
-    margin-top: 40px;
+    height: 750px;
   }
   .box-corevalue-top .box-corevalue-wrapper .parts-commitment {
-    top: 200px;
+    bottom: -100px;
     left: 14px;
   }
   .box-corevalue-top .box-corevalue-wrapper .parts-innovation {
-    bottom: -140px;
-    left: 32%;
+    bottom: -400px;
+    right: 10%;
   }
   .box-corevalue-top .box-corevalue-wrapper .parts-integrity {
-    bottom: -130px;
-    left: -50px;
+    bottom: -400px;
+    left: 25%;
   }
   .box-corevalue-top .box-corevalue-wrapper .parts-temwork {
     right: 30px;
@@ -9393,7 +9457,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
   .history-wrapper .history-content.type-01 .history-panel .content {
     width: calc(100% - 125px);
   }
-  .whatwedo-01, .workingwithus-01 {
+  .workingwithus-01 {
     padding-top: 100px;
   }
   .workingwithus-01 {
@@ -9849,8 +9913,8 @@ xx.js-enable .box-offices-globalarea .box-panel {
 
 @media screen and (min-width: 884px) {
   .box-corevalue-top .box-corevalue-wrapper .parts-temwork {
-    right: 0px;
-    bottom: -140px;
+    right: 30%;
+    bottom: -650px;
   }
   .workingwithus-02 .box-image{
  padding-left:2em;
@@ -9859,7 +9923,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 
 @media screen and (min-width: 889px) {
   .box-corevalue-top .box-corevalue-wrapper .parts-innovation {
-    right: 20px;
+    right: 10%;
   }
   .box-hdg-wrapper.type-03 .box-hdg-container .box-content-right{
       max-width:50%;
