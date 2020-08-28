@@ -12251,3 +12251,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 .str-section-wrapper.who-we-are-6{
   padding-top:50px;
 }
+
+:focus{
+  outline: none;
+}

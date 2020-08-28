@@ -5,7 +5,7 @@
 <div class="box-hdg-container">
 <div class="box-content-right">
 <h1 class="hdg-lv1-04">Taking a Walk of Life.<br>One Life at a Time.</h1>
-<a href="#anc-areas-of-focus" class="btn-olc-small-size btn-orange-white btn-arrow-down btn-align-right"><span>Learn more</span></a>
+<a href="#anc-our-philosophy" class="btn-olc-small-size btn-orange-white btn-arrow-down btn-align-right"><span>Learn more</span></a>
 <!-- /.box-content-right --></div>
 <!-- /.box-hdg-container --></div>
 <div class="image">
@@ -35,7 +35,7 @@
 <!-- /Notice area -->
 <div class="str-section-wrapper homepage-01">
 <div class="str-section str-section-boxed str-section-spacing">
-<div class="box-hdg2-wrapper" id="our-philosophy">
+<div class="box-hdg2-wrapper" id="anc-our-philosophy">
 <h2 class="hdg-lv2-02">Our Philosophy</h2>
 <p class="text-lead">We at Kyowa Kirin Asia Pacific collaborate with our counterparts to contribute to the health and well-being of people around the world by creating new value through the pursuits of advances in life sciences and technologies.</p>
 <!-- /.box-hdg2-wrapper --></div>
