@@ -679,7 +679,7 @@ template {
   padding-bottom: .1px;
 }
 .str-section.str-section-spacing{
-  padding-top: 50px;
+  padding-top: 30px;
 }
 .whatwedo-01 .str-section.str-section-spacing{
   padding-top:100px;
@@ -756,17 +756,13 @@ template {
 
 .str-section.focus-box{
     max-width:400px;
-    padding: 7em 4em;
+    padding: 5em 5em 3em 5em;
     background-image: url('/images/index_bg_focus-box_01.png');
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
 }
-@media only screen and (min-width: 991px) {
-.str-section.focus-box{
-    margin-top: -5em;
-}
-}
+
 
 
 /* ============================================================================
@@ -1515,7 +1511,8 @@ main.type-01 + footer {
   min-height: 81.13333vw;
 }
 .box-hdg-wrapper.type-03,
-.box-hdg-wrapper.type-04{
+.box-hdg-wrapper.type-04,
+.box-hdg-wrapper.type-05{
   min-height: 60vh;
 }
 
@@ -5091,6 +5088,18 @@ div#message-president .box-image{
   left: 0;
   width: 38.53333vw;
 }
+
+.box-hdg-wrapper.type-05 .box-hdg-container{
+  position: absolute;
+  z-index: 2;
+  top: 70%;
+  width: 100%;
+  display:block;
+  margin:auto;
+  right: 0;
+  left: 0;
+  max-width:1200px;
+}
 .box-hdg-wrapper.type-03 .box-hdg-container{
   position: absolute;
   z-index: 2;
@@ -5103,7 +5112,8 @@ div#message-president .box-image{
   max-width:1200px;
 }
 .box-hdg-wrapper.type-03 .image img,
-.box-hdg-wrapper.type-04 .image img{
+.box-hdg-wrapper.type-04 .image img,
+.box-hdg-wrapper.type-05 .image img{
     position: absolute;
     bottom: 0;
 }
@@ -5762,13 +5772,7 @@ div#message-president .box-image{
 .box-regionalnetwork .box-panel-01 > .panel > .box-inner .box-image img{
   height: 100%;
 }
-.box-offices-globalarea .box-inner .box-panel .panel .title > .sub,
-.box-regionalnetwork .panel .title > .sub {
-  font-size: 1.0rem;
-  color: #ea5504;
-  display: block;
-  margin-top: 10px;
-}
+
 
 .box-offices-globalarea .box-inner .box-panel .panel .guide {
   font-size: 1.2rem;
@@ -5910,6 +5914,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
   flex-direction: row;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .js-enable .box-preview-globalarea .box-panel {
   position: absolute;
@@ -6749,10 +6754,16 @@ xx.js-enable .box-offices-globalarea .box-panel {
   margin:auto;
 }
 
-.whatwedo-01 .area-focus-wrapper,
 .workingwithus-01 .area-focus-wrapper {
   position: relative;
   max-width: 1120px;
+  margin: 0 auto;
+  padding-top: calc(430px/2);
+  padding-bottom: calc(380px/2);
+}
+.whatwedo-01 .area-focus-wrapper {
+  position: relative;
+  max-width: 800px;
   margin: 0 auto;
   padding-top: calc(430px/2);
   padding-bottom: calc(380px/2);
@@ -8050,6 +8061,9 @@ xx.js-enable .box-offices-globalarea .box-panel {
     min-height: 100vh;
     margin-top: -47px;
   }
+  .box-hdg-wrapper.type-05 {
+    margin-top: -47px;
+  }
   .box-hdg-wrapper.type-04 {
     min-height: 65vh;
     margin-top: -47px;
@@ -9183,7 +9197,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
     background-color: rgba(222, 222, 222, .4);
   }
   .box-offices-globalarea .box-inner .box-panel .panel {
-    width: 300px;
+    width: 47%;
     margin:10px;
   }
   .box-offices-globalarea .box-inner .box-panel .panel .title {
@@ -9507,7 +9521,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
   .whatwedo-01 .area-focus-wrapper,
   .workingwithus-01 .area-focus-wrapper{
     padding-top: 130px;
-    padding-bottom: 350px;
+    padding-bottom: 230px;
   }
   .homepage-03 .area-focus-inner .title,
   .whatwedo-01 .area-focus-wrapper .title,
@@ -9989,7 +10003,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
     padding-left: 11px;
   }
   .header-nav .header-nav-list > li > a {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     margin-left: 24px;
   }
   .header-nav .header-nav-list:first-child > li:not(:last-child) > .current,
@@ -12289,7 +12303,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 }
 
 .str-section-wrapper.who-we-are-6{
-  padding:100px 0 50px 0;
+  padding:80px 0 0 0;
 }
 .str-section-wrapper.whatwedo-01{
   padding:100px 0;
@@ -12350,7 +12364,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
     width: 100%;
 }
 .str-section-wrapper.workingwithus-03{
-  padding: 80px 0 30px 0;
+  padding: 80px 0 50px 0;
 }
 .str-section-wrapper.workingwithus-04{
   padding: 0px 0 80px 0;
@@ -12372,4 +12386,57 @@ xx.js-enable .box-offices-globalarea .box-panel {
 }
 .str-section-wrapper.workingwithus-01{
   padding-bottom: 51px;
+}
+.box-layout-image.content-valign {
+    display: flex;
+    align-items: center;
+}
+.str-section-wrapper.who-we-are-3 {
+    margin: 20px 0 80px 0;
+}
+.contact-us-01{
+    max-width: 1000px;
+    margin: auto;
+}
+.contact-us-01 .image img{
+    width: 100%;
+    bottom: auto;
+    top: 0;
+}
+@media only screen and (min-width: 889px){
+.box-hdg-wrapper.type-03 .box-hdg-container .box-content-left,
+.box-hdg-wrapper.type-05 .box-hdg-container .box-content-left {
+    max-width: 45%;
+    display: block;
+    float: left;
+}
+}
+.box-hdg-wrapper.contact-us-01 .hdg-lv1-02{
+    margin-bottom: 10px;
+}
+.box-hdg-wrapper.contact-us-01 .text-lead{
+    font-size: 2.0rem;
+    line-height: 1.3em;
+}
+
+.box-offices-globalarea .box-inner .box-panel .panel .title > .sub{
+  font-size: 1.6rem;
+  color: #ea5504;
+  display: block;
+  margin-bottom: 10px;
+  font-weight:600;
+}
+.box-offices-globalarea .box-inner .box-panel .panel .box-text{
+  font-size: 1.4rem;
+  color: #5d6164;
+  margin-top:10px;
+  margin-bottom: 15px;
+}
+.box-offices-globalarea .box-inner .box-panel .panel .link-text{
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.box-offices-globalarea .box-inner .box-panel .panel .box-thumb{
+  width:50%;
 }
