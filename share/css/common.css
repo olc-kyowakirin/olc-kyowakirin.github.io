@@ -681,8 +681,7 @@ template {
 .str-section.str-section-spacing{
   padding-top: 50px;
 }
-.whatwedo-01 .str-section.str-section-spacing,
-.homepage-01 .str-section.str-section-spacing{
+.whatwedo-01 .str-section.str-section-spacing{
   padding-top:100px;
 }
 
@@ -798,7 +797,7 @@ select,
 button {
   font-family: "Hind Madurai", Arial, sans-serif;
   font-size: calc(2.6rem/2);
-  line-height: 1.5;
+  line-height: 1.5em;
   color: #5d6164;
 }
 
@@ -1702,6 +1701,7 @@ main.type-01 + footer {
 * ========================================================================= */
 .box-text {
   margin-bottom: calc(48.75px/2);
+  line-height: 1.4em;
 }
 .box-text.text-center{
   text-align: center;
@@ -6802,7 +6802,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
   width: 149px;
 }
 
-.whatwedo-02, .workingwithus-05 {
+.whatwedo-02 {
   position: relative;
   padding-top: calc(210px/2);
   padding-bottom: calc(176px/2);
@@ -6821,8 +6821,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
   transform: translateX(-50%);
 }
 
-.whatwedo-02 .box-hdg2-wrapper,
-.workingwithus-05 .box-hdg2-wrapper {
+.whatwedo-02 .box-hdg2-wrapper {
   margin-bottom: 55px;
 }
 
@@ -6833,13 +6832,12 @@ xx.js-enable .box-offices-globalarea .box-panel {
   bottom: 5px;
 }
 
-.whatwedo-03, .workingwithus-05 {
+.whatwedo-03 {
   padding-top: calc(150px/2);
   padding-bottom: calc(150px/2);
 }
 
-.whatwedo-03 .box-hdg2-wrapper,
-.workingwithus-05 .box-hdg2-wrapper {
+.whatwedo-03 .box-hdg2-wrapper{
   margin-bottom: 60px;
 }
 
@@ -8107,7 +8105,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 
   .box-hdg2-wrapper .text-lead {
     font-size: 2.0rem;
-    line-height: 1.1;
+    line-height: 1.3em;
   }
   .hdg-lv3-01 > .text-sub {
     font-size: 1.6rem;
@@ -9505,12 +9503,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
   .history-wrapper .history-content.type-01 .history-panel .content {
     width: calc(100% - 125px);
   }
-  .workingwithus-01 {
-    padding-top: 100px;
-  }
-  .workingwithus-01 {
-    padding-bottom: 50px;
-  }
+
   .whatwedo-01 .area-focus-wrapper,
   .workingwithus-01 .area-focus-wrapper{
     padding-top: 130px;
@@ -9545,7 +9538,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
     bottom: -40px;
     width: 29.8%;
   }
-  .whatwedo-02, .workingwithus-05 {
+  .whatwedo-02 {
     padding-top: 160px;
     padding-bottom: 100px;
   }
@@ -9558,10 +9551,8 @@ xx.js-enable .box-offices-globalarea .box-panel {
     padding-bottom: 110px;
   }
   .workingwithus-05{
-    padding-top: 130px;
-    padding-bottom: 250px;
-    margin-bottom: -300px;
-    z-index: -1;
+    padding-top: 80px;
+    margin-bottom: -20px;
   }
   .whatwedo-04 {
     padding-top: 130px;
@@ -12371,9 +12362,14 @@ xx.js-enable .box-offices-globalarea .box-panel {
 .text-lead.text-left{
   text-align:left;
 }
-.workingwithus-05{
+.workingwithus-03,
+.workingwithus-04{
   background: #F3F3F3;
 }
-.str-section-wrapper.our-medicines-01{
-  margin-top:100px;
+
+.str-section-wrapper.first-section{
+  padding-top:80px;
+}
+.str-section-wrapper.workingwithus-01{
+  padding-bottom: 51px;
 }
