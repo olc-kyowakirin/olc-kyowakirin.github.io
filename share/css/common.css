@@ -643,7 +643,7 @@ template {
 }
 
 
-
+.str-section.str-section-boxed-980px,
 .footer > .footer-inner,
 .wrapper > .main-content,
 .link-nav-local-wrapper > .link-nav-local-inner,
@@ -652,7 +652,6 @@ template {
 .box-kkapinnumbers-top .box-hdg2-wrapper,
 .box-kkapinnumbers-top .box-hdg2-wrapper,
 .box-regionalnetwork .box-hdg2-wrapper,
-.box-atagrance-top .box-hdg2-wrapper,
 .mediacenter-01 > .box-inner,
 .mediacenter-02 > .box-inner,
 .str-section-wrapper > .str-section {
@@ -673,7 +672,7 @@ template {
 .str-section-wrapper.homepage-03 .box-hdg2-wrapper,
 .str-section-wrapper.homepage-04 .box-hdg2-wrapper,
 .box-atagrance-top .box-hdg2-wrapper,
-.box-atagrance-top > .box-inner{
+.box-atagrance-bottom > .box-inner{
   max-width: 600px;
   margin: 0 auto;
   padding-top: .1px;
@@ -682,7 +681,8 @@ template {
 .str-section.str-section-spacing{
   padding-top: 50px;
 }
-.whatwedo-01 .str-section.str-section-spacing{
+.whatwedo-01 .str-section.str-section-spacing,
+.homepage-01 .str-section.str-section-spacing{
   padding-top:100px;
 }
 
@@ -708,25 +708,20 @@ template {
 }
 
 
-.str-section-wrapper.homepage-02 .box-hdg2-wrapper{
-  padding-top: 100px;
-  text-align: center;
-}
+
 .str-section-wrapper.homepage-03,
-.str-section-wrapper.who-we-are-3{
+.str-section-wrapper.who-we-are-3,
+.box-atagrance-top{
   background-image: url('/images/index_img_bg_get-to-know_01.png');
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
 }
-.str-section-wrapper.homepage-03{
+.str-section-wrapper.homepage-03,
+.box-atagrance-top{
   margin-top: 80px;
   margin-bottom: 80px;
   padding:80px 0;
-}
-.str-section-wrapper.homepage-04{
-  margin: 40px 0;
-  text-align: center;
 }
 .str-section-wrapper.homepage-03 .text-lead{
   padding-bottom: 30px;
@@ -748,6 +743,7 @@ template {
     margin-top: -5em;
 }
 }
+
 
 /* ============================================================================
 * Font Face
@@ -5327,7 +5323,7 @@ div#message-president .box-image{
 }
 @media only screen and (min-width: 749px) {
 .box-corevalue-top {
-    margin-bottom: 700px;
+    margin-bottom: 550px;
 }
 }
 @media only screen and (max-width: 748px) {
@@ -6712,6 +6708,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
   padding-bottom: calc(380px/2);
 }
 
+.homepage-03 .area-focus-inner .title,
 .whatwedo-01 .area-focus-wrapper .title,
 .workingwithus-01 .area-focus-wrapper .title {
   font-size: 1.6rem;
@@ -8035,16 +8032,6 @@ xx.js-enable .box-offices-globalarea .box-panel {
   .box-hdg-wrapper > .hdg-lv1-01 {
     font-size: 5.5rem;
   }
-  .box-hdg-wrapper > .image,
-  .box-hdg-wrapper > .image img {
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    min-width: 100%;
-    max-width: none;
-    min-height: 100%;
-    transform: translate(50%, -50%);
-  }
   .hdg-lv1-02 {
     font-size: 4.8rem;
     line-height: 1.125;
@@ -9073,16 +9060,16 @@ xx.js-enable .box-offices-globalarea .box-panel {
     left: 14px;
   }
   .box-corevalue-top .box-corevalue-wrapper .parts-innovation {
-    bottom: -400px;
-    right: 10%;
+    bottom: -360px;
+    right: 0;
   }
   .box-corevalue-top .box-corevalue-wrapper .parts-integrity {
-    bottom: -400px;
-    left: 25%;
+    bottom: -360px;
+    left: 20%;
   }
   .box-corevalue-top .box-corevalue-wrapper .parts-temwork {
-    right: 30px;
-    bottom: -180px;
+    right: 24%;
+    bottom: -500px;
   }
 .box-corevalue-top .box-corevalue-wrapper .parts-integrity .sp-hide.parts-feature-before,
 .box-corevalue-top .box-corevalue-wrapper .parts-integrity .parts-feature-after.minimum,
@@ -9107,6 +9094,8 @@ xx.js-enable .box-offices-globalarea .box-panel {
     width: calc((100% - 20px) / 2);
     margin-right: 20px;
   }
+
+
   .tile-layout-wrapper.col2 .tile:nth-child(2n+2) {
     margin-right: 0;
   }
@@ -9123,12 +9112,18 @@ xx.js-enable .box-offices-globalarea .box-panel {
   .tile.size-m {
     height: 300px;
   }
+  .tile.size-l {
+    height: 400px;
+  }
   .tile.size-special {
     height: 310px;
     margin-bottom: calc(40px/2);
   }
   .tile .box-content {
     padding: 12px 15px;
+  }
+  .tile.tile-spe .box-content {
+    padding: 2.5em;
   }
   .box-globalnetwork {
     background-color: #fff;
@@ -9472,6 +9467,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
     padding-top: 130px;
     padding-bottom: 350px;
   }
+  .homepage-03 .area-focus-inner .title,
   .whatwedo-01 .area-focus-wrapper .title,
   .workingwithus-01 .area-focus-wrapper .title {
     font-size: 2.4rem;
@@ -9915,20 +9911,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
   }
 }
 
-@media screen and (min-width: 884px) {
-  .box-corevalue-top .box-corevalue-wrapper .parts-temwork {
-    right: 30%;
-    bottom: -650px;
-  }
-  .workingwithus-02 .box-image{
- padding-left:2em;
-}
-}
-
 @media screen and (min-width: 889px) {
-  .box-corevalue-top .box-corevalue-wrapper .parts-innovation {
-    right: 10%;
-  }
   .box-hdg-wrapper.type-03 .box-hdg-container .box-content-right{
       max-width:50%;
       display:block;
@@ -12212,4 +12195,59 @@ xx.js-enable .box-offices-globalarea .box-panel {
 #back-to-top-button.show {
   opacity: 1;
   visibility: visible;
+}
+
+
+
+.str-section-wrapper.homepage-03 .area-focus-wrapper {
+    display: flex;
+    max-width: 900px;
+    margin:auto;
+}
+
+.str-section-wrapper.homepage-03 .area-focus-wrapper .area-focus-icon{
+    padding: 1em;
+}
+@media only screen and (max-width: 748px) {
+.str-section-wrapper.homepage-03 .area-focus-wrapper {
+    flex-wrap: wrap;
+}
+.str-section-wrapper.homepage-03 .area-focus-wrapper .area-focus-icon{
+    flex-basis:50%;
+}
+}
+.str-section-wrapper.homepage-03 .box-button {
+    margin-top:30px;
+    text-align: center;
+    padding-bottom:50px;
+}
+.str-section-wrapper.homepage-04 .tile{
+    margin-top: 40px;
+}
+.box-movie-thumb.box-movie-spe:before,
+.box-movie-thumb.box-movie-spe:after{
+    display:none;
+}
+.box-atagrance-bottom > .box-inner{
+  margin-top:40px;
+}
+
+.str-section.str-section-boxed-800px{
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: .1px;
+  padding-bottom: .1px;
+}
+
+.str-section-wrapper.olc-button-section .box-hdg2-wrapper{
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+.str-section-wrapper.homepage-01 .box-who-we-are-button {
+    text-align: center;
+    margin-top:40px;
+}
+.str-section-wrapper.who-we-are-6{
+  padding-top:50px;
 }
