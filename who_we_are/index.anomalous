@@ -4,10 +4,9 @@
 <div class="image">
 <img src="/images/index_bg_mainsection_01.png" alt="">
   <!-- /.image --></div>
-<!-- /.image --></div>
 <!-- /.box-hdg-wrapper --></div>
 
-<div class="str-section-wrapper">
+<div class="str-section-wrapper first-section who-we-are-1">
 <div class="str-section str-section-boxed">
 <div class="box-hdg2-wrapper" id="who-we-are">
 <h1 class="hdg-lv2-02">Who we are</h1>
@@ -16,7 +15,7 @@
 <!-- /.str-section --></div>
 <!-- /.str-section-wrapper --></div>
 
-<div class="str-section-wrapper">
+<div class="str-section-wrapper who-we-are-2">
 <div class="str-section str-section-boxed str-section-spacing">
 <div class="box-hdg2-wrapper" id="our-vision">
 <h2 class="hdg-lv2-03">Our vision</h2>
@@ -29,7 +28,7 @@
 <div class="str-section focus-box">
 <div class="box-text text-center white-text"><strong>In Asia Pacific</strong>, we aim to be the best in class specialty pharmaceutical company in our therapeutic areas, and partner of choice for the commercialisation of specialty drugs.</div>
 <!-- /.box-hdg2-wrapper --></div>
-<!-- /.str-section --></div>4
+<!-- /.str-section --></div>
 <!-- /.str-section-wrapper --></div>
 
 <div class="str-section-wrapper str-section-grey-bg who-we-are-3">
