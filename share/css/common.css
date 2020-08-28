@@ -987,7 +987,7 @@ html:not(.js-enable) .header > .header-inner .header-nav {
 }
 
 .header-nav .header-nav-list.header-menu .header-menu-inner {
-  background-color: #fff;
+  background-color: #ea5504;
   position: absolute;
   left: 0;
   width: 100%;
@@ -1011,7 +1011,7 @@ html:not(.js-enable) .header > .header-inner .header-nav {
 
 .header-nav .header-nav-list.header-menu .header-menu-inner .header-list-global > li a {
   font-size: 1.6rem;
-  color: #5d6164;
+  color: #ffffff;
   display: block;
   margin-right: 20px;
   padding-bottom: 10px;
@@ -1022,7 +1022,7 @@ html:not(.js-enable) .header > .header-inner .header-nav {
 .header-nav .header-nav-list.header-menu .header-menu-inner .header-list-global > li a:hover,
 .header-nav .header-nav-list.header-menu .header-menu-inner .header-list-global > li a:focus,
 .header-nav .header-nav-list.header-menu .header-menu-inner .header-list-global > li a:active {
-  color: #ea5504;
+  color: #ffffff;
   border-bottom: 3px solid #ea5504;
 }
 

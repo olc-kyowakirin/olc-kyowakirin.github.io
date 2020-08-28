@@ -17,8 +17,8 @@
 
 <div class="str-section-wrapper whatwedo-01">
 <div class="str-section">
-<div class="box-hdg2-wrapper" id="anc-areas-of-focus">
-<h2 class="hdg-lv2-03">Our Therapeutic area </h2>
+<div class="box-hdg2-wrapper" id="anc-our-therapeutic-area">
+<h2 class="hdg-lv2-03">Our Therapeutic area</h2>
 <div class="box-text text-center"> We use this technology across the four therapeutic areas of: nephrology, oncology, central nervous system and immunology and allergy.</div>
 <!-- /.box-hdg2-wrapper --></div>
 <!-- /.str-section --></div>
@@ -50,7 +50,7 @@
 
 <div class="str-section-wrapper str-section-blue-bg our-medicines-03 ">
 <div class="str-section str-section-boxed str-section-spacing">
-<div class="box-hdg2-wrapper" id="technology-driven-drug-discovery">
+<div class="box-hdg2-wrapper" id="anc-technology-driven-drug-discovery">
 <h2 class="hdg-lv2-04">Technology-driven drug<br> discovery</h2>
 <!-- /.box-hdg2-wrapper --></div>
 <!-- /.str-section --></div>4
@@ -133,7 +133,7 @@ We define modality as the classification of drug discovery technologies to reali
 
 <div class="str-section-wrapper str-section-blue-bg our-medicines-06 ">
 <div class="str-section str-section-boxed str-section-spacing">
-<div class="box-hdg2-wrapper" id="technology-driven-drug-discovery">
+<div class="box-hdg2-wrapper" id="anc-our-medicines">
 <h2 class="hdg-lv2-04">Our Medicines</h2>
 <!-- /.box-hdg2-wrapper --></div>
 <!-- /.str-section --></div>4
