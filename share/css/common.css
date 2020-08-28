@@ -713,6 +713,13 @@ template {
   background-repeat: no-repeat;
   position: fixed;
 }
+.working-with-us-header{
+  background-image: url('/images/index_bg_working-with-us_01.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: fixed;
+}
 
 
 
@@ -725,6 +732,12 @@ template {
 }
 .str-section-wrapper.str-section-blue-bg{
   background-image: url('/images/index_bg_section-blue_01.png');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.str-section-wrapper.str-section-pink-bg{
+  background-image: url('/images/index_bg_section-pink_01.png');
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
@@ -12360,4 +12373,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 }
 .workingwithus-05{
   background: #F3F3F3;
+}
+.str-section-wrapper.our-medicines-01{
+  margin-top:100px;
 }
