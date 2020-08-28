@@ -1,6 +1,6 @@
 <partial src="../includes/header.html"/>
 
-<div class="box-hdg-wrapper type-04 kkc-anime_load_other-mainvisual our-medicines-header">
+<div class="box-hdg-wrapper type-04 kkc-anime_load_other-mainvisual working-with-us-header">
 <div class="image">
 <img src="/images/index_bg_mainsection_01.png" alt="">
   <!-- /.image --></div>
@@ -23,10 +23,10 @@
 <!-- /.str-section-wrapper --></div>
 
 
-<div class="str-section-wrapper str-section-blue-bg workingwithus-02">
+<div class="str-section-wrapper str-section-pink-bg workingwithus-02">
 <div class="str-section str-section-boxed str-section-spacing">
 <div class="box-hdg2-wrapper" id="technology-driven-drug-discovery">
-<h2 class="hdg-lv2-04">Technology-driven drug<br> discovery</h2>
+<h2 class="hdg-lv2-04">To grow we need the best people.</h2>
 <!-- /.box-hdg2-wrapper --></div>
 <!-- /.str-section --></div>4
 <!-- /.str-section-wrapper --></div>
