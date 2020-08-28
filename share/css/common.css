@@ -668,7 +668,7 @@ template {
 .box-careers-top .box-hdg2-wrapper,
 .str-section-wrapper > .str-section.therapeutic-areas,
 .workingwithus-01.str-section-wrapper > .str-section,
-.workingwithus-03.str-section-wrapper > .str-section,
+.workingwithus-05.str-section-wrapper > .str-section,
 .str-section-wrapper.homepage-03 .box-hdg2-wrapper,
 .str-section-wrapper.homepage-04 .box-hdg2-wrapper,
 .box-atagrance-top .box-hdg2-wrapper,
@@ -1589,7 +1589,7 @@ main.type-01 + footer {
 }
 
 .box-hdg2-wrapper .hdg-lv2-02,
-.workingwithus-02 h2.hdg-lv2-01 {
+.workingwithus-05 h2.hdg-lv2-01 {
   font-size: calc(7.2rem/2);
   font-weight: 500;
   line-height: 1;
@@ -1618,13 +1618,10 @@ main.type-01 + footer {
 .box-hdg2-wrapper .hdg-lv2-04{
   color: #ffffff;
 }
-.workingwithus-03 h2.hdg-lv2-02 {
-  color: #ffffff;
-}
-.workingwithus-02 h2.hdg-lv2-01{
+.workingwithus-05 h2.hdg-lv2-01{
   text-align: left;
 }
-.workingwithus-03 .btn-03:hover{
+.workingwithus-05 .btn-03:hover{
     background-color: #EE7735
 }
 .box-kkapinnumbers-top .box-hdg2-wrapper .box-layout.col4 .hdg-lv2-02,
@@ -2394,6 +2391,14 @@ a img.icon-pdf {
   background-color: #dfdfdf;
   color: #ea5504
 }
+.btn-grey-orange{
+  background-color: #dfdfdf;
+  color: #ea5504;
+}
+.btn-grey-orange:hover{
+  background-color: #ea5504;
+  color: white
+}
 .btn-orange-white{
   background-color: #ea5504;
   color: white;
@@ -2421,6 +2426,13 @@ a img.icon-pdf {
 .btn-orange-white:hover > span::after{
     background-image: url(../images/icon_arrow_right_02.png);
     transform: translateX(5px);
+}
+.btn-grey-orange > span::after{
+    background-image: url(../images/icon_arrow_right_02.png);
+    transform: translateX(5px);
+}
+.btn-grey-orange:hover > span::after{
+    background-image: url(../images/icon_arrow_right_01.png);
 }
 
 .btn-olc-small-size.btn-arrow-down > span::after{
@@ -6777,14 +6789,14 @@ xx.js-enable .box-offices-globalarea .box-panel {
   width: 149px;
 }
 
-.whatwedo-02, .workingwithus-02 {
+.whatwedo-02, .workingwithus-05 {
   position: relative;
   padding-top: calc(210px/2);
   padding-bottom: calc(176px/2);
 }
 
 .whatwedo-02::before,
-.workingwithus-02::before{
+.workingwithus-05::before{
   background: url("../../what_we_do/images/index_icon_01.png") no-repeat;
   position: absolute;
   top: 0;
@@ -6797,27 +6809,24 @@ xx.js-enable .box-offices-globalarea .box-panel {
 }
 
 .whatwedo-02 .box-hdg2-wrapper,
-.workingwithus-02 .box-hdg2-wrapper {
+.workingwithus-05 .box-hdg2-wrapper {
   margin-bottom: 55px;
 }
 
 .whatwedo-02 .box-panel-01 > .panel .link-arrow,
-.workingwithus-02 .box-panel-01 > .panel .link-arrow {
+.workingwithus-05 .box-panel-01 > .panel .link-arrow {
   font-size: 1.0rem;
   position: absolute;
   bottom: 5px;
 }
 
-.whatwedo-03, .workingwithus-03 {
+.whatwedo-03, .workingwithus-05 {
   padding-top: calc(150px/2);
   padding-bottom: calc(150px/2);
 }
-.workingwithus-03 {
-  color: #fff;
-  background-color: #ea5504;
-}
+
 .whatwedo-03 .box-hdg2-wrapper,
-.workingwithus-03 .box-hdg2-wrapper {
+.workingwithus-05 .box-hdg2-wrapper {
   margin-bottom: 60px;
 }
 
@@ -6829,7 +6838,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 }
 
 .whatwedo-03 .box-carousel-wrapper .link-arrow,
-.workingwithus-03 .box-carousel-wrapper .link-arrow {
+.workingwithus-05 .box-carousel-wrapper .link-arrow {
   display: inline-block;
   margin-top: 20px;
 }
@@ -8073,7 +8082,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
     margin-bottom: 17.5px;
   }
   .box-hdg2-wrapper .hdg-lv2-02,
-  .workingwithus-02 h2.hdg-lv2-01 {
+  .workingwithus-05 h2.hdg-lv2-01 {
     font-size: 5.6rem;
     margin-bottom: 20px;
   }
@@ -9523,22 +9532,23 @@ xx.js-enable .box-offices-globalarea .box-panel {
     bottom: -40px;
     width: 29.8%;
   }
-  .whatwedo-02, .workingwithus-02 {
+  .whatwedo-02, .workingwithus-05 {
     padding-top: 160px;
     padding-bottom: 100px;
   }
   .whatwedo-02 .box-panel-01 > .panel > .box-inner .box-content,
-  .workingwithus-02 .box-panel-01 > .panel > .box-inner .box-content {
+  .workingwithus-05 .box-panel-01 > .panel > .box-inner .box-content {
     padding: 10px 10px 50px;
   }
   .whatwedo-03 {
     padding-top: 130px;
     padding-bottom: 110px;
   }
-  .workingwithus-03{
+  .workingwithus-05{
     padding-top: 130px;
     padding-bottom: 250px;
     margin-bottom: -300px;
+    z-index: -1;
   }
   .whatwedo-04 {
     padding-top: 130px;
@@ -11222,13 +11232,13 @@ xx.js-enable .box-offices-globalarea .box-panel {
     display: none;
   }
   .whatwedo-02 .box-panel-01 > .panel,
-  .workingwithus-02 .box-panel-01 > .panel {
+  .workingwithus-05 .box-panel-01 > .panel {
     border-bottom: none;
   }
   .whatwedo-03 .box-layout-btn {
     display: none;
   }
-  .workingwithus-03{
+  .workingwithus-05{
     padding-bottom:250px;
     margin-bottom:-250px;
   }
@@ -12262,8 +12272,6 @@ xx.js-enable .box-offices-globalarea .box-panel {
 .str-section.str-section-boxed-800px{
   max-width: 800px;
   margin: 0 auto;
-  padding-top: .1px;
-  padding-bottom: .1px;
 }
 
 .str-section-wrapper.olc-button-section .box-hdg2-wrapper{
@@ -12337,4 +12345,19 @@ xx.js-enable .box-offices-globalarea .box-panel {
 .box-layout-image-post-list .box-image img{
     width: 100%;
 }
+.str-section-wrapper.workingwithus-03{
+  padding: 80px 0 30px 0;
+}
+.str-section-wrapper.workingwithus-04{
+  padding: 0px 0 80px 0;
+}
+.str-section-wrapper.workingwithus-03 .box-image{
+    padding-right: 30px;
+}
+}
+.text-lead.text-left{
+  text-align:left;
+}
+.workingwithus-05{
+  background: #F3F3F3;
 }
