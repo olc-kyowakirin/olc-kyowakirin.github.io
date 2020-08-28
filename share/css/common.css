@@ -706,13 +706,25 @@ template {
   background-repeat: no-repeat;
   position: fixed;
 }
+.our-medicines-header{
+  background-image: url('/images/index_bg_our-medicines_01.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: fixed;
+}
 
 
 
-.str-section-wrapper.homepage-03,
-.str-section-wrapper.who-we-are-3,
+.str-section-wrapper.str-section-grey-bg,
 .box-atagrance-top{
   background-image: url('/images/index_img_bg_get-to-know_01.png');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.str-section-wrapper.str-section-blue-bg{
+  background-image: url('/images/index_bg_section-blue_01.png');
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
@@ -1585,13 +1597,26 @@ main.type-01 + footer {
   color: #ea5504;
   margin-bottom: calc(50px/2);
 }
-.box-hdg2-wrapper .hdg-lv2-03{
+.box-hdg2-wrapper .hdg-lv2-03,
+.box-hdg2-wrapper .hdg-lv2-04{
   font-size: calc(5.2rem/2);
   font-weight: 500;
-  line-height: 1;
+  line-height: 1.3em;
   text-align: center;
-  color: #ea5504;
   margin-bottom: calc(50px/2);
+}
+.box-hdg2-wrapper .hdg-lv2-05{
+  font-size: calc(4.2rem/2);
+  font-weight: 500;
+  line-height: 1.3em;
+  margin-bottom: 10px;
+}
+.box-hdg2-wrapper .hdg-lv2-05,
+.box-hdg2-wrapper .hdg-lv2-03{
+  color: #ea5504;
+}
+.box-hdg2-wrapper .hdg-lv2-04{
+  color: #ffffff;
 }
 .workingwithus-03 h2.hdg-lv2-02 {
   color: #ffffff;
@@ -8052,10 +8077,12 @@ xx.js-enable .box-offices-globalarea .box-panel {
     font-size: 5.6rem;
     margin-bottom: 20px;
   }
-  .box-hdg2-wrapper .hdg-lv2-03 {
+  .box-hdg2-wrapper .hdg-lv2-03,
+  .box-hdg2-wrapper .hdg-lv2-04 {
     font-size: 3.3rem;
     margin-bottom: 20px;
   }
+
   .box-hdg2-wrapper .text-lead {
     font-size: 2.0rem;
     line-height: 1.1;
@@ -12252,6 +12279,9 @@ xx.js-enable .box-offices-globalarea .box-panel {
 .str-section-wrapper.who-we-are-6{
   padding:100px 0 50px 0;
 }
+.str-section-wrapper.whatwedo-01{
+  padding:100px 0;
+}
 
 :focus{
   outline: none;
@@ -12293,4 +12323,18 @@ xx.js-enable .box-offices-globalarea .box-panel {
 }
 .str-section-wrapper.who-we-are-6 .area-focus-wrapper .area-focus-icon img{
   max-width: auto;
+}
+}
+
+@media only screen and (min-width: 749px) {
+.box-layout-image-post-list .box-image{
+    width: 30%;
+    padding-right:30px;
+}
+.box-layout-image-post-list .box-content{
+    width: 70%;
+}
+.box-layout-image-post-list .box-image img{
+    width: 100%;
+}
 }
