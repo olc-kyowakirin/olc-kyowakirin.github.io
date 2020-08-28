@@ -12248,10 +12248,49 @@ xx.js-enable .box-offices-globalarea .box-panel {
     text-align: center;
     margin-top:40px;
 }
+
 .str-section-wrapper.who-we-are-6{
-  padding-top:50px;
+  padding:100px 0 50px 0;
 }
 
 :focus{
   outline: none;
+}
+
+.str-section-wrapper.who-we-are-6 .area-focus-wrapper {
+    display:flex;
+}
+.str-section-wrapper.who-we-are-6 .area-focus-wrapper .area-focus-icon{
+    padding: 1em;
+    min-height: 200px;
+    display: flex;
+}
+@media only screen and (min-width: 749px) {
+.str-section-wrapper.who-we-are-6 .area-focus-wrapper .area-focus-icon.icon-01,
+.str-section-wrapper.who-we-are-6 .area-focus-wrapper .area-focus-icon.icon-03,
+.str-section-wrapper.who-we-are-6 .area-focus-wrapper .area-focus-icon.icon-05{
+    align-items: flex-start;
+}
+
+.str-section-wrapper.who-we-are-6 .area-focus-wrapper .area-focus-icon.icon-02{
+    align-items: center;
+}
+.str-section-wrapper.who-we-are-6 .area-focus-wrapper .area-focus-icon.icon-04{
+    align-items: flex-end;
+}
+}
+@media only screen and (max-width: 748px) {
+  .str-section-wrapper.who-we-are-6 .area-focus-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 150px;
+    margin: auto;
+  }
+.str-section-wrapper.who-we-are-6 .area-focus-wrapper .area-focus-icon{
+  height: auto;
+  min-height: auto;
+}
+.str-section-wrapper.who-we-are-6 .area-focus-wrapper .area-focus-icon img{
+  max-width: auto;
 }
