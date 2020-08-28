@@ -93,7 +93,7 @@ in the core therapeutic areas of: nephrology, oncology, central nervous system a
 
 <div class="str-section-wrapper homepage-04">
 <div class="box-get-to-know-us">
-<div class="box-hdg2-wrapper" id="anc-core-values">
+<div class="box-hdg2-wrapper" id="anc-get-to-know">
 <h2 class="hdg-lv2-03">Get to know us</h2>
 <p class="text-lead">We help patients to live better lives, using the power of innovation in life-sciences and technologies</p>
 <div class="tile size-m box-movie-modal-wrapper kkc-anime_scroll_common_fade-in-bottom">
@@ -101,7 +101,7 @@ in the core therapeutic areas of: nephrology, oncology, central nervous system a
 <p class="title"><span>Power of innovation video<span class="icon icon-blank">move to page</span></span></p>
 <!-- /.box-content --></div>
 <div class="box-image">
-<img src="images/index_img_power-of-innovation_01.jpg" alt="">
+<img src="images/index_img_power-of-innovation_01.jpg" alt="get-to-know-us">
 <!-- /.box-image --></div>
 <div class="box-movie-frame">
 <iframe src="https://www.youtube.com/embed/So2GnXRadcI?rel=0" title="Kyowa Kirin Corporate Video" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
