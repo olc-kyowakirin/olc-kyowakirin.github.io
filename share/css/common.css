@@ -12209,19 +12209,19 @@ xx.js-enable .box-offices-globalarea .box-panel {
 /** Back to top button **/
 #back-to-top-button {
   display: inline-block;
-  background-color: #ffffff;
-  max-width: 200px;
+  max-width: 70px;
+  min-height: 80px;
   font-size: 1.2rem;
   font-weight: 500;
   vertical-align: middle;
   color: #ea5504;
-  background-color: #fff;
+  background-color: rgb(244 244 244 / 72%);
   display: inline-flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   width: 100%;
   transition: background-color .4s;
-  border-radius: 30px;
+  border-radius: 5px;
   text-align: center;
   position: fixed;
   bottom: 30px;
@@ -12231,10 +12231,10 @@ xx.js-enable .box-offices-globalarea .box-panel {
   opacity: 0;
   visibility: hidden;
   z-index: 1000;
-  -webkit-box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.12);
-  -moz-box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.12);
-  box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.12);
-  padding: 4px 10px 2px 10px;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.2);
+  padding: 4px 10px 9px 10px;
 }
 
 #back-to-top-button:hover {
@@ -12249,6 +12249,28 @@ xx.js-enable .box-offices-globalarea .box-panel {
   opacity: 1;
   visibility: visible;
 }
+
+
+#back-to-top-button > span::before {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% auto;
+    display: inline-block;
+    width: 26px;
+    height: 10px;
+    margin-left: 5px;
+    content: "";
+    transition: transform .4s;
+    background-image: url(../images/icon_arrow_right_02.png);
+    transform: rotate(-90deg) translateY(-3px);
+}
+#back-to-top-button:hover > span::before {
+    background-image: url(../images/icon_arrow_right_01.png);
+    transform: rotate(-90deg) translateY(-3px) translateX(5px);
+}
+
+
+
 
 
 .str-section-wrapper.str-section-blue-bg,
@@ -12460,14 +12482,14 @@ footer .footer-area-sub p.footer-copy {
 .str-section-wrapper.contact-us-02{
   background-image: url('/images/index_img_singapore_01.jpg');
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: bottom center;
   background-size: cover;
   position: relative;
   content:'';
 }
 @media only screen and (min-width: 769px){
   .str-section-wrapper.contact-us-02{
-    min-height: 600px;
+    min-height: 400px;
   }
 .box-hdg-wrapper.contact-us-01 {
       min-height: 650px;
@@ -12480,15 +12502,33 @@ footer .footer-area-sub p.footer-copy {
 .box-singaporearea .box-inner .box-panel .panel .box-content {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
-.box-singaporearea .box-offices-globalarea .box-inner .box-panel .panel .box-thumb{
-  max-width:33%
+.box-singaporearea  .box-offices-globalarea .box-inner .box-panel .panel .box-thumb{
+  max-width:35%
 }
+
 .box-offices-globalarea .box-inner .box-panel .panel .box-content {
   width: 60%;
   padding: 2em;
+}
+.box-singaporearea  .box-inner .box-panel .panel .box-content{
+  width:65%
+}
+.box-singaporearea .box-inner .box-content .box-sub-content {
+    max-width: 50%;
+}
+.box-singaporearea .box-inner .box-content .box-sub-content-1 {
+  padding-right: 2em;
+}
+
+.str-section-wrapper.first-section.contact-us-04{
+  padding-bottom: 250px;
+  margin-bottom: -300px
+}
+.box-singaporearea .box-inner .box-panel .panel .box-text{
+  font-size: 2rem;
 }
 }
 
@@ -12502,7 +12542,7 @@ footer .footer-area-sub p.footer-copy {
     margin-bottom: 20px;
     font-weight: 500;
     line-height: 1.3em;
-    font-size: calc(4.2rem/2);
+    font-size: 2.0rem;
     line-height: 1.3em;
     }
 }
@@ -12535,7 +12575,16 @@ footer .footer-area-sub p.footer-copy {
 .box-globalnetwork {
     padding: 0;
 }
+.box-offices-globalarea .box-inner .box-panel .panel.panel-orange-space{
+  min-height: 50px;
+  border-radius: 30px;
 }
+.box-offices-globalarea .box-inner .box-panel .panel.panel-orange-space .link-icon{
+  color: white;
+  font-size: 1.5rem;
+}
+}
+
 .box-hdg-wrapper.type-05 .box-hdg-container{
   position: absolute;
   z-index: 2;
@@ -12549,7 +12598,7 @@ footer .footer-area-sub p.footer-copy {
 }
 @media only screen and (min-width: 1024px) {
 .box-hdg-wrapper.type-05 .box-hdg-container{
-  top: 50%;
+  top: 35%;
 }
 }
 
@@ -12571,6 +12620,46 @@ footer .footer-area-sub p.footer-copy {
 }
 }
 
+
+
+
+.box-singaporearea  .box-inner .box-panel .panel{
+  box-shadow: none;
+}
+.box-singaporearea .box-inner .box-panel .panel .box-text{
+  line-height: 1.5em;
+}
 .box-singaporearea .box-inner .box-panel .panel .title {
-    font-weight: 600;
+  font-weight: 600;
+  font-size: 2.0rem;
+  line-height: 1.3em;
+}
+
+.str-section-wrapper.contact-us-03 .str-section{
+  max-width: 1200px;
+}
+
+.box-offices-globalarea .box-inner .box-panel .panel.panel-orange-space {
+    color: white;
+    background-color: #ea5504;
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.2s ease-in-out;
+}
+.box-offices-globalarea .box-inner .box-panel .panel.panel-orange-space .link-icon{
+  color: white;
+}
+.link-icon > span::after{
+  background-image: url(../images/icon_arrow_right_01.png);
+}
+.box-offices-globalarea .box-inner .box-panel .panel.panel-orange-space:hover {
+    background-color: #dfdfdf;
+}
+.box-offices-globalarea .box-inner .box-panel .panel.panel-orange-space:hover .link-icon{
+  color: #ea5504;
+}
+.box-offices-globalarea .box-inner .box-panel .panel.panel-orange-space:hover .link-icon > span::after{
+  transform: translateX(5px);
+  background-image: url(../images/icon_arrow_right_02.png);
 }
