@@ -12,7 +12,7 @@
 <h1 class="hdg-lv2-02">Our Medicines</h1>
 <p class="text-lead">Kyowa Kirin has an advanced research and development system that displays innovation in drug discovery using cutting-edge biotechnology in antibody engineering technology.</p>
 <!-- /.box-hdg2-wrapper --></div>
-<!-- /.str-section --></div>4
+<!-- /.str-section --></div>
 <!-- /.str-section-wrapper --></div>
 
 <div class="str-section-wrapper whatwedo-01">
@@ -49,11 +49,11 @@
 
 
 <div class="str-section-wrapper str-section-blue-bg our-medicines-03 ">
-<div class="str-section str-section-boxed str-section-spacing">
+<div class="str-section str-section-boxed">
 <div class="box-hdg2-wrapper" id="anc-technology-driven-drug-discovery">
 <h2 class="hdg-lv2-04">Technology-driven drug<br> discovery</h2>
 <!-- /.box-hdg2-wrapper --></div>
-<!-- /.str-section --></div>4
+<!-- /.str-section --></div>
 <!-- /.str-section-wrapper --></div>
 
 
@@ -128,15 +128,15 @@ We define modality as the classification of drug discovery technologies to reali
   <!-- image --></div>
   <!-- /.box-layout-image --></div>
 <!-- /.box-hdg2-wrapper --></div>
-<!-- /.str-section --></div>4
+<!-- /.str-section --></div>
 <!-- /.str-section-wrapper --></div>
 
 <div class="str-section-wrapper str-section-blue-bg our-medicines-06 ">
-<div class="str-section str-section-boxed str-section-spacing">
+<div class="str-section str-section-boxed">
 <div class="box-hdg2-wrapper" id="anc-our-medicines">
 <h2 class="hdg-lv2-04">Our Medicines</h2>
 <!-- /.box-hdg2-wrapper --></div>
-<!-- /.str-section --></div>4
+<!-- /.str-section --></div>
 <!-- /.str-section-wrapper --></div>
 
 <div class="str-section-wrapper our-medicines-07">
@@ -231,7 +231,7 @@ We define modality as the classification of drug discovery technologies to reali
 
 
 <!-- /.box-hdg2-wrapper --></div>
-<!-- /.str-section --></div>4
+<!-- /.str-section --></div>
 <!-- /.str-section-wrapper --></div>
 
 <partial src="../includes/footer.html"/>

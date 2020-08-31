@@ -679,7 +679,7 @@ template {
   padding-bottom: .1px;
 }
 .str-section.str-section-spacing{
-  padding-top: 30px;
+  padding-top: 80px;
 }
 .whatwedo-01 .str-section.str-section-spacing{
   padding-top:100px;
@@ -1015,7 +1015,7 @@ html:not(.js-enable) .header > .header-inner .header-nav {
   display: block;
   margin-right: 20px;
   padding-bottom: 10px;
-  border-bottom: 3px solid #fff;
+  border-bottom: 3px solid #E95504;
 }
 
 .header-nav .header-nav-list.header-menu .header-menu-inner .header-list-global > li a.current,
@@ -1023,7 +1023,7 @@ html:not(.js-enable) .header > .header-inner .header-nav {
 .header-nav .header-nav-list.header-menu .header-menu-inner .header-list-global > li a:focus,
 .header-nav .header-nav-list.header-menu .header-menu-inner .header-list-global > li a:active {
   color: #ffffff;
-  border-bottom: 3px solid #ea5504;
+  border-bottom: 3px solid #ffffff;
 }
 
 .header-nav .header-nav-list.header-menu .header-menu-inner .header-list-global > li:last-child a {
@@ -1314,7 +1314,9 @@ ol.showlist li ol{
 .footer > .footer-inner {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 600px;
 }
 
 .footer > .footer-inner .footer-link-sns img {
@@ -2439,10 +2441,11 @@ a img.icon-pdf {
 }
 .btn-grey-orange > span::after{
     background-image: url(../images/icon_arrow_right_02.png);
-    transform: translateX(5px);
+
 }
 .btn-grey-orange:hover > span::after{
     background-image: url(../images/icon_arrow_right_01.png);
+    transform: translateX(5px);
 }
 
 .btn-olc-small-size.btn-arrow-down > span::after{
@@ -8025,7 +8028,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
     flex-direction: row;
   }
   .footer > .footer-inner .footer-link {
-    width: calc(100% - 250px);
+    width: 100%;
   }
   .footer > .footer-inner .footer-link-sns {
     margin-bottom: 44px;
@@ -9259,7 +9262,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
     margin-top: 170px;
   }
   .box-careers-top {
-    margin-top: 100px;
+    margin-top: 160px;
   }
   .mediacenter-01,
   .mediacenter-02 {
@@ -12253,7 +12256,10 @@ xx.js-enable .box-offices-globalarea .box-panel {
 }
 
 
-
+.str-section-wrapper.str-section-blue-bg,
+.str-section-wrapper.str-section-pink-bg {
+    padding: 80px 0 50px 0;
+}
 .str-section-wrapper.homepage-03 .area-focus-wrapper {
     display: flex;
     max-width: 900px;
@@ -12305,8 +12311,11 @@ xx.js-enable .box-offices-globalarea .box-panel {
 .str-section-wrapper.who-we-are-6{
   padding:80px 0 0 0;
 }
+.str-section-wrapper.who-we-are-2{
+  padding-top:100px;
+}
 .str-section-wrapper.whatwedo-01{
-  padding:100px 0;
+  padding:100px 0 150px 0 ;
 }
 
 :focus{
@@ -12380,7 +12389,9 @@ xx.js-enable .box-offices-globalarea .box-panel {
 .workingwithus-04{
   background: #F3F3F3;
 }
-
+.str-section-wrapper.who-we-are-4{
+  padding: 50px 0 50px 0
+}
 .str-section-wrapper.first-section{
   padding-top:80px;
 }
@@ -12439,4 +12450,11 @@ xx.js-enable .box-offices-globalarea .box-panel {
 }
 .box-offices-globalarea .box-inner .box-panel .panel .box-thumb{
   width:50%;
+}
+
+footer .footer-area-sub {
+    padding-top: 20px;
+}
+footer .footer-area-sub p.footer-copy {
+  font-size:1.4rem;
 }
