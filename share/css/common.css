@@ -9167,9 +9167,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
   .tile.size-m {
     height: 300px;
   }
-  .tile.size-l {
-    height: 400px;
-  }
+
   .tile.size-special {
     height: 310px;
     margin-bottom: calc(40px/2);
@@ -9177,9 +9175,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
   .tile .box-content {
     padding: 12px 15px;
   }
-  .tile.tile-spe .box-content {
-    padding: 2.5em;
-  }
+
   .box-globalnetwork {
     background-color: #f4f4f4;
   }
@@ -12493,7 +12489,7 @@ footer .footer-area-sub p.footer-copy {
   }
 .box-hdg-wrapper.contact-us-01 {
       min-height: 650px;
-      height: 100vh
+      margin-bottom: 80px;
 }
 .box-singaporearea .box-offices-globalarea .box-inner .box-panel .panel {
     width: 100%;
@@ -12583,6 +12579,16 @@ footer .footer-area-sub p.footer-copy {
   color: white;
   font-size: 1.5rem;
 }
+.str-section.focus-box{
+    padding: 6em 4em 3em 4em;
+}
+.str-section-wrapper.who-we-are-4 .tile-layout-wrapper{
+    flex-direction: column;
+}
+.str-section-wrapper.who-we-are-4 .tile-layout-wrapper.sp-col2 .tile{
+    width: 100%;
+    margin-bottom: 20px;
+}
 }
 
 .box-hdg-wrapper.type-05 .box-hdg-container{
@@ -12617,6 +12623,10 @@ footer .footer-area-sub p.footer-copy {
 }
 .js-enable .box-offices-globalarea .box-panel .panel:nth-child(even){
   margin-left:10px;
+}
+.str-section.focus-box{
+    padding: 6em 12em 3em 12em;
+    max-width: 600px;
 }
 }
 
@@ -12662,4 +12672,13 @@ footer .footer-area-sub p.footer-copy {
 .box-offices-globalarea .box-inner .box-panel .panel.panel-orange-space:hover .link-icon > span::after{
   transform: translateX(5px);
   background-image: url(../images/icon_arrow_right_02.png);
+}
+.tile.size-l {
+  height: 400px;
+}
+.tile.tile-spe .box-content {
+  padding: 2.5em;
+}
+.header-nav .header-nav-list.header-menu-sp .box-input-search{
+  display:none;
 }
