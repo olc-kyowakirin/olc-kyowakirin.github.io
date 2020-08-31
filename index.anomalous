@@ -174,9 +174,8 @@ in the core therapeutic areas of: nephrology, oncology, central nervous system a
 <div class="box-hdg2-wrapper" id="anc-careers">
 <h2 class="hdg-lv2-02">Life at Kyowa Kirin Asia Pacific (KKAP)</h2>
 <p class="text-lead">At Kyowa Kirin Asia Pacific (KKAP), we believe that every patient is entitled to lead a quality life. Every job that we do is ingrained with this believe.  As a team, we respect each member’s individuality, and endeavour to maintain a friendly workplace environment.</p>
-<!-- /.box-hdg2-wrapper --></div>
-
-<p class="align-c"><a href="/working_with_us/index.html" class="link-icon"><span>LEARN MORE</span></a></p>
+<!-- /.box-hdg2-wrapper --></div><br>
+<p class="align-c"><a href="/working_with_us/index.html" class="btn-olc-small-size btn-grey-orange"><span>Learn more</span></a></p>
 
 <!-- /.box-careers-top --></div>
 <partial src="/includes/footer.html"/>
