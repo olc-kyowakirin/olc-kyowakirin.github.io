@@ -4,7 +4,9 @@
 <div class="box-hdg-container">
 <div class="box-content-left">
 <h1 class="hdg-lv1-02">Asia Pacific network</h1>
-<p class="text-lead">Kyowa Kirin Asia Pacific is headquartered in Singapore, with regional networks in the following markets:</p>
+<p class="text-lead">Kyowa Kirin Asia Pacific is headquartered in Singapore, with regional networks in the following markets.</p>
+<br>
+<a href="#anc-singapore-office" class="btn-olc-small-size btn-orange-grey btn-arrow-down"><span>Learn more</span></a>
 <!-- /.box-content-right --></div>
 <!-- /.box-hdg-container --></div>
 <div class="image">
@@ -19,7 +21,7 @@
 
 <div class="str-section-wrapper first-section contact-us-03">
 <div class="str-section">
-<div class="box-hdg2-wrapper" id="singapore-office">
+<div class="box-hdg2-wrapper" id="anc-singapore-office">
 <h1 class="hdg-lv2-02">Singapore office</h1>
 
 <div class="box-singaporearea">
@@ -32,7 +34,7 @@
   <div class="box-thumb"><img src="images/index_img_singapore_map_01.jpg" alt=""></div>
   <div class="box-content">
   <h3 class="title"><span class="sub">Kyowa Kirin Asia Pacific Pte. Ltd.</span></h3>
-  <div class="box-sub-content">
+  <div class="box-sub-content box-sub-content-1">
   <h4 class="title">Address in operation</h4>
   <p class="box-text">80 Robinson Road<br>#22-01/01A<br>Singapore 068898</p>
   <p class="box-text">Phone: +65 6836 3991<br>Fax: +65 6836 3928<br>E-mail: <a href="mailto:Info-KKAP@kyowakirin.com" target="_blank"> Info-KKAP@kyowakirin.com</a>
@@ -131,6 +133,15 @@
   <p class="link-icon link-text"><span>Visit website</span></p>
 </div>
 <!-- /.panel Taiwan--></a>
+
+<!--orange space -->
+<a href="https://www.kyowakirin.com/index.html#anc-global-network" target="_blank" class="panel panel-orange-space">
+<p class="link-icon link-text"><span>View our global network</span></p>
+</div>
+<!--.panel orange space --></a>
+<div https://www.kyowakirin.com/index.html#anc-global-network class="panel panel-orange-space">
+
+<!-- /.panel Taiwan--></div>
 
 
 
