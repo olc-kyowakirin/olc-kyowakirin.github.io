@@ -5376,7 +5376,7 @@ div#message-president .box-image{
 }
 @media only screen and (min-width: 749px) {
 .box-corevalue-top {
-    margin-bottom: 550px;
+    margin-bottom: 340px;
 }
 }
 @media only screen and (max-width: 748px) {
@@ -9112,19 +9112,19 @@ xx.js-enable .box-offices-globalarea .box-panel {
   }
   .box-corevalue-top .box-corevalue-wrapper .parts-commitment {
     bottom: -100px;
-    left: 14px;
+    left: 30%;
   }
   .box-corevalue-top .box-corevalue-wrapper .parts-innovation {
-    bottom: -360px;
-    right: 0;
+    bottom: -200px;
+    right: 4%;
   }
   .box-corevalue-top .box-corevalue-wrapper .parts-integrity {
-    bottom: -360px;
-    left: 20%;
+    bottom: -190px;
+    left: 0%;
   }
   .box-corevalue-top .box-corevalue-wrapper .parts-temwork {
-    right: 24%;
-    bottom: -500px;
+    right: 34%;
+    bottom: -380px;
   }
 .box-corevalue-top .box-corevalue-wrapper .parts-integrity .sp-hide.parts-feature-before,
 .box-corevalue-top .box-corevalue-wrapper .parts-integrity .parts-feature-after.minimum,
@@ -12681,4 +12681,7 @@ footer .footer-area-sub p.footer-copy {
 }
 .header-nav .header-nav-list.header-menu-sp .box-input-search{
   display:none;
+}
+.text-italic{
+  font-style: italic;
 }
