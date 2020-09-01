@@ -108,7 +108,8 @@
 <a href="#" target="_blank" class="panel">
   <div class="box-thumb"><img src="images/index_img_regionalnetwork_panel_malaysia_01.jpg" alt=""></div>
   <div class="box-content">
-  <h3 class="title"><span class="sub">MALAYSIA</span>Kyowa Kirin Malaysia Sdn Bhd</h3>
+  <h3 class="title"><span class="sub">MALAYSIA</span>Kyowa Kirin Malaysia Sdn Bhd
+    <br><span class="text-italic"><small>(formerly known as Kyowa Hakko Kirin (Malaysia) Sdn Bhd)</small></span></h3>
   <p class="box-text">A501 West Wing, Wisma Consplant 2,<br>Jalan SS 16/1, Subang Jaya,<br>47500 Selangor, Malaysia</p>
   <p class="link-icon link-text"><span>Visit website</span></p>
   </div>
