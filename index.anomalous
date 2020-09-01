@@ -44,7 +44,7 @@
 <div class="str-section-wrapper homepage-02">
 <div class="box-who-we-are-button">
 <div class="box-hdg2-wrapper">
-<a href="$$dummy$$" class="btn-olc-small-size btn-orange-grey"><span>Who we are</span></a>
+<a href="/who_we_are/index.html" class="btn-olc-small-size btn-orange-grey"><span>Who we are</span></a>
 <!-- /.box-hdg2-wrapper --></div>
 <!-- /.box-who-we-are-button --></div>
 <!-- /.str-section-wrapper --></div>
@@ -86,7 +86,7 @@ in the core therapeutic areas of: nephrology, oncology, central nervous system a
 </div>
 <!-- /.area-focus-wrapper --></div>
 <div class="box-button">
-<a href="$$dummy$$" class="btn-olc-small-size btn-orange-white"><span>Who we are</span></a>
+<a href="/our_medicines/index.html" class="btn-olc-small-size btn-orange-white"><span>Discover our medicines</span></a>
 <!-- /.box-hdg2-wrapper --></div>
 <!-- /.str-section-wrapper --></div>
 
@@ -120,7 +120,7 @@ in the core therapeutic areas of: nephrology, oncology, central nervous system a
 <div class="box-atagrance-bottom">
 <div class="box-inner">
 <div class="col">
-<a href="/working_with_us/index.html" class="tile size-m kkc-anime_scroll_common_fade-in-bottom">
+<a href="/who_we_are/index.html#anc-our-philosophy" class="tile size-m kkc-anime_scroll_common_fade-in-bottom">
 <div class="box-content">
 <p class="title"><span>Commitment To Life<span class="icon icon-arrow">move to page</span></span></p>
 <!-- /.box-content --></div>
@@ -128,16 +128,16 @@ in the core therapeutic areas of: nephrology, oncology, central nervous system a
 <img src="images/index_img_atagrance_01.jpg" alt="">
 <!-- /.box-image --></div>
 <!-- /.tile --></a>
-<a href="/working_with_us/index.html" class="tile size-m kkc-anime_scroll_common_fade-in-bottom">
+<a href="/our_medicines/index.html" class="tile size-m kkc-anime_scroll_common_fade-in-bottom">
 <div class="box-content">
-<p class="title"><span>Our products<span class="icon icon-arrow">move to page</span></span></p>
+<p class="title"><span>Our medicines<span class="icon icon-arrow">move to page</span></span></p>
 <!-- /.box-content --></div>
 <div class="box-image">
 <img src="images/index_img_atagrance_02.jpg" alt="">
 <!-- /.box-image --></div>
 <!-- /.tile --></a>
 <div class="tile-layout-wrapper col2 sp-col2">
-<a href="https://www.kyowakirin.com/sustainability/index.html" target="_blank" class="tile size-m kkc-anime_scroll_common_fade-in-bottom">
+<a href="/contact_us/index.html" class="tile size-m kkc-anime_scroll_common_fade-in-bottom">
 <div class="box-content">
 <p class="title"><span>Partner with us<span class="icon icon-arrow">move to page</span></span></p>
 <!-- /.box-content --></div>
@@ -146,7 +146,7 @@ in the core therapeutic areas of: nephrology, oncology, central nervous system a
 <!-- /.box-image --></div>
 <!-- /.tile --></a>
 
-<a href="#" target="_blank" class="tile size-m kkc-anime_scroll_common_fade-in-bottom">
+<a href="/working_with_us/index.html" target="_blank" class="tile size-m kkc-anime_scroll_common_fade-in-bottom">
 <div class="box-content">
 <p class="title"><span>Join us<span class="icon icon-arrow">move to page</span></span></p>
 <!-- /.box-content --></div>
@@ -163,7 +163,7 @@ in the core therapeutic areas of: nephrology, oncology, central nervous system a
 <div class="box-button-olc">
 <div class="box-hdg2-wrapper">
   <br>
-<a href="$$dummy$$" class="btn-olc-small-size btn-orange-grey"><span>Learn more about what we do</span></a>
+<a href="/our_medicines/index.html" class="btn-olc-small-size btn-orange-grey"><span>Learn more about what we do</span></a>
 <!-- /.box-hdg2-wrapper --></div>
 <!-- /.box-who-we-are-button --></div>
 <!-- /.str-section-wrapper --></div>
@@ -174,9 +174,8 @@ in the core therapeutic areas of: nephrology, oncology, central nervous system a
 <div class="box-hdg2-wrapper" id="anc-careers">
 <h2 class="hdg-lv2-02">Life at Kyowa Kirin Asia Pacific (KKAP)</h2>
 <p class="text-lead">At Kyowa Kirin Asia Pacific (KKAP), we believe that every patient is entitled to lead a quality life. Every job that we do is ingrained with this believe.  As a team, we respect each member’s individuality, and endeavour to maintain a friendly workplace environment.</p>
-<!-- /.box-hdg2-wrapper --></div>
-
-<p class="align-c"><a href="/working_with_us/index.html" class="link-icon"><span>LEARN MORE</span></a></p>
+<!-- /.box-hdg2-wrapper --></div><br>
+<p class="align-c"><a href="/working_with_us/index.html" class="btn-olc-small-size btn-grey-orange"><span>Learn more</span></a></p>
 
 <!-- /.box-careers-top --></div>
 <partial src="/includes/footer.html"/>
