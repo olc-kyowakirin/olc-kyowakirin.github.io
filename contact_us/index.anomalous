@@ -14,8 +14,8 @@
 <!-- /.image --></div>
 <!-- /.box-hdg-wrapper --></div>
 <map name="asia-pacific-network-map">
-  <area shape="circle" coords="402,200,25" alt="Singapore" href="#outBoundModal-popup-sg" class="text-link-sub">
-  <area shape="circle" coords="533,346,25" alt="Australia" href="#outBoundModal-popup-au" class="text-link-sub">
+  <area shape="circle" coords="402,200,125" alt="Singapore" href="#outBoundModal-popup-sg" class="text-link-sub">
+  <area shape="circle" coords="533,346,125" alt="Australia" href="#outBoundModal-popup-au" class="text-link-sub">
 <!-- <area shape="circle" coords="752,456,25" alt="Singapore" href="#outBoundModal-popup-sg" class="text-link-sub">
   <area shape="circle" coords="1001,726,25" alt="Singapore" href="#outBoundModal-popup-au" class="text-link-sub"> -->
 </map>
