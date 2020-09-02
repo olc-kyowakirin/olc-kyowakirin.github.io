@@ -698,6 +698,14 @@ template {
   background-repeat: no-repeat;
   position: fixed;
 }
+.test-homepage-header{
+  background-image: url('/images/index_bg_testhomepage_01.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: fixed;
+}
+
 .who-we-are-header{
   background-image: url('/images/index_bg_who-we-are_01.jpg');
   background-size: cover;
