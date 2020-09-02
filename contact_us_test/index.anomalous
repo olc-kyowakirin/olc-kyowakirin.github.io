@@ -18,15 +18,9 @@
   <area shape="circle" coords="504,303,25" alt="Singapore" href="#outBoundModal-popup-sg" class="text-link-sub">
   <area shape="circle" coords="669,485,25" alt="Singapore" href="#outBoundModal-popup-au" class="text-link-sub">
 </map>
-
-<div>
-<img src="images/index_bg_mainsection_contact_map_points.png" alt="Workplace" usemap="#workmap">
-<map name="workmap">
- <area shape="circle" coords="504,303,25" alt="Singapore" href="#outBoundModal-popup-sg" class="text-link-sub">
- <area shape="circle" coords="669,485,25" alt="Singapore" href="#outBoundModal-popup-au" class="text-link-sub">
-</map>
-</div>
 <style>
+.contact-us-01 .box-hdg-container { pointer-events: none;}
+.contact-us-01 .box-hdg-container a { pointer-events:all;}
 .box-modal-outbound{}
 .box-modal-outbound .box-modal-inner{
   background: transparent !important;
@@ -34,7 +28,6 @@
   padding:0px !important;
 }
 .box-modal-outbound .panel{ width:100% !important; box-shadow: 1px 1px 2px rgba(0, 0, 0, .3) !important; }
-
 </style>
 
 <div class="str-section-wrapper contact-us-02">
