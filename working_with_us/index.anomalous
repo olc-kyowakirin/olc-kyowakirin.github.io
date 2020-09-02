@@ -1,4 +1,6 @@
-<partial src="../includes/header.html"/>
+<partial src="../includes/header-start.html"/>
+<partial src="../includes/header-title.html"/>
+<partial src="../includes/header-end.html"/>
 
 <div class="box-hdg-wrapper type-04 kkc-anime_load_other-mainvisual working-with-us-header">
 <div class="image">
@@ -12,7 +14,7 @@
 <div class="box-hdg2-wrapper" id="anc-areas-of-focus">
 <h2 class="hdg-lv2-02">Working with us</h2>
 <div class="box-text">
-<p class="text-lead">At Kyowa Kirin Asia Pacific we believe that every patient is entitled to lead a quality life. Every job that we do is ingrained with this belief. </p>
+<p class="text-lead">At Kyowa Kirin Asia Pacific we believe that every patient is entitled to lead a quality life. Every job that we do is engrained with this belief. </p>
 <!-- /.box-text --></div>
 <div class="box-text text-center">
 <p>As a team, we respect each member’s individuality and endeavour to maintain a friendly work environment.<br>
@@ -57,7 +59,7 @@ In order for those of us at Kyowa Kirin Asia Pacific to meet the goals of our ex
 <div class="str-section">
 
 <div class="box-hdg2-wrapper" id="anc-join-us">
-<h2 class="hdg-lv2-02">Working with us</h2>
+<h2 class="hdg-lv2-02">Join us</h2>
 <div class="box-text">
 <p class="text-lead">If who we are and what we do resonates with you, then click on the link below for a listing of current vacancies. </p>
 <!-- /.box-text --></div><br>

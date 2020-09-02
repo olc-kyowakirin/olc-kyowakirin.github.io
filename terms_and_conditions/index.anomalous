@@ -1,4 +1,6 @@
-<partial src="../includes/header.html"/>
+<partial src="../includes/header-start.html"/>
+<partial src="../includes/header-title.html"/>
+<partial src="../includes/header-end.html"/>
 
 <div class="main-content">
 
