@@ -1,4 +1,7 @@
-<partial src="../includes/header.html"/> 
+<partial src="../includes/header-start.html"/>
+<partial src="../includes/header-title.html"/>
+<partial src="../includes/header-end.html"/>
+
 
 <div class="box-hdg-wrapper type-02 kkc-anime_load_other-mainvisual">
 <h1 class="hdg-lv1-01">What we do<span class="text-sub">State-of-the-art biotechnology<br>

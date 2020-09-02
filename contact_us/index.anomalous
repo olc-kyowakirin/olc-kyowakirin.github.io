@@ -1,4 +1,6 @@
-<partial src="../includes/header.html"/>
+<partial src="../includes/header-start.html"/>
+<partial src="../includes/header-title.html"/>
+<partial src="../includes/header-end.html"/>
 
 <div class="box-hdg-wrapper type-05 kkc-anime_load_other-mainvisual contact-us-01">
 

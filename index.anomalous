@@ -1,4 +1,6 @@
-<partial src="/includes/header.html"/>
+<partial src="/includes/header-start.html"/>
+<partial src="/includes/header-title.html"/>
+<partial src="/includes/header-end.html"/>
 
 <div class="box-mainvisual-top kkc-anime_load_top-mainvisual_arrow">
 <div class="box-hdg-wrapper type-03 kkc-anime_load_other-mainvisual homepage-header">
