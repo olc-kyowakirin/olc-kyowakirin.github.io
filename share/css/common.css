@@ -9194,8 +9194,8 @@ xx.js-enable .box-offices-globalarea .box-panel {
     background-color: rgba(222, 222, 222, .4);
   }
   .box-offices-globalarea .box-inner .box-panel .panel {
-    width: 47%;
-    margin:10px;
+    width: 48%;
+    margin:1%;
   }
   .box-offices-globalarea .box-inner .box-panel .panel .title {
     font-size: 1.6rem;
@@ -12653,7 +12653,8 @@ footer .footer-area-sub p.footer-copy {
   line-height: 1.3em;
 }
 
-.str-section-wrapper.contact-us-03 .str-section{
+.str-section-wrapper.contact-us-03 .str-section,
+  .str-section-wrapper.contact-us-04 .str-section{
   max-width: 1200px;
 }
 
