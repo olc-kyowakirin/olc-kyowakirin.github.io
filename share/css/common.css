@@ -2395,7 +2395,7 @@ a img.icon-pdf {
   width: 100%;
   transition: background-color .4s;
   border-radius: 30px;
-  display:block;
+  line-height: 1.4em;
 }
 .btn-orange-grey{
   background-color: #ea5504;
@@ -12556,6 +12556,12 @@ footer .footer-area-sub p.footer-copy {
   .str-section-wrapper.contact-us-02{
     min-height: 300px;
   }
+  .btn-olc-small-size{
+    display:block;
+  }
+.workingwithus-05{
+  padding-bottom: 0;
+}
 .box-hdg-wrapper.type-05 .box-hdg-container{
   padding: 0 10%;
 }
