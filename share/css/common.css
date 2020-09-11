@@ -2403,6 +2403,7 @@ a img.icon-pdf {
   width: 100%;
   transition: background-color .4s;
   border-radius: 30px;
+  display:block;
 }
 .btn-orange-grey{
   background-color: #ea5504;
@@ -9566,10 +9567,6 @@ xx.js-enable .box-offices-globalarea .box-panel {
     padding-top: 130px;
     padding-bottom: 110px;
   }
-  .workingwithus-05{
-    padding-top: 80px;
-    margin-bottom: -20px;
-  }
   .whatwedo-04 {
     padding-top: 130px;
     padding-bottom: 110px;
@@ -12273,7 +12270,12 @@ xx.js-enable .box-offices-globalarea .box-panel {
     transform: rotate(-90deg) translateY(-3px) translateX(5px);
 }
 
-
+@media screen and (max-width: 748px) {
+#back-to-top-button {
+    max-width: 40px;
+    min-height: 60px;
+}
+}
 
 
 
@@ -12693,4 +12695,8 @@ footer .footer-area-sub p.footer-copy {
 }
 .text-italic{
   font-style: italic;
+}
+.workingwithus-05{
+  padding-top: 80px;
+  margin-bottom: -20px;
 }
