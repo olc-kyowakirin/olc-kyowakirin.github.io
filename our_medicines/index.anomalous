@@ -2,6 +2,7 @@
 <partial src="../includes/header-title.html"/>
 <partial src="../includes/header-end.html"/>
 
+
 <div class="box-hdg-wrapper type-04 kkc-anime_load_other-mainvisual our-medicines-header">
 <div class="image">
 <img src="/images/index_bg_mainsection_01.png" alt="">
@@ -135,7 +136,7 @@ We define modality as the classification of drug discovery technologies to reali
 
 <div class="str-section-wrapper str-section-blue-bg our-medicines-06 ">
 <div class="str-section str-section-boxed">
-<div class="box-hdg2-wrapper" id="anc-our-medicines">
+<div class="box-hdg2-wrapper" id="anc-our-products">
 <h2 class="hdg-lv2-04">Our Products</h2>
 <!-- /.box-hdg2-wrapper --></div>
 <!-- /.str-section --></div>
