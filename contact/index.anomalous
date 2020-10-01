@@ -478,15 +478,3 @@ This unique style of drug discovery is<br class="pc-hide"> what we call technolo
 <!-- /.str-section-wrapper --></div>
 
 <partial src="../includes/footer.html"/>
-
-<script>
-    (function (w,d,s,o,f,js,fjs) {
-      w['KKLife-Widget']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
-      var element = d.createElement('div');
-      element.setAttribute('id', 'kklife-widget-element')
-      d.body.appendChild(element);
-      js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
-      js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
-    }(window, document, 'script', 'kklife', 'https://kklife-widget.whattheframework.co.uk/dist/js/widget.js'));
-    kklife('init', { sourceId: 'https://covid-19.kyowakirinlife.com/asia/', locale: 'en_SG' });
-  </script>
