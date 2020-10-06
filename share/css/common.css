@@ -663,6 +663,7 @@ template {
 
 .str-section.str-section-boxed,
 .box-ourvision-top .box-hdg2-wrapper,
+.box-innumber-top .box-hdg2-wrapper,
 .box-ourphilosophy-top .box-hdg2-wrapper,
 .box-corevalue-top .box-hdg2-wrapper,
 .box-careers-top .box-hdg2-wrapper,
@@ -12704,3 +12705,321 @@ footer .footer-area-sub p.footer-copy {
 .text-italic{
   font-style: italic;
 }
+
+/* TOP: inNumber
+* ========================================================================= */
+.box-innumber-top .hdg {
+  font-size: calc(5.0rem/2);
+  font-weight: bold;
+  color: #ea5504;
+}
+
+.box-innumber-top .hdg {
+  text-align: center;
+  margin: 100px 0 30px;
+}
+
+.box-innumber-top .box-innumber-inr {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 480px;
+  padding-bottom: 30px;
+}
+
+.box-innumber-top .box-innumber-inr .animation-toggle-btn {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  margin-left: -15px;
+  border: 1px solid #5d6164;
+  border-radius: 50%;
+}
+
+.box-innumber-top .box-innumber-inr .animation-toggle-btn::before,
+.box-innumber-top .box-innumber-inr .animation-toggle-btn::after {
+  background: #5d6164;
+  display: block;
+  width: 3px;
+  height: 12px;
+  content: "";
+  border: 0;
+}
+
+.box-innumber-top .box-innumber-inr .animation-toggle-btn::before {
+  margin-right: 3px;
+}
+
+.box-innumber-top .box-innumber-inr .animation-toggle-btn::after {
+  display: block;
+  content: "";
+}
+
+.box-innumber-top .box-innumber-inr .animation-toggle-btn.paused::before {
+  background: transparent;
+  width: auto;
+  height: auto;
+  margin-right: 0;
+  margin-left: 3.25px;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 7.5px solid #5d6164;
+}
+
+.box-innumber-top .box-innumber-inr .animation-toggle-btn.paused::after {
+  content: none;
+}
+
+.box-innumber-top .box-innumber-inr .animation-toggle-btn > span {
+  display: block;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+}
+
+.box-innumber-top .box-innumber-inr .innumber-item {
+  position: absolute;
+  left: 0;
+  transition: opacity .3s;
+  /*
+            * about duration
+            *
+            * small : 24 ~ 26s
+            * middle: 20 ~ 22s
+            * big   : 16 ~ 18s
+            */
+  /* 4 antibody drugs released */
+  /* 6 antibody drugs in pipeline */
+  /* 18 drugs in development */
+  /* 40 markets reach worldwide */
+  /* 39% overseas sales */
+  /* 40 group companies */
+  /* 37 years of innovation */
+  /* core operating profit 59.4 billion yen */
+  /* annual revenue 305 billion yen */
+  /* 5,267 employees */
+}
+
+.box-innumber-top .box-innumber-inr .innumber-item.inactive {
+  opacity: .3 !important;
+}
+
+.box-innumber-top .box-innumber-inr .innumber-item[data-name="item1"] {
+  top: 50%;
+  animation: innumbers-anime 26s linear -1s infinite;
+  opacity: .3;
+}
+
+.box-innumber-top .box-innumber-inr .innumber-item[data-name="item2"] {
+  top: 70%;
+  animation: innumbers-anime 25s linear -6s infinite;
+  opacity: .3;
+}
+
+.box-innumber-top .box-innumber-inr .innumber-item[data-name="item3"] {
+  top: 12%;
+  animation: innumbers-anime 20s linear -1s infinite;
+  opacity: .6;
+}
+
+.box-innumber-top .box-innumber-inr .innumber-item[data-name="item4"] {
+  top: 40%;
+  animation: innumbers-anime 24s linear -18s infinite;
+  opacity: .3;
+}
+
+.box-innumber-top .box-innumber-inr .innumber-item[data-name="item5"] {
+  top: 70%;
+  animation: innumbers-anime 18s linear -12s infinite;
+}
+
+.box-innumber-top .box-innumber-inr .innumber-item[data-name="item6"] {
+  top: 80%;
+  animation: innumbers-anime 21s linear -2s infinite;
+  opacity: .6;
+}
+
+.box-innumber-top .box-innumber-inr .innumber-item[data-name="item7"] {
+  top: 35%;
+  animation: innumbers-anime 22s linear -20s infinite;
+  opacity: .6;
+}
+
+.box-innumber-top .box-innumber-inr .innumber-item[data-name="item8"] {
+  top: 60%;
+  animation: innumbers-anime 17s linear -6s infinite;
+}
+
+.box-innumber-top .box-innumber-inr .innumber-item[data-name="item9"] {
+  top: 11%;
+  animation: innumbers-anime 20s linear -13s infinite;
+  opacity: .6;
+}
+
+.box-innumber-top .box-innumber-inr .innumber-item[data-name="item10"] {
+  top: 10%;
+  animation: innumbers-anime 16s linear -2s infinite;
+}
+
+.box-innumber-top .box-innumber-inr .innumber-item img {
+  vertical-align: middle;
+  max-width: none;
+}
+
+.box-innumber-top .box-innumber-inr .innumber-item.paused {
+  animation-play-state: paused;
+}
+
+.box-innumber-top .box-innumber-inr .innumbers-active-window {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.box-innumber-top .box-innumber-inr .innumbers-active-window.active {
+  display: flex;
+}
+
+.box-innumber-top .box-innumber-inr .innumbers-active-window .active-number-box {
+  position: relative;
+}
+
+.box-innumber-top .box-innumber-inr .innumbers-active-window .item {
+  background: #fff;
+  display: none;
+}
+
+.box-innumber-top .box-innumber-inr .innumbers-active-window .item.active {
+  background: transparent;
+  display: block;
+  animation: scaleUp .5s ease-in-out both;
+}
+
+.box-innumber-top .box-innumber-inr .innumbers-active-window .close-btn {
+  position: absolute;
+  top: -34px;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ea5504;
+  border-radius: 50%;
+}
+
+.box-innumber-top .box-innumber-inr .innumbers-active-window .close-btn::before,
+.box-innumber-top .box-innumber-inr .innumbers-active-window .close-btn::after {
+  background: #ea5504;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  width: 16px;
+  height: 2px;
+  margin: -1px 0 0 -8px;
+  content: "";
+}
+
+.box-innumber-top .box-innumber-inr .innumbers-active-window .close-btn::before {
+  transform: rotate(45deg);
+}
+
+.box-innumber-top .box-innumber-inr .innumbers-active-window .close-btn::after {
+  transform: rotate(-45deg);
+}
+
+.box-innumber-top .box-innumber-inr .innumbers-active-window .close-btn span {
+  display: block;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+}
+.box-innumber-top .hdg {
+    margin-bottom: 40px;
+  }
+
+@keyframes innumbers-anime {
+  0% {
+    left: -213px;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(.6);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .box-innumber-top .box-innumber-inr {
+    height: 300px;
+  }
+  .box-innumber-top .box-innumber-inr .animation-toggle-btn {
+    width: 20px;
+    height: 20px;
+    margin-left: -10px;
+  }
+  .box-innumber-top .box-innumber-inr .animation-toggle-btn::before,
+  .box-innumber-top .box-innumber-inr .animation-toggle-btn::after {
+    width: 1px;
+    height: 8px;
+  }
+  .box-innumber-top .box-innumber-inr .innumber-item {
+    /* 4 antibody drugs released */
+    /* 6 antibody drugs in pipeline */
+    /* 18 drugs in development */
+    /* 40 markets reach worldwide */
+    /* 39% overseas sales */
+    /* 40 group companies */
+    /* 37 years of innovation */
+    /* core operating profit 59.4 billion yen */
+    /* annual revenue 305 billion yen */
+    /* 5,267 employees */
+  }
+  .box-innumber-top .box-innumber-inr .innumber-item[data-name="item1"] img {
+    width: 46px;
+  }
+  .box-innumber-top .box-innumber-inr .innumber-item[data-name="item2"] img {
+    width: 68.5px;
+  }
+  .box-innumber-top .box-innumber-inr .innumber-item[data-name="item3"] img {
+    width: 47.5px;
+  }
+  .box-innumber-top .box-innumber-inr .innumber-item[data-name="item4"] img {
+    width: 89px;
+  }
+  .box-innumber-top .box-innumber-inr .innumber-item[data-name="item5"] img {
+    width: 88px;
+  }
+  .box-innumber-top .box-innumber-inr .innumber-item[data-name="item6"] img {
+    width: 113.5px;
+  }
+  .box-innumber-top .box-innumber-inr .innumber-item[data-name="item7"] img {
+    width: 46.5px;
+  }
+  .box-innumber-top .box-innumber-inr .innumber-item[data-name="item8"] img {
+    width: 83.9px;
+  }
+  .box-innumber-top .box-innumber-inr .innumber-item[data-name="item9"] img {
+    width: 63px;
+  }
+  .box-innumber-top .box-innumber-inr .innumber-item[data-name="item10"] img {
+    width: 101.5px;
+  }
+}
+/* ========================================================================= */

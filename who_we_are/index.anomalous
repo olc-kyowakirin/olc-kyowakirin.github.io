@@ -22,7 +22,7 @@
 <div class="str-section str-section-boxed">
 <div class="box-hdg2-wrapper" id="anc-our-vision">
 <h2 class="hdg-lv2-03">Our Vision</h2>
-<div class="box-text text-center">As a Japan-based Global Specialty Pharmaceutical Company, we at Kyowa Kirin Asia Pacific are dedicated towards our patient health and wellbeing worldwide. We leverage on innovative drug discovery and global commercialization, driven by state of-the-art antibody technologies mainly in the core therapeutic areas of oncology, nephrology and immunology.</div>
+<div class="box-text text-center">As a Japan-based Global Specialty Pharmaceutical Company, we at Kyowa Kirin Asia Pacific are dedicated towards our patient health and wellbeing worldwide. We leverage on innovative drug discovery and global commercialization, driven by state of-the-art antibody technologies mainly in the core therapeutic areas of oncology, nephrology, immunology & allergy, and central nervous system.</div>
 <!-- /.box-hdg2-wrapper --></div>
 <!-- /.str-section --></div>
 <!-- /.str-section-wrapper --></div>
@@ -247,29 +247,43 @@ As we enter a new decade forged in the wake of a global pandemic that has disrup
 <!-- /.str-section-wrapper --></div>
 
 <div class="str-section-wrapper  who-we-are-6">
-<div class="str-section str-section-boxed-800px str-section-spacing">
-<div class="box-hdg2-wrapper" id="anc-in-numbers">
-<h2 class="hdg-lv2-03">In Numbers</h2>
-<div class="area-focus-wrapper">
+  <div class="str-section str-section-boxed-800px str-section-spacing">
+    <div class="box-hdg2-wrapper">
+      <h2 class="hdg-lv2-03">In Numbers</h2>
+      <!-- /.box-hdg2-wrapper --></div>
+    <!-- /.str-section --></div>
 
-<div class="area-focus-icon icon-01 kkc-anime_scroll_focus-icon_trigger kkc-anime_trigger_focus-icon_item kkc-anime_state_show kkc-anime_state_ignition kkc-anime_state_animation-end" data-trigger="focus-icon1" data-trigger-name="focus-icon1">
-<img src="/who_we_are/images/index_img_in-numbers_01.png" alt="Nephrology">
-</div>
-<div class="area-focus-icon icon-02 kkc-anime_trigger_focus-icon_item kkc-anime_state_ignition kkc-anime_state_animation-end" data-trigger-name="focus-icon1">
-<img src="/who_we_are/images/index_img_in-numbers_02.png" alt="Immunology &amp; Allergy">
-</div>
-<div class="area-focus-icon icon-03 kkc-anime_scroll_focus-icon_trigger kkc-anime_trigger_focus-icon_item kkc-anime_state_show kkc-anime_state_ignition kkc-anime_state_animation-end" data-trigger="focus-icon2" data-trigger-name="focus-icon2">
-<img src="/who_we_are/images/index_img_in-numbers_03.png" alt="Oncology">
-</div>
-<div class="area-focus-icon  icon-04 kkc-anime_trigger_focus-icon_item kkc-anime_state_ignition kkc-anime_state_animation-end" data-trigger-name="focus-icon2">
-<img src="/who_we_are/images/index_img_in-numbers_05.png" alt="Central Nervous System">
-</div>
-<div class="area-focus-icon  icon-05 kkc-anime_trigger_focus-icon_item kkc-anime_state_ignition kkc-anime_state_animation-end" data-trigger-name="focus-icon2">
-<img src="/who_we_are/images/index_img_in-numbers_04.png" alt="Central Nervous System">
-</div>
-<!-- /.area-focus-wrapper --></div>
-<!-- /.box-hdg2-wrapper --></div>
-<!-- /.str-section --></div>
+<div class="box-innumber-top" id="anc-in-numbers">
+<div class="box-innumber-inr">
+  <button type="button" class="innumber-item" data-name="item1"><img src="/images/index_img_innumbers_01_off.png" class="inactive-img" alt="4 antibody drugs released"></button>
+  <button type="button" class="innumber-item" data-name="item2"><img src="/images/index_img_innumbers_02_off.png" class="inactive-img" alt="6 antibody drugs in pipeline"></button>
+  <button type="button" class="innumber-item" data-name="item3"><img src="/images/index_img_innumbers_03_off.png" class="inactive-img" alt="18 drugs in development"></button>
+  <button type="button" class="innumber-item" data-name="item4"><img src="/images/index_img_innumbers_04_off.png" class="inactive-img" alt="40 markets reach worldwide"></button>
+  <button type="button" class="innumber-item" data-name="item5"><img src="/images/index_img_innumbers_05_off.png" class="inactive-img" alt="39% overseas sales"></button>
+  <button type="button" class="innumber-item" data-name="item6"><img src="/images/index_img_innumbers_06_off.png" class="inactive-img" alt="40 group companies"></button>
+  <!-- <button type="button" class="innumber-item" data-name="item7"><img src="/images/index_img_innumbers_07_off.png" class="inactive-img" alt="37 years of innovation"></button> -->
+  <button type="button" class="innumber-item" data-name="item8"><img src="/images/index_img_innumbers_08_off.png" class="inactive-img" alt="core operating profit 59.4 billion yen"></button>
+  <button type="button" class="innumber-item" data-name="item9"><img src="/images/index_img_innumbers_09_off.png" class="inactive-img" alt="annual revenue 305 billion yen"></button>
+  <button type="button" class="innumber-item" data-name="item10"><img src="/images/index_img_innumbers_10_off.png" class="inactive-img" alt="5,267 employees"></button>
+  <div class="innumbers-active-window">
+    <div class="active-number-box">
+      <button type="button" class="item item1"><img src="/share/images/lazyload.gif" data-src="/images/index_img_innumbers_01_on.png" class="active-img" alt="4 antibody drugs released"></button>
+      <button type="button" class="item item2"><img src="/share/images/lazyload.gif" data-src="/images/index_img_innumbers_02_on.png" class="active-img" alt="6 antibody drugs in pipeline"></button>
+      <button type="button" class="item item3"><img src="/share/images/lazyload.gif" data-src="/images/index_img_innumbers_03_on.png" class="active-img" alt="18 drugs in development"></button>
+      <button type="button" class="item item4"><img src="/share/images/lazyload.gif" data-src="/images/index_img_innumbers_04_on.png" class="active-img" alt="40 markets reach worldwide"></button>
+      <button type="button" class="item item5"><img src="/share/images/lazyload.gif" data-src="/images/index_img_innumbers_05_on.png" class="active-img" alt="39% overseas sales"></button>
+      <button type="button" class="item item6"><img src="/share/images/lazyload.gif" data-src="/images/index_img_innumbers_06_on.png" class="active-img" alt="40 group companies"></button>
+      <!-- <button type="button" class="item item7"><img src="/share/images/lazyload.gif" data-src="/images/index_img_innumbers_07_on.png" class="active-img" alt="37 years of innovation"></button> -->
+      <button type="button" class="item item8"><img src="/share/images/lazyload.gif" data-src="/images/index_img_innumbers_08_on.png" class="active-img" alt="core operating profit 59.4 billion yen"></button>
+      <button type="button" class="item item9"><img src="/share/images/lazyload.gif" data-src="/images/index_img_innumbers_09_on.png" class="active-img" alt="annual revenue 305 billion yen"></button>
+      <button type="button" class="item item10"><img src="/share/images/lazyload.gif" data-src="/images/index_img_innumbers_10_on.png" class="active-img" alt="5,267 employees"></button>
+      <button type="button" class="close-btn"><span>click to close window</span></button>
+    </div>
+  </div>
+  <button type="button" class="animation-toggle-btn"><span>pause</span></button>
+<!-- /.box-innumber-top-inr --></div>
+
+<!-- /.box-innumber-top --></div>
 <!-- /.str-section-wrapper --></div>
 
 <partial src="../includes/footer.html"/>
