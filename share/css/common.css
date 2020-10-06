@@ -6774,12 +6774,20 @@ xx.js-enable .box-offices-globalarea .box-panel {
 
 .homepage-03 .area-focus-inner .title,
 .whatwedo-01 .area-focus-wrapper .title,
-.workingwithus-01 .area-focus-wrapper .title {
+.workingwithus-01 .area-focus-wrapper .title,
+.workingwithus-03 .title,
+.workingwithus-04 .title {
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.20833;
   text-align: center;
   color: #ea5504;
+}
+
+.workingwithus-03 .hdg-lv2-03,
+.workingwithus-03 .title,
+.workingwithus-04 .title {
+  text-align: left !important;
 }
 
 .whatwedo-01 .area-focus-wrapper .area-focus-icon,
@@ -9528,7 +9536,9 @@ xx.js-enable .box-offices-globalarea .box-panel {
   }
   .homepage-03 .area-focus-inner .title,
   .whatwedo-01 .area-focus-wrapper .title,
-  .workingwithus-01 .area-focus-wrapper .title {
+  .workingwithus-01 .area-focus-wrapper .title,
+  .workingwithus-03 .title,
+  .workingwithus-04 .title {
     font-size: 2.4rem;
   }
   .whatwedo-01 .area-focus-wrapper .area-focus-icon.icon-01,
@@ -12407,8 +12417,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 .text-lead.text-left{
   text-align:left;
 }
-.workingwithus-03,
-.workingwithus-04{
+.workingwithus-04 {
   background: #F3F3F3;
 }
 .str-section-wrapper.who-we-are-4{
